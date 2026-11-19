@@ -1,320 +1,885 @@
 // !$*UTF8*$!
 {
-archiveVersion = 1;
-classes = {};
-objectVersion = 56;
-objects = {
-F1A000000000000000000001 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/AppAnalytics.swift"; sourceTree = SOURCE_ROOT; };
-F1A000000000000000000002 = { isa = PBXBuildFile; fileRef = F1A000000000000000000001; };
-F1A000000000000000000003 = { isa = PBXBuildFile; fileRef = F1A000000000000000000001; };
-F1A000000000000000000004 = { isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = "Native/Configuration/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-F1A000000000000000000005 = { isa = PBXBuildFile; fileRef = F1A000000000000000000004; };
-F1A000000000000000000006 = { isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git"; requirement = { kind = exactVersion; version = 13.1.1; }; };
-F1A000000000000000000007 = { isa = XCSwiftPackageProductDependency; package = F1A000000000000000000006; productName = FirebaseAnalyticsCore; };
-F1A000000000000000000008 = { isa = PBXBuildFile; productRef = F1A000000000000000000007; };
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
 
-0000000000000000000000B2 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/OnboardingView.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000B3 = { isa = PBXBuildFile; fileRef = 0000000000000000000000B2; };
-0000000000000000000000B4 = { isa = PBXBuildFile; fileRef = 0000000000000000000000B2; };
-0000000000000000000000B5 = { isa = PBXFileReference; lastKnownFileType = folder; path = "Native/Resources/OnboardingPreview"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000B6 = { isa = PBXBuildFile; fileRef = 0000000000000000000000B5; };
-0000000000000000000000B0 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/BrandOpeningView.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000B1 = { isa = PBXBuildFile; fileRef = 0000000000000000000000B0; };
-0000000000000000000000AA = { isa = PBXFileReference; lastKnownFileType = "folder.assetcatalog"; path = "Native/Resources/Brand.xcassets"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000AB = { isa = PBXBuildFile; fileRef = 0000000000000000000000AA; };
-0000000000000000000000AC = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Native/Resources/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000AD = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Native/Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000AE = { isa = PBXVariantGroup; children = (0000000000000000000000AC,0000000000000000000000AD); name = InfoPlist.strings; sourceTree = "<group>"; };
-0000000000000000000000AF = { isa = PBXBuildFile; fileRef = 0000000000000000000000AE; };
-0000000000000000000000A8 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/WidgetArtworkQA.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000A9 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A8; };
-0000000000000000000000A1 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/Shared/DailyArtworkLibrary.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000A2 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A1; };
-0000000000000000000000A3 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A1; };
-0000000000000000000000A4 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/Shared/ArtworkWidgetView.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000A5 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A4; };
-0000000000000000000000A6 = { isa = PBXBuildFile; fileRef = 0000000000000000000000A4; };
-00000000000000000000009F = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/ArtworkWallpaperCanvas.swift"; sourceTree = SOURCE_ROOT; };
-0000000000000000000000A0 = { isa = PBXBuildFile; fileRef = 00000000000000000000009F; };
-00000000000000000000009D = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/DailyArtworkQA.swift"; sourceTree = SOURCE_ROOT; };
-00000000000000000000009E = { isa = PBXBuildFile; fileRef = 00000000000000000000009D; };
-000000000000000000000097 = { isa = PBXFileReference; lastKnownFileType = folder; path = "Native/Resources/DailyArtwork"; sourceTree = SOURCE_ROOT; };
-000000000000000000000098 = { isa = PBXBuildFile; fileRef = 000000000000000000000097; };
-000000000000000000000099 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/ArtworkPage.swift"; sourceTree = SOURCE_ROOT; };
-00000000000000000000009A = { isa = PBXBuildFile; fileRef = 000000000000000000000099; };
-00000000000000000000009B = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/DailyArtworkCatalog.swift"; sourceTree = SOURCE_ROOT; };
-00000000000000000000009C = { isa = PBXBuildFile; fileRef = 00000000000000000000009B; };
-000000000000000000000090 = { isa = PBXFileReference; lastKnownFileType = folder; path = "Native/Resources/Legal"; sourceTree = SOURCE_ROOT; };
-000000000000000000000091 = { isa = PBXBuildFile; fileRef = 000000000000000000000090; };
-000000000000000000000092 = { isa = PBXBuildFile; fileRef = 000000000000000000000090; };
-000000000000000000000006 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/MaoStyleCalendarApp.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000007 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/StartupView.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000008 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/Shared/CalendarTypography.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000009 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/Widget/CalendarWidgets.swift"; sourceTree = SOURCE_ROOT; };
-00000000000000000000000A = { isa = PBXFileReference; lastKnownFileType = "file"; path = "../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf"; sourceTree = SOURCE_ROOT; };
-00000000000000000000000D = { isa = PBXFileReference; lastKnownFileType = "file"; path = "../docs/design/handoff/v2/fonts/SourceSerif4.ttf"; sourceTree = SOURCE_ROOT; };
-00000000000000000000000E = { isa = PBXFileReference; lastKnownFileType = "file"; path = "../docs/design/handoff/v2/fonts/LibreBodoni.ttf"; sourceTree = SOURCE_ROOT; };
-00000000000000000000000F = { isa = PBXFileReference; lastKnownFileType = "text"; path = "../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt"; sourceTree = SOURCE_ROOT; };
-000000000000000000000010 = { isa = PBXFileReference; lastKnownFileType = "text"; path = "../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt"; sourceTree = SOURCE_ROOT; };
-000000000000000000000011 = { isa = PBXFileReference; lastKnownFileType = "text"; path = "../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt"; sourceTree = SOURCE_ROOT; };
-000000000000000000000012 = { isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = "Native/Configuration/App-Info.plist"; sourceTree = SOURCE_ROOT; };
-000000000000000000000013 = { isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = "Native/Configuration/Widget-Info.plist"; sourceTree = SOURCE_ROOT; };
-000000000000000000000071 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/RootTabView.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000072 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/TodayView.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000073 = { isa = PBXFileReference; lastKnownFileType = "folder.assetcatalog"; path = "../docs/design/handoff/v2/resources/DecorCandidates.xcassets"; sourceTree = SOURCE_ROOT; };
-000000000000000000000074 = { isa = PBXFileReference; lastKnownFileType = "folder.assetcatalog"; path = "../docs/design/handoff/v2/resources/IconCandidates.xcassets"; sourceTree = SOURCE_ROOT; };
-000000000000000000000081 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/AppSettingsView.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000084 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "Native/App/iOSShareAndWallpaperExport.swift"; sourceTree = SOURCE_ROOT; };
-000000000000000000000080 = { isa = PBXFileReference; lastKnownFileType = "text.plist.entitlements"; path = "Native/Configuration/Shared.entitlements"; sourceTree = SOURCE_ROOT; };
-000000000000000000000015 = { isa = PBXFileReference; explicitFileType = "wrapper.application"; includeInIndex = 0; path = "MaoStyleCalendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-000000000000000000000017 = { isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalendarWidget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-000000000000000000000019 = { isa = PBXFileReference; explicitFileType = "wrapper.application"; includeInIndex = 0; path = "MaoStyleCalendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-00000000000000000000001B = { isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalendarWidget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-00000000000000000000001D = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CLANG_ENABLE_MODULES = "YES";
-CLANG_ENABLE_OBJC_ARC = "YES";
-SWIFT_VERSION = "6.0";
-SWIFT_STRICT_CONCURRENCY = "complete";
-ENABLE_USER_SCRIPT_SANDBOXING = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
-00000000000000000000001E = { isa = XCBuildConfiguration; name = Release; buildSettings = { CLANG_ENABLE_MODULES = "YES";
-CLANG_ENABLE_OBJC_ARC = "YES";
-SWIFT_VERSION = "6.0";
-SWIFT_STRICT_CONCURRENCY = "complete";
-ENABLE_USER_SCRIPT_SANDBOXING = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-O";
-DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
-00000000000000000000001C = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000001D,00000000000000000000001E); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-000000000000000000000022 = { isa = XCSwiftPackageProductDependency; package = 000000000000000000000005; productName = CalendarCore; };
-000000000000000000000023 = { isa = PBXBuildFile; fileRef = 000000000000000000000006; };
-000000000000000000000024 = { isa = PBXBuildFile; fileRef = 000000000000000000000007; };
-000000000000000000000025 = { isa = PBXBuildFile; fileRef = 000000000000000000000008; };
-000000000000000000000075 = { isa = PBXBuildFile; fileRef = 000000000000000000000071; };
-000000000000000000000076 = { isa = PBXBuildFile; fileRef = 000000000000000000000072; };
-000000000000000000000082 = { isa = PBXBuildFile; fileRef = 000000000000000000000081; };
-000000000000000000000085 = { isa = PBXBuildFile; fileRef = 000000000000000000000084; };
-00000000000000000000001F = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F1A000000000000000000002,0000000000000000000000B3,0000000000000000000000B1,0000000000000000000000A9,0000000000000000000000A2,0000000000000000000000A5,0000000000000000000000A0,00000000000000000000009E,00000000000000000000009A,00000000000000000000009C,000000000000000000000023,000000000000000000000024,000000000000000000000025,000000000000000000000075,000000000000000000000076,000000000000000000000082,000000000000000000000085); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000026 = { isa = PBXBuildFile; fileRef = 00000000000000000000000A; };
-000000000000000000000029 = { isa = PBXBuildFile; fileRef = 00000000000000000000000D; };
-00000000000000000000002A = { isa = PBXBuildFile; fileRef = 00000000000000000000000E; };
-00000000000000000000002B = { isa = PBXBuildFile; fileRef = 00000000000000000000000F; };
-00000000000000000000002C = { isa = PBXBuildFile; fileRef = 000000000000000000000010; };
-00000000000000000000002D = { isa = PBXBuildFile; fileRef = 000000000000000000000011; };
-000000000000000000000077 = { isa = PBXBuildFile; fileRef = 000000000000000000000073; };
-000000000000000000000078 = { isa = PBXBuildFile; fileRef = 000000000000000000000074; };
-000000000000000000000020 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (F1A000000000000000000005,0000000000000000000000B6,0000000000000000000000AB,0000000000000000000000AF,000000000000000000000098,000000000000000000000091,000000000000000000000026,000000000000000000000029,00000000000000000000002A,00000000000000000000002B,00000000000000000000002C,00000000000000000000002D,000000000000000000000077,000000000000000000000078); runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000002E = { isa = PBXBuildFile; productRef = 000000000000000000000022; };
-000000000000000000000021 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (F1A000000000000000000008,00000000000000000000002E); runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000002F = { isa = PBXContainerItemProxy; containerPortal = 000000000000000000000001; proxyType = 1; remoteGlobalIDString = 000000000000000000000016; remoteInfo = "CalendarWidget-iOS"; };
-000000000000000000000030 = { isa = PBXTargetDependency; target = 000000000000000000000016; targetProxy = 00000000000000000000002F; };
-000000000000000000000032 = { isa = PBXBuildFile; fileRef = 000000000000000000000017; settings = { ATTRIBUTES = (RemoveHeadersOnCopy); }; };
-000000000000000000000031 = { isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (000000000000000000000032); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000034 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { OTHER_LDFLAGS = "$(inherited) -ObjC"; PRODUCT_NAME = "MaoStyleCalendar";
-ASSETCATALOG_COMPILER_APPICON_NAME = AppIconChinese;
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar";
-INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "iphoneos";
-IPHONEOS_DEPLOYMENT_TARGET = "17.0";
-TARGETED_DEVICE_FAMILY = "1,2";
-SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-SUPPORTS_MACCATALYST = "NO";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-ONLY_ACTIVE_ARCH = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
-000000000000000000000035 = { isa = XCBuildConfiguration; name = Release; buildSettings = { OTHER_LDFLAGS = "$(inherited) -ObjC"; PRODUCT_NAME = "MaoStyleCalendar";
-ASSETCATALOG_COMPILER_APPICON_NAME = AppIconChinese;
+/* Begin PBXBuildFile section */
+		000000000000000000000023 /* Native/App/MaoStyleCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* Native/App/MaoStyleCalendarApp.swift */; };
+		000000000000000000000024 /* Native/App/StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* Native/App/StartupView.swift */; };
+		000000000000000000000025 /* Native/Shared/CalendarTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* Native/Shared/CalendarTypography.swift */; };
+		000000000000000000000026 /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf */; };
+		000000000000000000000029 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf */; };
+		00000000000000000000002A /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf */; };
+		00000000000000000000002B /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt */; };
+		00000000000000000000002C /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt */; };
+		00000000000000000000002D /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt */; };
+		00000000000000000000002E /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000000000022 /* CalendarCore */; };
+		000000000000000000000032 /* CalendarWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 000000000000000000000017 /* CalendarWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00000000000000000000003A /* Native/Shared/CalendarTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* Native/Shared/CalendarTypography.swift */; };
+		00000000000000000000003B /* Native/Widget/CalendarWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* Native/Widget/CalendarWidgets.swift */; };
+		000000000000000000000044 /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000000000039 /* CalendarCore */; };
+		00000000000000000000004C /* Native/App/MaoStyleCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* Native/App/MaoStyleCalendarApp.swift */; };
+		00000000000000000000004D /* Native/App/StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* Native/App/StartupView.swift */; };
+		00000000000000000000004E /* Native/Shared/CalendarTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* Native/Shared/CalendarTypography.swift */; };
+		00000000000000000000004F /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf */; };
+		000000000000000000000052 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf */; };
+		000000000000000000000053 /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf */; };
+		000000000000000000000054 /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt */; };
+		000000000000000000000055 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt */; };
+		000000000000000000000056 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt */; };
+		000000000000000000000057 /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = 00000000000000000000004B /* CalendarCore */; };
+		00000000000000000000005B /* CalendarWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001B /* CalendarWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		000000000000000000000063 /* Native/Shared/CalendarTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* Native/Shared/CalendarTypography.swift */; };
+		000000000000000000000064 /* Native/Widget/CalendarWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* Native/Widget/CalendarWidgets.swift */; };
+		000000000000000000000065 /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf */; };
+		000000000000000000000068 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf */; };
+		000000000000000000000069 /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf */; };
+		00000000000000000000006A /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt */; };
+		00000000000000000000006B /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt */; };
+		00000000000000000000006C /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt */; };
+		00000000000000000000006D /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000000000062 /* CalendarCore */; };
+		000000000000000000000075 /* Native/App/RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000071 /* Native/App/RootTabView.swift */; };
+		000000000000000000000076 /* Native/App/TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000072 /* Native/App/TodayView.swift */; };
+		000000000000000000000077 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000073 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets */; };
+		000000000000000000000078 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000074 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets */; };
+		000000000000000000000079 /* Native/App/RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000071 /* Native/App/RootTabView.swift */; };
+		00000000000000000000007A /* Native/App/TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000072 /* Native/App/TodayView.swift */; };
+		00000000000000000000007B /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000073 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets */; };
+		00000000000000000000007C /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000074 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets */; };
+		000000000000000000000082 /* Native/App/AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000081 /* Native/App/AppSettingsView.swift */; };
+		000000000000000000000083 /* Native/App/AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000081 /* Native/App/AppSettingsView.swift */; };
+		000000000000000000000085 /* Native/App/iOSShareAndWallpaperExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000084 /* Native/App/iOSShareAndWallpaperExport.swift */; };
+		000000000000000000000091 /* Native/Resources/Legal in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000090 /* Native/Resources/Legal */; };
+		000000000000000000000092 /* Native/Resources/Legal in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000090 /* Native/Resources/Legal */; };
+		000000000000000000000098 /* Native/Resources/DailyArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000097 /* Native/Resources/DailyArtwork */; };
+		00000000000000000000009A /* Native/App/ArtworkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000099 /* Native/App/ArtworkPage.swift */; };
+		00000000000000000000009C /* Native/App/DailyArtworkCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009B /* Native/App/DailyArtworkCatalog.swift */; };
+		00000000000000000000009E /* Native/App/DailyArtworkQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009D /* Native/App/DailyArtworkQA.swift */; };
+		0000000000000000000000A0 /* Native/App/ArtworkWallpaperCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009F /* Native/App/ArtworkWallpaperCanvas.swift */; };
+		0000000000000000000000A2 /* Native/Shared/DailyArtworkLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A1 /* Native/Shared/DailyArtworkLibrary.swift */; };
+		0000000000000000000000A3 /* Native/Shared/DailyArtworkLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A1 /* Native/Shared/DailyArtworkLibrary.swift */; };
+		0000000000000000000000A5 /* Native/Shared/ArtworkWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A4 /* Native/Shared/ArtworkWidgetView.swift */; };
+		0000000000000000000000A6 /* Native/Shared/ArtworkWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A4 /* Native/Shared/ArtworkWidgetView.swift */; };
+		0000000000000000000000A9 /* Native/App/WidgetArtworkQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A8 /* Native/App/WidgetArtworkQA.swift */; };
+		0000000000000000000000AB /* Native/Resources/Brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AA /* Native/Resources/Brand.xcassets */; };
+		0000000000000000000000AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AE /* InfoPlist.strings */; };
+		0000000000000000000000B1 /* Native/App/BrandOpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B0 /* Native/App/BrandOpeningView.swift */; };
+		0000000000000000000000B3 /* Native/App/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B2 /* Native/App/OnboardingView.swift */; };
+		0000000000000000000000B4 /* Native/App/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B2 /* Native/App/OnboardingView.swift */; };
+		0000000000000000000000B6 /* Native/Resources/OnboardingPreview in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B5 /* Native/Resources/OnboardingPreview */; };
+		F1A000000000000000000002 /* Native/App/AppAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A000000000000000000001 /* Native/App/AppAnalytics.swift */; };
+		F1A000000000000000000003 /* Native/App/AppAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A000000000000000000001 /* Native/App/AppAnalytics.swift */; };
+		F1A000000000000000000005 /* Native/Configuration/GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1A000000000000000000004 /* Native/Configuration/GoogleService-Info.plist */; };
+		F1A000000000000000000008 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = F1A000000000000000000007 /* FirebaseAnalyticsCore */; };
+/* End PBXBuildFile section */
 
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar";
-INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "iphoneos";
-IPHONEOS_DEPLOYMENT_TARGET = "17.0";
-TARGETED_DEVICE_FAMILY = "1,2";
-SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-SUPPORTS_MACCATALYST = "NO";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-SWIFT_OPTIMIZATION_LEVEL = "-O";
-DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
-000000000000000000000033 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000034,000000000000000000000035); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-000000000000000000000014 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000033; buildPhases = (00000000000000000000001F,000000000000000000000021,000000000000000000000020,000000000000000000000031); buildRules = (); dependencies = (000000000000000000000030); name = "MaoStyleCalendar-iOS"; packageProductDependencies = (000000000000000000000022,F1A000000000000000000007); productName = "MaoStyleCalendar"; productReference = 000000000000000000000015; productType = "com.apple.product-type.application"; };
-000000000000000000000039 = { isa = XCSwiftPackageProductDependency; package = 000000000000000000000005; productName = CalendarCore; };
-00000000000000000000003A = { isa = PBXBuildFile; fileRef = 000000000000000000000008; };
-00000000000000000000003B = { isa = PBXBuildFile; fileRef = 000000000000000000000009; };
-000000000000000000000036 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (0000000000000000000000A3,0000000000000000000000A6,00000000000000000000003A,00000000000000000000003B); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000044 = { isa = PBXBuildFile; productRef = 000000000000000000000039; };
-000000000000000000000038 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000044); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000046 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = "CalendarWidget";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar.widgets";
-INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "iphoneos";
-IPHONEOS_DEPLOYMENT_TARGET = "17.0";
-TARGETED_DEVICE_FAMILY = "1,2";
-SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-SUPPORTS_MACCATALYST = "NO";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-APPLICATION_EXTENSION_API_ONLY = "YES";
-SKIP_INSTALL = "YES";
-ONLY_ACTIVE_ARCH = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
-000000000000000000000047 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = "CalendarWidget";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar.widgets";
-INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "iphoneos";
-IPHONEOS_DEPLOYMENT_TARGET = "17.0";
-TARGETED_DEVICE_FAMILY = "1,2";
-SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-SUPPORTS_MACCATALYST = "NO";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-APPLICATION_EXTENSION_API_ONLY = "YES";
-SKIP_INSTALL = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-O";
-DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
-000000000000000000000045 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000046,000000000000000000000047); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-000000000000000000000016 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000045; buildPhases = (000000000000000000000036,000000000000000000000038); buildRules = (); dependencies = (); name = "CalendarWidget-iOS"; packageProductDependencies = (000000000000000000000039); productName = "CalendarWidget"; productReference = 000000000000000000000017; productType = "com.apple.product-type.app-extension"; };
-00000000000000000000004B = { isa = XCSwiftPackageProductDependency; package = 000000000000000000000005; productName = CalendarCore; };
-00000000000000000000004C = { isa = PBXBuildFile; fileRef = 000000000000000000000006; };
-00000000000000000000004D = { isa = PBXBuildFile; fileRef = 000000000000000000000007; };
-00000000000000000000004E = { isa = PBXBuildFile; fileRef = 000000000000000000000008; };
-000000000000000000000079 = { isa = PBXBuildFile; fileRef = 000000000000000000000071; };
-00000000000000000000007A = { isa = PBXBuildFile; fileRef = 000000000000000000000072; };
-000000000000000000000083 = { isa = PBXBuildFile; fileRef = 000000000000000000000081; };
-000000000000000000000048 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F1A000000000000000000003,0000000000000000000000B4,00000000000000000000004C,00000000000000000000004D,00000000000000000000004E,000000000000000000000079,00000000000000000000007A,000000000000000000000083); runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000004F = { isa = PBXBuildFile; fileRef = 00000000000000000000000A; };
-000000000000000000000052 = { isa = PBXBuildFile; fileRef = 00000000000000000000000D; };
-000000000000000000000053 = { isa = PBXBuildFile; fileRef = 00000000000000000000000E; };
-000000000000000000000054 = { isa = PBXBuildFile; fileRef = 00000000000000000000000F; };
-000000000000000000000055 = { isa = PBXBuildFile; fileRef = 000000000000000000000010; };
-000000000000000000000056 = { isa = PBXBuildFile; fileRef = 000000000000000000000011; };
-00000000000000000000007B = { isa = PBXBuildFile; fileRef = 000000000000000000000073; };
-00000000000000000000007C = { isa = PBXBuildFile; fileRef = 000000000000000000000074; };
-000000000000000000000049 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000092,00000000000000000000004F,000000000000000000000052,000000000000000000000053,000000000000000000000054,000000000000000000000055,000000000000000000000056,00000000000000000000007B,00000000000000000000007C); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000057 = { isa = PBXBuildFile; productRef = 00000000000000000000004B; };
-00000000000000000000004A = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000057); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000058 = { isa = PBXContainerItemProxy; containerPortal = 000000000000000000000001; proxyType = 1; remoteGlobalIDString = 00000000000000000000001A; remoteInfo = "CalendarWidget-macOS"; };
-000000000000000000000059 = { isa = PBXTargetDependency; target = 00000000000000000000001A; targetProxy = 000000000000000000000058; };
-00000000000000000000005B = { isa = PBXBuildFile; fileRef = 00000000000000000000001B; settings = { ATTRIBUTES = (RemoveHeadersOnCopy); }; };
-00000000000000000000005A = { isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (00000000000000000000005B); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000005D = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = "MaoStyleCalendar";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar";
-INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "macosx";
-MACOSX_DEPLOYMENT_TARGET = "14.0";
-SUPPORTED_PLATFORMS = "macosx";
-COMBINE_HIDPI_IMAGES = "YES";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
-00000000000000000000005E = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = "MaoStyleCalendar";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar";
-INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "macosx";
-MACOSX_DEPLOYMENT_TARGET = "14.0";
-SUPPORTED_PLATFORMS = "macosx";
-COMBINE_HIDPI_IMAGES = "YES";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-SWIFT_OPTIMIZATION_LEVEL = "-O";
-DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
-00000000000000000000005C = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000005D,00000000000000000000005E); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-000000000000000000000018 = { isa = PBXNativeTarget; buildConfigurationList = 00000000000000000000005C; buildPhases = (000000000000000000000048,00000000000000000000004A,000000000000000000000049,00000000000000000000005A); buildRules = (); dependencies = (000000000000000000000059); name = "MaoStyleCalendar-macOS"; packageProductDependencies = (00000000000000000000004B); productName = "MaoStyleCalendar"; productReference = 000000000000000000000019; productType = "com.apple.product-type.application"; };
-000000000000000000000062 = { isa = XCSwiftPackageProductDependency; package = 000000000000000000000005; productName = CalendarCore; };
-000000000000000000000063 = { isa = PBXBuildFile; fileRef = 000000000000000000000008; };
-000000000000000000000064 = { isa = PBXBuildFile; fileRef = 000000000000000000000009; };
-00000000000000000000005F = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000063,000000000000000000000064); runOnlyForDeploymentPostprocessing = 0; };
-000000000000000000000065 = { isa = PBXBuildFile; fileRef = 00000000000000000000000A; };
-000000000000000000000068 = { isa = PBXBuildFile; fileRef = 00000000000000000000000D; };
-000000000000000000000069 = { isa = PBXBuildFile; fileRef = 00000000000000000000000E; };
-00000000000000000000006A = { isa = PBXBuildFile; fileRef = 00000000000000000000000F; };
-00000000000000000000006B = { isa = PBXBuildFile; fileRef = 000000000000000000000010; };
-00000000000000000000006C = { isa = PBXBuildFile; fileRef = 000000000000000000000011; };
-000000000000000000000060 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000065,000000000000000000000068,000000000000000000000069,00000000000000000000006A,00000000000000000000006B,00000000000000000000006C); runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000006D = { isa = PBXBuildFile; productRef = 000000000000000000000062; };
-000000000000000000000061 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (00000000000000000000006D); runOnlyForDeploymentPostprocessing = 0; };
-00000000000000000000006F = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_NAME = "CalendarWidget";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar.widgets.macOS";
-INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "macosx";
-MACOSX_DEPLOYMENT_TARGET = "14.0";
-SUPPORTED_PLATFORMS = "macosx";
-COMBINE_HIDPI_IMAGES = "YES";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-APPLICATION_EXTENSION_API_ONLY = "YES";
-SKIP_INSTALL = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-DEBUG_INFORMATION_FORMAT = "dwarf"; }; };
-000000000000000000000070 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_NAME = "CalendarWidget";
-PRODUCT_BUNDLE_IDENTIFIER = "com.ideaboxapps.maostylecalendar.widgets.macOS";
-INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
-GENERATE_INFOPLIST_FILE = "NO";
-MARKETING_VERSION = "1.0.0";
-CURRENT_PROJECT_VERSION = "1";
-DEVELOPMENT_TEAM = "C2EN8G3ZSM";
-CODE_SIGN_STYLE = "Automatic";
-CODE_SIGN_ENTITLEMENTS = "Native/Configuration/Shared.entitlements";
-SDKROOT = "macosx";
-MACOSX_DEPLOYMENT_TARGET = "14.0";
-SUPPORTED_PLATFORMS = "macosx";
-COMBINE_HIDPI_IMAGES = "YES";
-LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-APPLICATION_EXTENSION_API_ONLY = "YES";
-SKIP_INSTALL = "YES";
-SWIFT_OPTIMIZATION_LEVEL = "-O";
-DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; };
-00000000000000000000006E = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000006F,000000000000000000000070); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-00000000000000000000001A = { isa = PBXNativeTarget; buildConfigurationList = 00000000000000000000006E; buildPhases = (00000000000000000000005F,000000000000000000000061,000000000000000000000060); buildRules = (); dependencies = (); name = "CalendarWidget-macOS"; packageProductDependencies = (000000000000000000000062); productName = "CalendarWidget"; productReference = 00000000000000000000001B; productType = "com.apple.product-type.app-extension"; };
-000000000000000000000005 = { isa = XCLocalSwiftPackageReference; relativePath = Packages/CalendarCore; };
-000000000000000000000004 = { isa = PBXGroup; children = (F1A000000000000000000001,F1A000000000000000000004,0000000000000000000000B2,0000000000000000000000B5,0000000000000000000000B0,0000000000000000000000AA,0000000000000000000000AE,0000000000000000000000A8,0000000000000000000000A1,0000000000000000000000A4,00000000000000000000009F,00000000000000000000009D,000000000000000000000097,000000000000000000000099,00000000000000000000009B,000000000000000000000090,000000000000000000000006,000000000000000000000007,000000000000000000000071,000000000000000000000072,000000000000000000000081,000000000000000000000084,000000000000000000000008,000000000000000000000009,000000000000000000000073,000000000000000000000074,00000000000000000000000A,00000000000000000000000D,00000000000000000000000E,00000000000000000000000F,000000000000000000000010,000000000000000000000011,000000000000000000000012,000000000000000000000013,000000000000000000000080); name = SourcesAndResources; sourceTree = "<group>"; };
-000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000015,000000000000000000000017,000000000000000000000019,00000000000000000000001B); name = Products; sourceTree = "<group>"; };
-000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000004,000000000000000000000003); sourceTree = "<group>"; };
-000000000000000000000001 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2660; }; buildConfigurationList = 00000000000000000000001C; compatibilityVersion = "Xcode 14.0"; developmentRegion = "zh-Hans"; hasScannedForEncodings = 0; knownRegions = (en,"zh-Hans",Base); mainGroup = 000000000000000000000002; productRefGroup = 000000000000000000000003; projectDirPath = ""; projectRoot = ""; packageReferences = (000000000000000000000005,F1A000000000000000000006); targets = (000000000000000000000014,000000000000000000000016,000000000000000000000018,00000000000000000000001A); };
-};
-rootObject = 000000000000000000000001;
+/* Begin PBXContainerItemProxy section */
+		00000000000000000000002F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000016;
+			remoteInfo = "CalendarWidget-iOS";
+		};
+		000000000000000000000058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00000000000000000000001A;
+			remoteInfo = "CalendarWidget-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		000000000000000000000031 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				000000000000000000000032 /* CalendarWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000005A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00000000000000000000005B /* CalendarWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000006 /* Native/App/MaoStyleCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/MaoStyleCalendarApp.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000007 /* Native/App/StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/StartupView.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000008 /* Native/Shared/CalendarTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/Shared/CalendarTypography.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000009 /* Native/Widget/CalendarWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/Widget/CalendarWidgets.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000000A /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf"; sourceTree = SOURCE_ROOT; };
+		00000000000000000000000D /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ../docs/design/handoff/v2/fonts/SourceSerif4.ttf; sourceTree = SOURCE_ROOT; };
+		00000000000000000000000E /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ../docs/design/handoff/v2/fonts/LibreBodoni.ttf; sourceTree = SOURCE_ROOT; };
+		00000000000000000000000F /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000010 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000011 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000012 /* Native/Configuration/App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Native/Configuration/App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000013 /* Native/Configuration/Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Native/Configuration/Widget-Info.plist"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000015 /* MaoStyleCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaoStyleCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000017 /* CalendarWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalendarWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000019 /* MaoStyleCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaoStyleCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000001B /* CalendarWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalendarWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000071 /* Native/App/RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/RootTabView.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000072 /* Native/App/TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/TodayView.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000073 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ../docs/design/handoff/v2/resources/DecorCandidates.xcassets; sourceTree = SOURCE_ROOT; };
+		000000000000000000000074 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ../docs/design/handoff/v2/resources/IconCandidates.xcassets; sourceTree = SOURCE_ROOT; };
+		000000000000000000000080 /* Native/Configuration/Shared.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Native/Configuration/Shared.entitlements; sourceTree = SOURCE_ROOT; };
+		000000000000000000000081 /* Native/App/AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/AppSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000084 /* Native/App/iOSShareAndWallpaperExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/iOSShareAndWallpaperExport.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000090 /* Native/Resources/Legal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Native/Resources/Legal; sourceTree = SOURCE_ROOT; };
+		000000000000000000000097 /* Native/Resources/DailyArtwork */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Native/Resources/DailyArtwork; sourceTree = SOURCE_ROOT; };
+		000000000000000000000099 /* Native/App/ArtworkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/ArtworkPage.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000009B /* Native/App/DailyArtworkCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/DailyArtworkCatalog.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000009D /* Native/App/DailyArtworkQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/DailyArtworkQA.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000009F /* Native/App/ArtworkWallpaperCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/ArtworkWallpaperCanvas.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000A1 /* Native/Shared/DailyArtworkLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/Shared/DailyArtworkLibrary.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000A4 /* Native/Shared/ArtworkWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/Shared/ArtworkWidgetView.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000A8 /* Native/App/WidgetArtworkQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/WidgetArtworkQA.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000AA /* Native/Resources/Brand.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Native/Resources/Brand.xcassets; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Native/Resources/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000AD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Native/Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000B0 /* Native/App/BrandOpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/BrandOpeningView.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000B2 /* Native/App/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/OnboardingView.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000000B5 /* Native/Resources/OnboardingPreview */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Native/Resources/OnboardingPreview; sourceTree = SOURCE_ROOT; };
+		F1A000000000000000000001 /* Native/App/AppAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native/App/AppAnalytics.swift; sourceTree = SOURCE_ROOT; };
+		F1A000000000000000000004 /* Native/Configuration/GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Native/Configuration/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000008 /* FirebaseAnalyticsCore in Frameworks */,
+				00000000000000000000002E /* CalendarCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000044 /* CalendarCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000004A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000057 /* CalendarCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000006D /* CalendarCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* SourcesAndResources */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000015 /* MaoStyleCalendar.app */,
+				000000000000000000000017 /* CalendarWidget.appex */,
+				000000000000000000000019 /* MaoStyleCalendar.app */,
+				00000000000000000000001B /* CalendarWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* SourcesAndResources */ = {
+			isa = PBXGroup;
+			children = (
+				F1A000000000000000000001 /* Native/App/AppAnalytics.swift */,
+				F1A000000000000000000004 /* Native/Configuration/GoogleService-Info.plist */,
+				0000000000000000000000B2 /* Native/App/OnboardingView.swift */,
+				0000000000000000000000B5 /* Native/Resources/OnboardingPreview */,
+				0000000000000000000000B0 /* Native/App/BrandOpeningView.swift */,
+				0000000000000000000000AA /* Native/Resources/Brand.xcassets */,
+				0000000000000000000000AE /* InfoPlist.strings */,
+				0000000000000000000000A8 /* Native/App/WidgetArtworkQA.swift */,
+				0000000000000000000000A1 /* Native/Shared/DailyArtworkLibrary.swift */,
+				0000000000000000000000A4 /* Native/Shared/ArtworkWidgetView.swift */,
+				00000000000000000000009F /* Native/App/ArtworkWallpaperCanvas.swift */,
+				00000000000000000000009D /* Native/App/DailyArtworkQA.swift */,
+				000000000000000000000097 /* Native/Resources/DailyArtwork */,
+				000000000000000000000099 /* Native/App/ArtworkPage.swift */,
+				00000000000000000000009B /* Native/App/DailyArtworkCatalog.swift */,
+				000000000000000000000090 /* Native/Resources/Legal */,
+				000000000000000000000006 /* Native/App/MaoStyleCalendarApp.swift */,
+				000000000000000000000007 /* Native/App/StartupView.swift */,
+				000000000000000000000071 /* Native/App/RootTabView.swift */,
+				000000000000000000000072 /* Native/App/TodayView.swift */,
+				000000000000000000000081 /* Native/App/AppSettingsView.swift */,
+				000000000000000000000084 /* Native/App/iOSShareAndWallpaperExport.swift */,
+				000000000000000000000008 /* Native/Shared/CalendarTypography.swift */,
+				000000000000000000000009 /* Native/Widget/CalendarWidgets.swift */,
+				000000000000000000000073 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets */,
+				000000000000000000000074 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets */,
+				00000000000000000000000A /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf */,
+				00000000000000000000000D /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf */,
+				00000000000000000000000E /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf */,
+				00000000000000000000000F /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt */,
+				000000000000000000000010 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt */,
+				000000000000000000000011 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt */,
+				000000000000000000000012 /* Native/Configuration/App-Info.plist */,
+				000000000000000000000013 /* Native/Configuration/Widget-Info.plist */,
+				000000000000000000000080 /* Native/Configuration/Shared.entitlements */,
+			);
+			name = SourcesAndResources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000014 /* MaoStyleCalendar-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000033 /* Build configuration list for PBXNativeTarget "MaoStyleCalendar-iOS" */;
+			buildPhases = (
+				00000000000000000000001F /* Sources */,
+				000000000000000000000021 /* Frameworks */,
+				000000000000000000000020 /* Resources */,
+				000000000000000000000031 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000030 /* PBXTargetDependency */,
+			);
+			name = "MaoStyleCalendar-iOS";
+			packageProductDependencies = (
+				000000000000000000000022 /* CalendarCore */,
+				F1A000000000000000000007 /* FirebaseAnalyticsCore */,
+			);
+			productName = MaoStyleCalendar;
+			productReference = 000000000000000000000015 /* MaoStyleCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000016 /* CalendarWidget-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000045 /* Build configuration list for PBXNativeTarget "CalendarWidget-iOS" */;
+			buildPhases = (
+				000000000000000000000036 /* Sources */,
+				000000000000000000000038 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarWidget-iOS";
+			packageProductDependencies = (
+				000000000000000000000039 /* CalendarCore */,
+			);
+			productName = CalendarWidget;
+			productReference = 000000000000000000000017 /* CalendarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		000000000000000000000018 /* MaoStyleCalendar-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000005C /* Build configuration list for PBXNativeTarget "MaoStyleCalendar-macOS" */;
+			buildPhases = (
+				000000000000000000000048 /* Sources */,
+				00000000000000000000004A /* Frameworks */,
+				000000000000000000000049 /* Resources */,
+				00000000000000000000005A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000059 /* PBXTargetDependency */,
+			);
+			name = "MaoStyleCalendar-macOS";
+			packageProductDependencies = (
+				00000000000000000000004B /* CalendarCore */,
+			);
+			productName = MaoStyleCalendar;
+			productReference = 000000000000000000000019 /* MaoStyleCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00000000000000000000001A /* CalendarWidget-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000006E /* Build configuration list for PBXNativeTarget "CalendarWidget-macOS" */;
+			buildPhases = (
+				00000000000000000000005F /* Sources */,
+				000000000000000000000061 /* Frameworks */,
+				000000000000000000000060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarWidget-macOS";
+			packageProductDependencies = (
+				000000000000000000000062 /* CalendarCore */,
+			);
+			productName = CalendarWidget;
+			productReference = 00000000000000000000001B /* CalendarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = 00000000000000000000001C /* Build configuration list for PBXProject "MaoStyleCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			packageReferences = (
+				000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */,
+				F1A000000000000000000006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000014 /* MaoStyleCalendar-iOS */,
+				000000000000000000000016 /* CalendarWidget-iOS */,
+				000000000000000000000018 /* MaoStyleCalendar-macOS */,
+				00000000000000000000001A /* CalendarWidget-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000005 /* Native/Configuration/GoogleService-Info.plist in Resources */,
+				0000000000000000000000B6 /* Native/Resources/OnboardingPreview in Resources */,
+				0000000000000000000000AB /* Native/Resources/Brand.xcassets in Resources */,
+				0000000000000000000000AF /* InfoPlist.strings in Resources */,
+				000000000000000000000098 /* Native/Resources/DailyArtwork in Resources */,
+				000000000000000000000091 /* Native/Resources/Legal in Resources */,
+				000000000000000000000026 /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */,
+				000000000000000000000029 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */,
+				00000000000000000000002A /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */,
+				00000000000000000000002B /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */,
+				00000000000000000000002C /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */,
+				00000000000000000000002D /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */,
+				000000000000000000000077 /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets in Resources */,
+				000000000000000000000078 /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000092 /* Native/Resources/Legal in Resources */,
+				00000000000000000000004F /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */,
+				000000000000000000000052 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */,
+				000000000000000000000053 /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */,
+				000000000000000000000054 /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */,
+				000000000000000000000055 /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */,
+				000000000000000000000056 /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */,
+				00000000000000000000007B /* ../docs/design/handoff/v2/resources/DecorCandidates.xcassets in Resources */,
+				00000000000000000000007C /* ../docs/design/handoff/v2/resources/IconCandidates.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000065 /* ../docs/design/handoff/v2/fonts/SourceHanSerifSC-Bold.otf in Resources */,
+				000000000000000000000068 /* ../docs/design/handoff/v2/fonts/SourceSerif4.ttf in Resources */,
+				000000000000000000000069 /* ../docs/design/handoff/v2/fonts/LibreBodoni.ttf in Resources */,
+				00000000000000000000006A /* ../docs/design/handoff/v2/licenses/SourceHanSerif-OFL.txt in Resources */,
+				00000000000000000000006B /* ../docs/design/handoff/v2/licenses/SourceSerif4-OFL.txt in Resources */,
+				00000000000000000000006C /* ../docs/design/handoff/v2/licenses/LibreBodoni-OFL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000001F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000002 /* Native/App/AppAnalytics.swift in Sources */,
+				0000000000000000000000B3 /* Native/App/OnboardingView.swift in Sources */,
+				0000000000000000000000B1 /* Native/App/BrandOpeningView.swift in Sources */,
+				0000000000000000000000A9 /* Native/App/WidgetArtworkQA.swift in Sources */,
+				0000000000000000000000A2 /* Native/Shared/DailyArtworkLibrary.swift in Sources */,
+				0000000000000000000000A5 /* Native/Shared/ArtworkWidgetView.swift in Sources */,
+				0000000000000000000000A0 /* Native/App/ArtworkWallpaperCanvas.swift in Sources */,
+				00000000000000000000009E /* Native/App/DailyArtworkQA.swift in Sources */,
+				00000000000000000000009A /* Native/App/ArtworkPage.swift in Sources */,
+				00000000000000000000009C /* Native/App/DailyArtworkCatalog.swift in Sources */,
+				000000000000000000000023 /* Native/App/MaoStyleCalendarApp.swift in Sources */,
+				000000000000000000000024 /* Native/App/StartupView.swift in Sources */,
+				000000000000000000000025 /* Native/Shared/CalendarTypography.swift in Sources */,
+				000000000000000000000075 /* Native/App/RootTabView.swift in Sources */,
+				000000000000000000000076 /* Native/App/TodayView.swift in Sources */,
+				000000000000000000000082 /* Native/App/AppSettingsView.swift in Sources */,
+				000000000000000000000085 /* Native/App/iOSShareAndWallpaperExport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000A3 /* Native/Shared/DailyArtworkLibrary.swift in Sources */,
+				0000000000000000000000A6 /* Native/Shared/ArtworkWidgetView.swift in Sources */,
+				00000000000000000000003A /* Native/Shared/CalendarTypography.swift in Sources */,
+				00000000000000000000003B /* Native/Widget/CalendarWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A000000000000000000003 /* Native/App/AppAnalytics.swift in Sources */,
+				0000000000000000000000B4 /* Native/App/OnboardingView.swift in Sources */,
+				00000000000000000000004C /* Native/App/MaoStyleCalendarApp.swift in Sources */,
+				00000000000000000000004D /* Native/App/StartupView.swift in Sources */,
+				00000000000000000000004E /* Native/Shared/CalendarTypography.swift in Sources */,
+				000000000000000000000079 /* Native/App/RootTabView.swift in Sources */,
+				00000000000000000000007A /* Native/App/TodayView.swift in Sources */,
+				000000000000000000000083 /* Native/App/AppSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000005F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000063 /* Native/Shared/CalendarTypography.swift in Sources */,
+				000000000000000000000064 /* Native/Widget/CalendarWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000016 /* CalendarWidget-iOS */;
+			targetProxy = 00000000000000000000002F /* PBXContainerItemProxy */;
+		};
+		000000000000000000000059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00000000000000000000001A /* CalendarWidget-macOS */;
+			targetProxy = 000000000000000000000058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0000000000000000000000AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0000000000000000000000AC /* en */,
+				0000000000000000000000AD /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000001E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		000000000000000000000034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconChinese;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar;
+				PRODUCT_NAME = MaoStyleCalendar;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconChinese;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar;
+				PRODUCT_NAME = MaoStyleCalendar;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000000000000000000000046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar.widgets;
+				PRODUCT_NAME = CalendarWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar.widgets;
+				PRODUCT_NAME = CalendarWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00000000000000000000005D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar;
+				PRODUCT_NAME = MaoStyleCalendar;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00000000000000000000005E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar;
+				PRODUCT_NAME = MaoStyleCalendar;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		00000000000000000000006F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar.widgets.macOS;
+				PRODUCT_NAME = CalendarWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Native/Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C2EN8G3ZSM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Native/Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideaboxapps.maostylecalendar.widgets.macOS;
+				PRODUCT_NAME = CalendarWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000001C /* Build configuration list for PBXProject "MaoStyleCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000001D /* Debug */,
+				00000000000000000000001E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000033 /* Build configuration list for PBXNativeTarget "MaoStyleCalendar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000034 /* Debug */,
+				000000000000000000000035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000045 /* Build configuration list for PBXNativeTarget "CalendarWidget-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000046 /* Debug */,
+				000000000000000000000047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000005C /* Build configuration list for PBXNativeTarget "MaoStyleCalendar-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000005D /* Debug */,
+				00000000000000000000005E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000006E /* Build configuration list for PBXNativeTarget "CalendarWidget-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000006F /* Debug */,
+				000000000000000000000070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CalendarCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1A000000000000000000006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		000000000000000000000022 /* CalendarCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */;
+			productName = CalendarCore;
+		};
+		000000000000000000000039 /* CalendarCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */;
+			productName = CalendarCore;
+		};
+		00000000000000000000004B /* CalendarCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */;
+			productName = CalendarCore;
+		};
+		000000000000000000000062 /* CalendarCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000005 /* XCLocalSwiftPackageReference "Packages/CalendarCore" */;
+			productName = CalendarCore;
+		};
+		F1A000000000000000000007 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1A000000000000000000006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
 }
-
