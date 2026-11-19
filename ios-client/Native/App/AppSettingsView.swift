@@ -36,7 +36,12 @@ final class AppSettingsLibrary: ObservableObject {
         didSet { refreshWidgetSettings() }
     }
     @Published var mockIAP = false {
-        didSet { refreshWidgetSettings() }
+        didSet {
+            #if os(iOS)
+            if mockIAP && !oldValue { enableDailyArtworkAfterUnlock() }
+            #endif
+            refreshWidgetSettings()
+        }
     }
     @Published var alwaysShowsOnboarding = UserDefaults.standard.bool(forKey: "debug.onboarding.always") {
         didSet { UserDefaults.standard.set(alwaysShowsOnboarding, forKey: "debug.onboarding.always") }
@@ -76,6 +81,12 @@ final class AppSettingsLibrary: ObservableObject {
                     ownsFullAccess = true
                     break
                 }
+            }
+            let wasUnlocked = self.verifiedFullAccess ??
+                (DesktopWidgetDisplayPreferences.sharedDefaults?.bool(
+                    forKey: DesktopWidgetDisplayPreferences.verifiedFullAccessKey) ?? false)
+            if ownsFullAccess && !wasUnlocked {
+                self.enableDailyArtworkAfterUnlock()
             }
             if self.verifiedFullAccess != ownsFullAccess {
                 self.verifiedFullAccess = ownsFullAccess
@@ -242,6 +253,13 @@ final class AppSettingsLibrary: ObservableObject {
     func reload() {
         refreshWidgetSettings()
         objectWillChange.send()
+    }
+
+    private func enableDailyArtworkAfterUnlock() {
+        guard let defaults = DesktopWidgetDisplayPreferences.sharedDefaults,
+              !defaults.bool(forKey: DesktopWidgetDisplayPreferences.followsDailyArtworkKey) else { return }
+        defaults.set(true, forKey: DesktopWidgetDisplayPreferences.followsDailyArtworkKey)
+        WidgetCenter.shared.reloadTimelines(ofKind: DesktopWidgetDisplayPreferences.widgetKind)
     }
 
     private func refreshWidgetSettings() {
