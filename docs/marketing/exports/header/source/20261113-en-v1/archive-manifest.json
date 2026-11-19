@@ -1,0 +1,26 @@
+{
+  "status": "archived_per_user_request",
+  "date": "2026-11-13",
+  "files": [
+    {
+      "file": "art-safe-area-crop.png",
+      "sha256": "edcd83d612b024ea1d5c192b08c078ec6f8e27fdeec79ef4a359dcffca5c0ca3"
+    },
+    {
+      "file": "copy.json",
+      "sha256": "73401695dc755e845e0d8e48f510bcd7219e8c3d6d60d54640539d976d67b18b"
+    },
+    {
+      "file": "generated-master.png",
+      "sha256": "893a3aea183fea3b77abfdf519fac05097f0dd2ca0ca27db28c56a8f83850531"
+    },
+    {
+      "file": "preview.png",
+      "sha256": "eff9fc5e059648e901058db0b6e0b35bf190dc6fdd086135db89643af586ef6a"
+    },
+    {
+      "file": "prompts.json",
+      "sha256": "525b7900cf381b487a4d5c2d0508429ebbae2577f85b1b0a5a56d9d4e6dcc053"
+    }
+  ]
+}

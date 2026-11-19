@@ -1,0 +1,7 @@
+可选：以下为本地化商品描述（不是审核备注）。
+
+简体中文名称：永久解锁
+简体中文描述（28 字符）：一次购买，畅阅全部日历、自定义桌面小组件并导出高清壁纸。
+
+英语名称：Full Access
+英语描述（44 characters）：All cards, custom widgets and HD wallpapers.

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "placement": "product_page_header",
+  "size": [
+    3840,
+    1646
+  ],
+  "safe_area": {
+    "x": 1097,
+    "y": 493,
+    "width": 1646,
+    "height": 661
+  },
+  "direction": "Widget gallery only: small/medium/large sizes, layered, no external brand or slogan; widget content dates/quotes retained",
+  "status": "preview_only_pending_user_visual_confirmation",
+  "supersedes": "header-widget-zh-v1 with brand/slogan rejected",
+  "peripheral_widgets": "Auxiliary art; may be cropped in placement. Core widgets must remain recognizable in safe-area crop."
+}

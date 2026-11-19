@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "placement": "search_results",
+  "locale": "zh-Hans",
+  "size": [
+    3840,
+    2560
+  ],
+  "safe_area": {
+    "x": 836,
+    "y": 765,
+    "width": 2168,
+    "height": 1030
+  },
+  "direction": "Official search creative inspiration: headline/tagline left, desktop widgets on frontal iPhone right; no outer App Store UI",
+  "headline": "好句子，就在桌面",
+  "tagline": "每日语录，遇见手绘之美",
+  "status": "preview_only_pending_user_visual_confirmation",
+  "source": "https://developer.apple.com/app-store/asset-best-practices/",
+  "safe_area_source": "https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications"
+}

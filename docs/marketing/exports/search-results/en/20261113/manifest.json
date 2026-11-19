@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "status": "archived_per_user_request",
+  "authorization": "User requested English header/search creation and immediate archiving",
+  "visual_review": "assistant checked spelling, layout and offline safe-area crop; separate user visual review not recorded",
+  "placement": "search-results",
+  "locale": "en",
+  "file": "AppStore-search-en-3840x2560.png",
+  "size": [
+    3840,
+    2560
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "sha256": "548fb4e907c8132dcfd59f5e66a914b6df3d3a8b5fb87b59ef82ff6c966f50b5",
+  "source_directory": "../../source/20261113-en-v1",
+  "safe_area": [
+    836,
+    765,
+    2168,
+    1030
+  ],
+  "backend_cross_device_preview_verified": false,
+  "uploaded": false,
+  "quote_provenance": "Project editorial English and short excerpts, no claim of verbatim FLP verification",
+  "date_basis": "November2026;13 Nov Fri and18 Nov Wed",
+  "source_chinese_design": "Previously user-confirmed and archived Chinese placement; geometry/art preserved in English localization"
+}

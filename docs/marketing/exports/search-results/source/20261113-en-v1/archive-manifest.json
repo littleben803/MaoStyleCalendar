@@ -1,0 +1,46 @@
+{
+  "status": "archived_per_user_request",
+  "date": "2026-11-13",
+  "files": [
+    {
+      "file": "art-safe-area-crop.png",
+      "sha256": "02c032caa449e9c1c392a1e72f7cdc7baa5b95f424f7c87252ee612154510823"
+    },
+    {
+      "file": "assets/widgets-phone.png",
+      "sha256": "a011afc20c7366633d56d054bc5487cd4f1d6a27fcf80c7c79c3123995321bcf"
+    },
+    {
+      "file": "background-source.png",
+      "sha256": "7d63accfbb88453c23637861e39603dd6e5a311ae49804ae996a4fc52be9ed46"
+    },
+    {
+      "file": "copy.json",
+      "sha256": "73401695dc755e845e0d8e48f510bcd7219e8c3d6d60d54640539d976d67b18b"
+    },
+    {
+      "file": "fonts/SourceSerif4.ttf",
+      "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+    },
+    {
+      "file": "layout.html",
+      "sha256": "85c249fddd67f4117b7778435307d7cb692d860b48a03ed5e58e0e3ff77708da"
+    },
+    {
+      "file": "preview.png",
+      "sha256": "ebcbb31ccf7c02b321831c0d1459df89a6ed2f99999454941bd0b694c448d4bc"
+    },
+    {
+      "file": "prompts.json",
+      "sha256": "c5590e4269017a19cafef8b0bb8723b1c3cb9dc7df981c17ce6c4f6ae8d55ec1"
+    },
+    {
+      "file": "render-checks.json",
+      "sha256": "07c7a62d8c780a4317d8a47f765decb1bcb14c0a54e47b5fef6ef66a7283455a"
+    },
+    {
+      "file": "render.cjs",
+      "sha256": "4234bb78a63d7471827421fce6bf03164dbcf7766353430be1a9747eb648094f"
+    }
+  ]
+}

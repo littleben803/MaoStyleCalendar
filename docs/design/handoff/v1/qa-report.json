@@ -1,0 +1,30 @@
+{
+  "assetScales" : [
+    1,
+    2,
+    3
+  ],
+  "contrastRatiosOnSolidPaper" : {
+    "dark-accent" : 4.9469826716481418,
+    "dark-secondary" : 7.7631781497001739,
+    "dark-text" : 14.046393704130548,
+    "light-accent" : 6.5951786894013162,
+    "light-secondary" : 5.3356586863199897,
+    "light-text" : 14.186403283484085
+  },
+  "debugBuild" : "not_run_no_business_project",
+  "fontFallbackChecks" : "pass for specimen text",
+  "fontLicenseSnapshots" : "present",
+  "notValidated" : [
+    "WidgetKit runtime geometry",
+    "Dynamic Type and VoiceOver",
+    "system tint/clear actual appearance",
+    "final designer artwork",
+    "StoreKit purchase and system export"
+  ],
+  "pngCount" : 87,
+  "pngDecode" : "pass",
+  "renderer" : "AppKit/CoreText; no Xcode target",
+  "textPlacementChecks" : 547,
+  "visualFidelity" : "REJECTED_BY_USER; technical checks below do not establish visual fidelity"
+}

@@ -1,0 +1,790 @@
+{
+  "files" : [
+    {
+      "bytes" : 5261,
+      "path" : "README.md",
+      "sha256" : "de9bd8aafe410fdfff87fd51b266cb989f81a14b5a15a6f97ca8a25e1cfb8497"
+    },
+    {
+      "bytes" : 2746485,
+      "height" : 1844,
+      "path" : "approved/annual.png",
+      "sha256" : "e18b9076c8d1df212023174e47b8728179d91b6cf1ad557133d760e27cabf9d7",
+      "width" : 853
+    },
+    {
+      "bytes" : 2044737,
+      "height" : 1844,
+      "path" : "approved/detail.png",
+      "sha256" : "942f9ec087d74582dfd9197fa349c969057ce01720e485c0599d34538ca10144",
+      "width" : 853
+    },
+    {
+      "bytes" : 2085545,
+      "height" : 1844,
+      "path" : "approved/paywall.png",
+      "sha256" : "c97bf28b797167645ce46225d9d8968bb9df559ec32c657fada7db1a17b18d9f",
+      "width" : 853
+    },
+    {
+      "bytes" : 2257086,
+      "height" : 1844,
+      "path" : "approved/today.png",
+      "sha256" : "5fde3804e0102957f538ea0a38e732557ccb9508b61872560d9654388a1c2683",
+      "width" : 853
+    },
+    {
+      "bytes" : 2348581,
+      "height" : 1844,
+      "path" : "approved/wallpaper.png",
+      "sha256" : "dd6952044482312fbe2266cca19a25eb7092c5cc5aa7d01da978d21bcc2abb06",
+      "width" : 853
+    },
+    {
+      "bytes" : 2744971,
+      "height" : 1254,
+      "path" : "approved/widgets-en.png",
+      "sha256" : "0d03e3b308126bc7af1066f84eb1f69425e69ef0f9ea4c37bf1cd720b21e98a0",
+      "width" : 1254
+    },
+    {
+      "bytes" : 2518329,
+      "height" : 1254,
+      "path" : "approved/widgets-zh.png",
+      "sha256" : "1c8dd96b3b47835576bdf58032981f608e1ae62bdd8b5731338477186fd9d8a1",
+      "width" : 1254
+    },
+    {
+      "bytes" : 11725810,
+      "height" : 3376,
+      "path" : "boards/app-approved-originals.png",
+      "sha256" : "80f2a8ca1c4febf44a9fc9ea6014fdba1aa0abb7de273ffc5416f509b509aa21",
+      "width" : 2340
+    },
+    {
+      "bytes" : 2744971,
+      "height" : 1254,
+      "path" : "boards/widgets-en.png",
+      "sha256" : "0d03e3b308126bc7af1066f84eb1f69425e69ef0f9ea4c37bf1cd720b21e98a0",
+      "width" : 1254
+    },
+    {
+      "bytes" : 2518329,
+      "height" : 1254,
+      "path" : "boards/widgets-zh.png",
+      "sha256" : "1c8dd96b3b47835576bdf58032981f608e1ae62bdd8b5731338477186fd9d8a1",
+      "width" : 1254
+    },
+    {
+      "bytes" : 4086,
+      "path" : "brand/README.md",
+      "sha256" : "45a47cabc20831d4ef79a715368ef31f558aa8612b4013572db74fa8e9027a83"
+    },
+    {
+      "bytes" : 39840,
+      "height" : 1024,
+      "path" : "brand/app-icon-en.png",
+      "sha256" : "728ab96767c25acdebaaca5479578372c7731d3843821c193962dfae6b4900d2",
+      "width" : 1024
+    },
+    {
+      "bytes" : 5755,
+      "path" : "brand/app-icon-portrait-candidate-v1.md",
+      "sha256" : "5b378444fb2add00fe08c81f081495a2a6ceedf5330d7aab0e5a9f49f57e9df3"
+    },
+    {
+      "bytes" : 1324543,
+      "height" : 1254,
+      "path" : "brand/app-icon-portrait-candidate-v1.png",
+      "sha256" : "acd1e20401a4d1ad166839eb17d2f85eaeed0777cb640a42a8a8c11822753c24",
+      "width" : 1254
+    },
+    {
+      "bytes" : 1828,
+      "path" : "brand/app-icon-portrait-red-candidate-v2.md",
+      "sha256" : "a8166fd7be9b9c22b8a79ac6f58afcd0c9f9d07c1909b16c3c4f956342e7e524"
+    },
+    {
+      "bytes" : 1609277,
+      "height" : 1254,
+      "path" : "brand/app-icon-portrait-red-candidate-v2.png",
+      "sha256" : "c2fcd2bd3d2b3140b0b3e33e3995bb132c832864a3716671b45556268ae526d3",
+      "width" : 1254
+    },
+    {
+      "bytes" : 1017428,
+      "height" : 1345,
+      "path" : "brand/app-icon-portrait-red-source-v2.png",
+      "sha256" : "5f30ad4cfd421976c9acb6c9010d6aa45f5838feb7541396421d9f84745bb670",
+      "width" : 1169
+    },
+    {
+      "bytes" : 57274,
+      "height" : 1024,
+      "path" : "brand/app-icon-zh.png",
+      "sha256" : "95515c30082e386563454d5d16d297e19751d1f985bf2be23f9277d15478248d",
+      "width" : 1024
+    },
+    {
+      "bytes" : 2260415,
+      "height" : 1619,
+      "path" : "brand/launch-card.png",
+      "sha256" : "396c290838bb1d6fd856da82392dc9e39b4e53fee58a4e81e3d288c3417b62ba",
+      "width" : 971
+    },
+    {
+      "bytes" : 81406,
+      "height" : 512,
+      "path" : "brand/logo-en.png",
+      "sha256" : "7002e04f623fbd63905e8fbfdc62b7eb7d7819b93b52419e6afdd2953d926882",
+      "width" : 2048
+    },
+    {
+      "bytes" : 10212,
+      "path" : "brand/logo-en.svg",
+      "sha256" : "801d8201eed7621d884e455d232d649c072375c23d51a1a53d75d2df3eff588b"
+    },
+    {
+      "bytes" : 81287,
+      "height" : 581,
+      "path" : "brand/logo-zh.png",
+      "sha256" : "edff2175ec4d2dfbf5f32128f5349f594a72879262468d17cb9d3c057c9061c5",
+      "width" : 2048
+    },
+    {
+      "bytes" : 6332,
+      "path" : "brand/logo-zh.svg",
+      "sha256" : "376afcc22b63257414863c39d95dd41ac54d7821a278be6d3216987dcfd423e8"
+    },
+    {
+      "bytes" : 1876,
+      "path" : "brand/prompts.md",
+      "sha256" : "625e980e42a82621a0ecd7ec8c34325712c195653ec269ad7cc9e052cfdf7387"
+    },
+    {
+      "bytes" : 112160,
+      "path" : "fonts/LibreBodoni.ttf",
+      "sha256" : "0d543665bd869819ffd7d46608804e245497ba835960832d44be89e561b0c717"
+    },
+    {
+      "bytes" : 25521732,
+      "path" : "fonts/SourceHanSerifSC-Bold.otf",
+      "sha256" : "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    },
+    {
+      "bytes" : 1209508,
+      "path" : "fonts/SourceSerif4.ttf",
+      "sha256" : "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+    },
+    {
+      "bytes" : 4492,
+      "path" : "licenses/LibreBodoni-OFL.txt",
+      "sha256" : "7ce3bf8e8087bf7495a3e1ed2044e83439db990c778d61b128fd09b7876d0420"
+    },
+    {
+      "bytes" : 4463,
+      "path" : "licenses/SourceHanSerif-OFL.txt",
+      "sha256" : "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903"
+    },
+    {
+      "bytes" : 4400,
+      "path" : "licenses/SourceSerif4-OFL.txt",
+      "sha256" : "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "bytes" : 1430,
+      "path" : "resources/ARCHIVE.md",
+      "sha256" : "1efeae7a5222d9cef3d4972e993ace61ea273f89fb6c33b952dd2b180f44b0f0"
+    },
+    {
+      "bytes" : 2851,
+      "height" : 64,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidate.imageset/CalendarCopperRingCandidate@1x.png",
+      "sha256" : "9aec9c0508c703ba74e5e7424f266348a11e281f4b4cae665f2b151d87dec9df",
+      "width" : 24
+    },
+    {
+      "bytes" : 8745,
+      "height" : 128,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidate.imageset/CalendarCopperRingCandidate@2x.png",
+      "sha256" : "d21b80417a6a714886c5a1c3de8a02dc0ae0211f0858ed3a9175f7f8e091b42f",
+      "width" : 48
+    },
+    {
+      "bytes" : 17235,
+      "height" : 192,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidate.imageset/CalendarCopperRingCandidate@3x.png",
+      "sha256" : "05474a5bf5009c0583b7519aee951b9079e8eab7c56f70a8d052c02a926155e3",
+      "width" : 72
+    },
+    {
+      "bytes" : 467,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidate.imageset/Contents.json",
+      "sha256" : "6adc50f3060db1da88f24dd4d921ea2793e05614bfae78a089e9ab52d78433a2"
+    },
+    {
+      "bytes" : 2823,
+      "height" : 64,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV2.imageset/CalendarCopperRingCandidateV2@1x.png",
+      "sha256" : "0950ca93e7e7284537a9d3bfc79338ff91d9ee9fd20135664dfdbafafd8ab343",
+      "width" : 24
+    },
+    {
+      "bytes" : 8696,
+      "height" : 128,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV2.imageset/CalendarCopperRingCandidateV2@2x.png",
+      "sha256" : "9c024ea1168c6527dc6578d1ca299f18719d5deda45f0a49b2a3875774d39225",
+      "width" : 48
+    },
+    {
+      "bytes" : 17434,
+      "height" : 192,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV2.imageset/CalendarCopperRingCandidateV2@3x.png",
+      "sha256" : "c739baf72ca56fd11206d9c0121c3aa0399889d062f063934ada783bec91870b",
+      "width" : 72
+    },
+    {
+      "bytes" : 473,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV2.imageset/Contents.json",
+      "sha256" : "6715249a9e2161aecc2a334e6e12d094c4a7bc154cec8ce2af68b228fe57597e"
+    },
+    {
+      "bytes" : 2808,
+      "height" : 64,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV3.imageset/CalendarCopperRingCandidateV3@1x.png",
+      "sha256" : "37c6317b32b3c50c01786cf9b8236f2ea53aaa8b396d2f3eaf50ef7fc6920b45",
+      "width" : 24
+    },
+    {
+      "bytes" : 8619,
+      "height" : 128,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV3.imageset/CalendarCopperRingCandidateV3@2x.png",
+      "sha256" : "202208783a78e898fcc5d782ae8d450101f2d62ecbc3b732e4c2a0eb7e307c3a",
+      "width" : 48
+    },
+    {
+      "bytes" : 17039,
+      "height" : 192,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV3.imageset/CalendarCopperRingCandidateV3@3x.png",
+      "sha256" : "462c46f33c3b41c869a70470cc163f7789533f62329cc11a40195f4a883f6291",
+      "width" : 72
+    },
+    {
+      "bytes" : 473,
+      "path" : "resources/DecorCandidates.xcassets/CalendarCopperRingCandidateV3.imageset/Contents.json",
+      "sha256" : "8ced430beadb98b56a2a0b46fbde62c5c22d419a44e4f9ccf8134acb310676c8"
+    },
+    {
+      "bytes" : 101894,
+      "height" : 256,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPaperIvoryCandidate.imageset/CalendarPaperIvoryCandidate@1x.png",
+      "sha256" : "191bdcb528abd8ed1133c6a79f2e2a1c6eb7addcc9ba1224e3bf561d1e5037f8",
+      "width" : 256
+    },
+    {
+      "bytes" : 441346,
+      "height" : 512,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPaperIvoryCandidate.imageset/CalendarPaperIvoryCandidate@2x.png",
+      "sha256" : "72ec1752dc9f7f036498bac0e6d8a2cfac7f18274366847081da7a301dc62fa5",
+      "width" : 512
+    },
+    {
+      "bytes" : 1028036,
+      "height" : 768,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPaperIvoryCandidate.imageset/CalendarPaperIvoryCandidate@3x.png",
+      "sha256" : "05e4cac471e90083ef0537cbba3e83fbeb12ef8b58698f72c4a693bb45c274cb",
+      "width" : 768
+    },
+    {
+      "bytes" : 467,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPaperIvoryCandidate.imageset/Contents.json",
+      "sha256" : "78c7b5aed01b3b112c3137990400bb944731514a28c4fa782826ab41f3558fd5"
+    },
+    {
+      "bytes" : 103825,
+      "height" : 256,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPrintVermilionCandidate.imageset/CalendarPrintVermilionCandidate@1x.png",
+      "sha256" : "e4e7e83df0ba0721f6df2ba932d3e53d869cd33536b81a38264772c38e917538",
+      "width" : 256
+    },
+    {
+      "bytes" : 418701,
+      "height" : 512,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPrintVermilionCandidate.imageset/CalendarPrintVermilionCandidate@2x.png",
+      "sha256" : "bab3356558767c3fda065fc8ab993901fb1df70b00f34cd6cd6776990b4ecf83",
+      "width" : 512
+    },
+    {
+      "bytes" : 975714,
+      "height" : 768,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPrintVermilionCandidate.imageset/CalendarPrintVermilionCandidate@3x.png",
+      "sha256" : "8592b90926b6c47ec1c8258b74aaafdbf0c50bb5a7a015724120e873ee5b6a06",
+      "width" : 768
+    },
+    {
+      "bytes" : 479,
+      "path" : "resources/DecorCandidates.xcassets/CalendarPrintVermilionCandidate.imageset/Contents.json",
+      "sha256" : "d2a1257183afa74bc0eb0a8d2351e066f47e67fc62a6e9b89c50ddbe6a3bb009"
+    },
+    {
+      "bytes" : 88,
+      "path" : "resources/DecorCandidates.xcassets/Contents.json",
+      "sha256" : "5aefea44509861d57dd69933f4122800be6ae61af740ecb2e21da54b5f035b18"
+    },
+    {
+      "bytes" : 156,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-artworkOnly.imageset/Contents.json",
+      "sha256" : "85923e87c9c1f8fa8f3898e31d64c9237e569dfcbd5597eff9748bbfc8709941"
+    },
+    {
+      "bytes" : 94956,
+      "height" : 288,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-artworkOnly.imageset/illustration.png",
+      "sha256" : "b6d622d6a726596f925259045e0b2e4a21feae5842fc73bd171c46d23b69c827",
+      "width" : 216
+    },
+    {
+      "bytes" : 156,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-horizontalBottom.imageset/Contents.json",
+      "sha256" : "85923e87c9c1f8fa8f3898e31d64c9237e569dfcbd5597eff9748bbfc8709941"
+    },
+    {
+      "bytes" : 85275,
+      "height" : 288,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-horizontalBottom.imageset/illustration.png",
+      "sha256" : "901ed167a98e10efeb6445586123d004bd4a6455ea4982044b1c992f760c61fc",
+      "width" : 216
+    },
+    {
+      "bytes" : 156,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-horizontalTop.imageset/Contents.json",
+      "sha256" : "85923e87c9c1f8fa8f3898e31d64c9237e569dfcbd5597eff9748bbfc8709941"
+    },
+    {
+      "bytes" : 84314,
+      "height" : 288,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-horizontalTop.imageset/illustration.png",
+      "sha256" : "684da3ad50116273501f9d07cceff76a7d2a6045523fc5054bdfcfb4dbdc9d1c",
+      "width" : 216
+    },
+    {
+      "bytes" : 156,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-verticalLeft.imageset/Contents.json",
+      "sha256" : "85923e87c9c1f8fa8f3898e31d64c9237e569dfcbd5597eff9748bbfc8709941"
+    },
+    {
+      "bytes" : 97012,
+      "height" : 288,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-verticalLeft.imageset/illustration.png",
+      "sha256" : "b61499500e696b4d961ff2ab13ece4e4b1b79b5c2cae030d6b755eb8fcd21e3d",
+      "width" : 216
+    },
+    {
+      "bytes" : 156,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-verticalRight.imageset/Contents.json",
+      "sha256" : "85923e87c9c1f8fa8f3898e31d64c9237e569dfcbd5597eff9748bbfc8709941"
+    },
+    {
+      "bytes" : 97910,
+      "height" : 288,
+      "path" : "resources/DecorCandidates.xcassets/WallpaperStyle-verticalRight.imageset/illustration.png",
+      "sha256" : "4ef0f1d4d78086ff59db57bc1f8d06ee628774f5599c80e1d84f67255ea4cc81",
+      "width" : 216
+    },
+    {
+      "bytes" : 302,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-annual-books-Candidate.imageset/Contents.json",
+      "sha256" : "3056a2a846d7efa4190b7e3ba0efc45c036263761c41f15c5193726475bd0355"
+    },
+    {
+      "bytes" : 2223,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-annual-books-Candidate.imageset/annual-books.pdf",
+      "sha256" : "a0da2d41e4a8ad2f8bc49f933d1ef5db93a510b0c68372932583a0432c018e0d"
+    },
+    {
+      "bytes" : 301,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-arrow-right-Candidate.imageset/Contents.json",
+      "sha256" : "b74f405c804d01e0096c8255cca05356e464d0aaf2330afad4fdea721cee6b9c"
+    },
+    {
+      "bytes" : 2198,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-arrow-right-Candidate.imageset/arrow-right.pdf",
+      "sha256" : "f5be1e58873c85ccb47097c55822729445d026297359f893279e35ac98d0cb9c"
+    },
+    {
+      "bytes" : 298,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-calendar-Candidate.imageset/Contents.json",
+      "sha256" : "59061224e8fd596b01880239f8c10459e2147e41ad0a1e1ec9f5c25383043819"
+    },
+    {
+      "bytes" : 2255,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-calendar-Candidate.imageset/calendar.pdf",
+      "sha256" : "ac4036e6458595918df6b59ff20ce04c2678061bd2b6229c51f597eff3872e8c"
+    },
+    {
+      "bytes" : 303,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-calendar-grid-Candidate.imageset/Contents.json",
+      "sha256" : "2ef8a204d9ae0d6f1e6ee23aabcb29fb3222ca1a3f50df74f406206e530e6c5c"
+    },
+    {
+      "bytes" : 2295,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-calendar-grid-Candidate.imageset/calendar-grid.pdf",
+      "sha256" : "ce59fcb7e530c52c58a715211945d73ca16e110020a7dc888e03e12a4a22eb80"
+    },
+    {
+      "bytes" : 295,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-check-Candidate.imageset/Contents.json",
+      "sha256" : "5b6d2222851a9443a53e2f98e6bdd8e30635bd37d735e91f4638970a0daf06a0"
+    },
+    {
+      "bytes" : 2191,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-check-Candidate.imageset/check.pdf",
+      "sha256" : "27e89820fc14ad5f16cd426665f21fbcf22d760335c249473a27c40334156d99"
+    },
+    {
+      "bytes" : 302,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-down-Candidate.imageset/Contents.json",
+      "sha256" : "5b6ccb1b88c4ac202fa5b65af47f3f6b12b17df52742ec7f3af75b6a68c02ea5"
+    },
+    {
+      "bytes" : 2192,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-down-Candidate.imageset/chevron-down.pdf",
+      "sha256" : "269d0dc62e2528951dddddf44ee98a527eacabb5bfd36a9d606a29a7a489bb00"
+    },
+    {
+      "bytes" : 302,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-left-Candidate.imageset/Contents.json",
+      "sha256" : "ec61a9bf390fd76ad27289eeec9ccc0c6abb5a25e32dffc81104591dc33cff6d"
+    },
+    {
+      "bytes" : 2193,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-left-Candidate.imageset/chevron-left.pdf",
+      "sha256" : "ff51c120e08c8d80d33f80e94f8cce4a9f63cc7f020252be42d1abd21c94f4d5"
+    },
+    {
+      "bytes" : 303,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-right-Candidate.imageset/Contents.json",
+      "sha256" : "3f5b2c44f39f63013b6adcc54e6eca839507701d3a5b7895b74433733f0e8cf8"
+    },
+    {
+      "bytes" : 2192,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-chevron-right-Candidate.imageset/chevron-right.pdf",
+      "sha256" : "9c559112b456bed45b282a0ce5c728b6fb7c2eaea610b2972213d1edd03debf2"
+    },
+    {
+      "bytes" : 295,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-close-Candidate.imageset/Contents.json",
+      "sha256" : "a95a988701c203f879b68502d8f6f87b2a6ca2a42828c6b93971d22747d88396"
+    },
+    {
+      "bytes" : 2190,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-close-Candidate.imageset/close.pdf",
+      "sha256" : "e315bbaac8bf3abd390810a9f96075c7bb4b16e65592a858b489d4bd2d56efa2"
+    },
+    {
+      "bytes" : 302,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-close-circle-Candidate.imageset/Contents.json",
+      "sha256" : "d4188ff5de627495ca0dff58d55d492f107e36bb3730100c81bf8863c2e5aca2"
+    },
+    {
+      "bytes" : 2233,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-close-circle-Candidate.imageset/close-circle.pdf",
+      "sha256" : "4e146c8d31ae4508af5f1ab9a3ea23eddcc7fc5e741239f0943cd448e4a299d9"
+    },
+    {
+      "bytes" : 298,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-document-Candidate.imageset/Contents.json",
+      "sha256" : "b131e22b5a6fc47eec0d017876cb0c3d6b7327b705c8193abfa733391410073e"
+    },
+    {
+      "bytes" : 2225,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-document-Candidate.imageset/document.pdf",
+      "sha256" : "bd5a529aa3b920a175adbab4106d83a6594a0ad0d72100a34d05cb2a026ce813"
+    },
+    {
+      "bytes" : 307,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-ellipsis-vertical-Candidate.imageset/Contents.json",
+      "sha256" : "0c77228525e6637810e0813b379d362e69f2e024f328876510fed16c71cdf62e"
+    },
+    {
+      "bytes" : 2206,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-ellipsis-vertical-Candidate.imageset/ellipsis-vertical.pdf",
+      "sha256" : "ab1f930e9157a107888afa4bdcafefa7227def6766f8b506f007be2319a9a3be"
+    },
+    {
+      "bytes" : 294,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-grid-Candidate.imageset/Contents.json",
+      "sha256" : "06ee72e64c8908577a99a8f70de886e6070721a9d24fd1c826816821dafccec2"
+    },
+    {
+      "bytes" : 2231,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-grid-Candidate.imageset/grid.pdf",
+      "sha256" : "77849ee53126125c182ad8ffbc4ebe11c4e35380a47660f2c10a0d8fb54679ac"
+    },
+    {
+      "bytes" : 299,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-open-book-Candidate.imageset/Contents.json",
+      "sha256" : "5e80cadcc93f5fe83ec13573dd589880c3bedb77dfc852187cb536fd9588b2e0"
+    },
+    {
+      "bytes" : 2253,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-open-book-Candidate.imageset/open-book.pdf",
+      "sha256" : "2200f1cda7775a7e76ebb9a604eb32e51c3c8756c66b4c6beeece6b82f08e71f"
+    },
+    {
+      "bytes" : 298,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-settings-Candidate.imageset/Contents.json",
+      "sha256" : "fa052d4b133b17b01cccd88c79516612330be5475031aa53d57dbdb516acf462"
+    },
+    {
+      "bytes" : 2403,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-settings-Candidate.imageset/settings.pdf",
+      "sha256" : "44243d0672671ece8d023ff095c935eacb1e2d1f05b567eb30b44fc40a75735d"
+    },
+    {
+      "bytes" : 295,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-share-Candidate.imageset/Contents.json",
+      "sha256" : "2e6f8121337323f2460ca941b91c6d34baf2662de18aab98eb3add1b9e9e9f1d"
+    },
+    {
+      "bytes" : 2214,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-share-Candidate.imageset/share.pdf",
+      "sha256" : "4ca8062a7f73e00d8b4066dc79a3bcff0a23ac8d6630afe24aa96532db85fe8d"
+    },
+    {
+      "bytes" : 295,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-trash-Candidate.imageset/Contents.json",
+      "sha256" : "3a2d613d36075e053f4352dcce0ef7d7585773355df3c35dff0936a5804d5d40"
+    },
+    {
+      "bytes" : 2226,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-trash-Candidate.imageset/trash.pdf",
+      "sha256" : "88e56207569d37251840e14f7d2417aa8d52ee84244a529ea9c0c865e570d984"
+    },
+    {
+      "bytes" : 299,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-wallpaper-Candidate.imageset/Contents.json",
+      "sha256" : "5d275c63c0cbb8d335e879bc8d822c5b465b83b4b6eec4b08513398c20fd312f"
+    },
+    {
+      "bytes" : 2293,
+      "path" : "resources/IconCandidates.xcassets/CalendarIcon-wallpaper-Candidate.imageset/wallpaper.pdf",
+      "sha256" : "163be603f2a84df9abeb5e4caf05e2e7b3f2d5296304a629e007dafb50fb84d1"
+    },
+    {
+      "bytes" : 88,
+      "path" : "resources/IconCandidates.xcassets/Contents.json",
+      "sha256" : "5aefea44509861d57dd69933f4122800be6ae61af740ecb2e21da54b5f035b18"
+    },
+    {
+      "bytes" : 7602,
+      "path" : "resources/README.md",
+      "sha256" : "3b862b409e6b7c1e6e41e7e3e857045cc906915376c396cf3b688690e5f6117f"
+    },
+    {
+      "bytes" : 10294,
+      "path" : "resources/asset-inventory.json",
+      "sha256" : "010526e59353de9ac9d8c96459f2f3bb05a9a1ad90f992e6952623a4ea57df62"
+    },
+    {
+      "bytes" : 1986,
+      "path" : "resources/export-report.json",
+      "sha256" : "ee77b7ff7814ae232f37c38e875d3f115ddfe2c118d320d10a1ca2e957b90513"
+    },
+    {
+      "bytes" : 7874,
+      "path" : "resources/generation-prompts.md",
+      "sha256" : "478b0f3e9e9749c1d5941f7c2b9df9e608c32100dc36047f88dd76ec9ad82865"
+    },
+    {
+      "bytes" : 271959,
+      "height" : 1774,
+      "path" : "resources/masters/copper-ring-candidate-v2.png",
+      "sha256" : "1d47ba5b0c0d4d24dea4b5fb44c1a8250565a00f216faea84e229282b701f6d9",
+      "width" : 887
+    },
+    {
+      "bytes" : 256268,
+      "height" : 1774,
+      "path" : "resources/masters/copper-ring-candidate-v3.png",
+      "sha256" : "f1389592622b172be8695cc05fbd0c3727a1096d272226ef3d237d8dad65f458",
+      "width" : 887
+    },
+    {
+      "bytes" : 168143,
+      "height" : 1774,
+      "path" : "resources/masters/copper-ring-candidate.png",
+      "sha256" : "00abca6951199df25a17f143b015604b45a5d59a69920c5e99e3f5faaef1ec9a",
+      "width" : 887
+    },
+    {
+      "bytes" : 2389544,
+      "height" : 1254,
+      "path" : "resources/masters/paper-ivory-candidate.png",
+      "sha256" : "ec27de55918f60a179f6fa275fa076cf42fc85c470d4ef3b67a014bbd82409e3",
+      "width" : 1254
+    },
+    {
+      "bytes" : 2473083,
+      "height" : 1254,
+      "path" : "resources/masters/print-vermilion-candidate.png",
+      "sha256" : "3605b54c8af2da1e579221582d2107533fd8c74884edbef9d209a3c09f0d24c3",
+      "width" : 1254
+    },
+    {
+      "bytes" : 96851,
+      "height" : 1120,
+      "path" : "resources/previews/icon-check.png",
+      "sha256" : "64b36b250b27392625c6b7f43b79eec187c3883fb303da2cd938f57c60721c2a",
+      "width" : 1320
+    },
+    {
+      "bytes" : 574247,
+      "height" : 1120,
+      "path" : "resources/previews/material-check.png",
+      "sha256" : "d8a416234473cce9c673e74082bb5226af0958323aafcc8bf59faa1223896c98",
+      "width" : 1440
+    },
+    {
+      "bytes" : 2896,
+      "path" : "resources/qa-report.json",
+      "sha256" : "33b565002d675c5bf8ae66373a56966f08a7f03a944a03c71394a363e92b3e18"
+    },
+    {
+      "bytes" : 20589,
+      "path" : "resources/resource-manifest.json",
+      "sha256" : "8d98a2063d5ec71feb11beb43971d20128fa6e6978d5c89cde464929d689826c"
+    },
+    {
+      "bytes" : 4314,
+      "path" : "resources/scripts/export-vectors.swift",
+      "sha256" : "1da18b01d6ce05e3efc8f90c29fa6dd644df99e6e104fa8a3e54229961c6e6a7"
+    },
+    {
+      "bytes" : 7700,
+      "path" : "resources/scripts/export.swift",
+      "sha256" : "45857b8fbd3978c6f170202671f1c27d74076ae9828fd6512aa121d7ace433dd"
+    },
+    {
+      "bytes" : 5243,
+      "path" : "resources/scripts/verify.swift",
+      "sha256" : "1d6403340924d159d300b7cbdbb2e1a853470c17761c61a1a553abed1eb7e2a3"
+    },
+    {
+      "bytes" : 3581,
+      "path" : "resources/vector-spec.json",
+      "sha256" : "c31ef8c305969cbe564fb9d3f63afab2c90ba7daab27fb6501eab8db25cb2e30"
+    },
+    {
+      "bytes" : 290,
+      "path" : "resources/vectors/annual-books.svg",
+      "sha256" : "42bbb31ee408581f06d0351ae0d518613570bb7dba57a5febd1df65e2a502e9e"
+    },
+    {
+      "bytes" : 234,
+      "path" : "resources/vectors/arrow-right.svg",
+      "sha256" : "8bc96c0485f770e22c3bab5fae68a99374ce0f841199f9bad2837cf8f2074f04"
+    },
+    {
+      "bytes" : 475,
+      "path" : "resources/vectors/calendar-grid.svg",
+      "sha256" : "15ba705a797b5359bea2093a616878589d4036f0212e6ce12918a502636b45ed"
+    },
+    {
+      "bytes" : 355,
+      "path" : "resources/vectors/calendar.svg",
+      "sha256" : "423c4637fcbee55878f711ac8cea1b6ef79f06509667f3556ca15308c5591815"
+    },
+    {
+      "bytes" : 217,
+      "path" : "resources/vectors/check.svg",
+      "sha256" : "f483c376426d0a5b89c92ddb66921e79bfcec7bfe1c1c081d0062324b2406f20"
+    },
+    {
+      "bytes" : 217,
+      "path" : "resources/vectors/chevron-down.svg",
+      "sha256" : "520ec30f918e0d7f86583071e5748ca5c9365d82c27e1f09ba665f8d3f85ffd7"
+    },
+    {
+      "bytes" : 218,
+      "path" : "resources/vectors/chevron-left.svg",
+      "sha256" : "a5aca28f1204367ab2eaca1c65c6a237e39a74a757e2e5a2203b72d30d06db90"
+    },
+    {
+      "bytes" : 217,
+      "path" : "resources/vectors/chevron-right.svg",
+      "sha256" : "b122d599167e6b6110b9cf5640e03f29026fcc2efb58e67e7a0193e3e719ccee"
+    },
+    {
+      "bytes" : 320,
+      "path" : "resources/vectors/close-circle.svg",
+      "sha256" : "ee166e5337d789ed124dec196c4c3f7dabacbab816cd9173a2000a754ea3a205"
+    },
+    {
+      "bytes" : 224,
+      "path" : "resources/vectors/close.svg",
+      "sha256" : "81235303672d8c87bbc53d762a537f5f500a3db7c0a50e59484820062d0e91eb"
+    },
+    {
+      "bytes" : 299,
+      "path" : "resources/vectors/document.svg",
+      "sha256" : "a00cb55a97244976fcd24468ffe836119255dd23f1ab9894212f1067ce975094"
+    },
+    {
+      "bytes" : 250,
+      "path" : "resources/vectors/ellipsis-vertical.svg",
+      "sha256" : "f62239621a49989a50904deec2b2960a18332e1bbfa9b7a366ad6c5bc258b80b"
+    },
+    {
+      "bytes" : 324,
+      "path" : "resources/vectors/grid.svg",
+      "sha256" : "1b9d17d5fd08e45928b76bcabd4481161f2342bd447566dc114c58af898454b1"
+    },
+    {
+      "bytes" : 351,
+      "path" : "resources/vectors/open-book.svg",
+      "sha256" : "99092f48a1a55762134460738fdfc57f21e0c0cb93bd39ec17e5132ed48fbad0"
+    },
+    {
+      "bytes" : 752,
+      "path" : "resources/vectors/settings.svg",
+      "sha256" : "a7366b1e8f2a7b477e335a81ce85201278773c838ff1cd3c863c12ff775e1329"
+    },
+    {
+      "bytes" : 276,
+      "path" : "resources/vectors/share.svg",
+      "sha256" : "88a050a066afef20c51de0d18fe3d2ca36de8b766a4ce5a51e8f0e63f5a5bbd3"
+    },
+    {
+      "bytes" : 295,
+      "path" : "resources/vectors/trash.svg",
+      "sha256" : "02265ec48fca7bc878ea5858f108ea50516fb2c75555c06b855da8ed145b4294"
+    },
+    {
+      "bytes" : 455,
+      "path" : "resources/vectors/wallpaper.svg",
+      "sha256" : "a732fdbd1d19fcb03d50c82d9a2ade7774ed1948819bd10fbf510eed0a471205"
+    },
+    {
+      "bytes" : 2741,
+      "path" : "scripts/archive.swift",
+      "sha256" : "026ea523104fd81b31c951723d24931819c1b1bec4edda06bb229dd9fc5ab665"
+    },
+    {
+      "bytes" : 2122,
+      "path" : "scripts/verify-fonts.swift",
+      "sha256" : "263f09c272790d19067796d8a613cec4e56bad3f471e4ea9ec1f27f7f2d11b83"
+    },
+    {
+      "bytes" : 4478,
+      "path" : "specs/fidelity-review.md",
+      "sha256" : "407566d4c99154cce94b15a7b9cb0967bb2d39cd7e35719aab77d170b660ffe7"
+    },
+    {
+      "bytes" : 1379,
+      "path" : "specs/font-roles.json",
+      "sha256" : "1f50c829051cc3a08f0e87e8c64bd09655c245d8ba088ff3f6675f8729d4e626"
+    }
+  ],
+  "status" : "approved-original-visual-baseline; not reconstructed editable UI"
+}

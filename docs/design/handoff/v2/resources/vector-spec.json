@@ -1,0 +1,84 @@
+{
+  "status": "reference_matched_candidate_not_pixel_traced",
+  "canvas": [
+    24,
+    24
+  ],
+  "strokeWidth": 1.5,
+  "rendering": "template; runtime tint vermilion or brown; hit area >=44pt",
+  "origin": "Project-authored vector reconstructions from approved visual references; no third-party icon pack",
+  "icons": [
+    {
+      "name": "calendar",
+      "path": "M 7 2 L 7 6 M 17 2 L 17 6 M 3 8 L 21 8 M 5 4 L 19 4 C 20.1 4 21 4.9 21 6 L 21 20 C 21 21.1 20.1 22 19 22 L 5 22 C 3.9 22 3 21.1 3 20 L 3 6 C 3 4.9 3.9 4 5 4 Z"
+    },
+    {
+      "name": "annual-books",
+      "path": "M 2 4 L 7 4 L 7 22 L 2 22 Z M 10 2 L 15 2 L 15 22 L 10 22 Z M 17 5 L 21 4 L 22.8 21 L 20 22 Z"
+    },
+    {
+      "name": "wallpaper",
+      "path": "M 4 3 L 20 3 C 21.1 3 22 3.9 22 5 L 22 20 C 22 21.1 21.1 22 20 22 L 4 22 C 2.9 22 2 21.1 2 20 L 2 5 C 2 3.9 2.9 3 4 3 Z M 3 17 L 9 11 L 15 17 M 12 14 L 16 10 L 22 16 M 19 7 C 19 8.1 18.1 9 17 9 C 15.9 9 15 8.1 15 7 C 15 5.9 15.9 5 17 5 C 18.1 5 19 5.9 19 7 Z"
+    },
+    {
+      "name": "share",
+      "path": "M 12 15 L 12 2 M 7 7 L 12 2 L 17 7 M 7 10 L 4 10 L 4 22 L 20 22 L 20 10 L 17 10"
+    },
+    {
+      "name": "chevron-right",
+      "path": "M 9 5 L 16 12 L 9 19"
+    },
+    {
+      "name": "chevron-left",
+      "path": "M 15 5 L 8 12 L 15 19"
+    },
+    {
+      "name": "chevron-down",
+      "path": "M 5 9 L 12 16 L 19 9"
+    },
+    {
+      "name": "arrow-right",
+      "path": "M 3 12 L 21 12 M 14 5 L 21 12 L 14 19"
+    },
+    {
+      "name": "close",
+      "path": "M 5 5 L 19 19 M 19 5 L 5 19"
+    },
+    {
+      "name": "close-circle",
+      "path": "M 22 12 C 22 17.5 17.5 22 12 22 C 6.5 22 2 17.5 2 12 C 2 6.5 6.5 2 12 2 C 17.5 2 22 6.5 22 12 Z M 8 8 L 16 16 M 16 8 L 8 16"
+    },
+    {
+      "name": "open-book",
+      "path": "M 12 5 C 9 2.5 5.5 2.5 2 3.5 L 2 20 C 5.5 19 9 19 12 21 C 15 19 18.5 19 22 20 L 22 3.5 C 18.5 2.5 15 2.5 12 5 Z M 12 5 L 12 21 M 5 4 L 5 18 M 19 4 L 19 18"
+    },
+    {
+      "name": "grid",
+      "path": "M 3 3 L 10 3 L 10 10 L 3 10 Z M 14 3 L 21 3 L 21 10 L 14 10 Z M 3 14 L 10 14 L 10 21 L 3 21 Z M 14 14 L 21 14 L 21 21 L 14 21 Z"
+    },
+    {
+      "name": "document",
+      "path": "M 5 2 L 15 2 L 21 8 L 21 22 L 5 22 Z M 15 2 L 15 8 L 21 8 M 9 12 L 17 12 M 9 16 L 17 16 M 9 19 L 13 19"
+    },
+    {
+      "name": "trash",
+      "path": "M 3 6 L 21 6 M 8 6 L 8 3 L 16 3 L 16 6 M 5 6 L 6 22 L 18 22 L 19 6 M 10 10 L 10 18 M 14 10 L 14 18"
+    },
+    {
+      "name": "check",
+      "path": "M 4 12 L 9 17 L 20 6"
+    },
+    {
+      "name": "settings",
+      "path": "M 9.00315 4.58253 L 9.50820 2.00595 L 14.49180 2.00595 L 14.99685 4.58253 L 16.92529 5.69591 L 19.40920 4.84502 L 21.90100 9.16094 L 19.92214 10.88662 L 19.92214 13.11338 L 21.90100 14.83906 L 19.40920 19.15498 L 16.92529 18.30409 L 14.99685 19.41747 L 14.49180 21.99405 L 9.50820 21.99405 L 9.00315 19.41747 L 7.07471 18.30409 L 4.59080 19.15498 L 2.09900 14.83906 L 4.07786 13.11338 L 4.07786 10.88662 L 2.09900 9.16094 L 4.59080 4.84502 L 7.07471 5.69591 Z M 16 12 C 16 14.2 14.2 16 12 16 C 9.8 16 8 14.2 8 12 C 8 9.8 9.8 8 12 8 C 14.2 8 16 9.8 16 12 Z"
+    },
+    {
+      "name": "calendar-grid",
+      "path": "M 7 2 L 7 6 M 17 2 L 17 6 M 3 8 L 21 8 M 5 4 L 19 4 C 20.1 4 21 4.9 21 6 L 21 20 C 21 21.1 20.1 22 19 22 L 5 22 C 3.9 22 3 21.1 3 20 L 3 6 C 3 4.9 3.9 4 5 4 Z M 7.5 12 L 7.5 12.2 M 12 12 L 12 12.2 M 16.5 12 L 16.5 12.2 M 7.5 17 L 7.5 17.2 M 12 17 L 12 17.2 M 16.5 17 L 16.5 17.2"
+    },
+    {
+      "name": "ellipsis-vertical",
+      "path": "M 12 4 L 12 4.2 M 12 11.9 L 12 12.1 M 12 19.8 L 12 20"
+    }
+  ]
+}

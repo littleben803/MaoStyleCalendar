@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "date": "2026-11-02",
+  "tool": "built-in image_gen",
+  "reason": "User rejected v2 as crowded and overloaded; simplify to a coherent focal motif and a few broad tonal masses",
+  "commonPrompt": "Use case: precise-object-edit. Redraw this wallpaper-layout thumbnail to simplify its visual hierarchy. The supplied target is REJECTED because it piles up too many things. Preserve warm ivory rice paper, restrained Chinese ink-and-watercolor medium, portrait 3:4 full-bleed composition, and the required quiet text area. Replace the painting itself. Aim for a calm editorial illustration legible at only 65px wide: ONE coherent focal motif, just TWO or THREE large tonal masses, very few crisp dark accents, broad soft washes, restrained detail, generous breathing room. The entire card is one continuous illustrated scene with atmospheric washes extending to the edges, not a tiny isolated corner drawing or an abrupt half-painted/half-empty split. No crowded scenic panorama, no dense foliage, no repeated decorative flowers, no architecture unless specifically asked, no decorative framing border, no photorealism. Do NOT add text, placeholder bars, labels, seals, borders or watermarks; the app overlays gray bars. Specific redraw:",
+  "assets": [
+    {
+      "layout": "verticalLeft",
+      "scenePrompt": "Keep only a single seated reader in a plain gray jacket beneath ONE loosely brushed pine trunk on the RIGHT, as one calm focal group of substantial size. Use at most three simple pine foliage clusters, not many detailed needles. Reader and tree are simplified silhouettes with gentle handpainted detail. The LOWER LEFT is one broad pale hill/river wash that flows to both bottom corners, not a village. A single faint ridge crosses the middle distance. Upper-left quiet warm mist at x10–28%, y13–53% accommodates two vertical bars, integrated with the landscape. Delete ALL houses, pavilion, bridge, boats, extra rocks, blossoms, grasses and extra mountain layers. Muted ink and gray-brown, with at most a tiny red accent. Main group should have presence but no intricate surface decoration.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-1171d884-8c80-4f24-8679-ee34b4cefad5.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalLeft.imageset/illustration.png",
+      "assetSHA256": "b61499500e696b4d961ff2ab13ece4e4b1b79b5c2cae030d6b755eb8fcd21e3d",
+      "originalSHA256": "281c6c206963a3cca7f1fe35462dfba64998cb3afacb2c85f9eef2baf1082228",
+      "pixels": [
+        216,
+        288
+      ],
+      "bytes": 97012,
+      "inputAssetSHA256": "9ad42c8f85f8945cf101a854b9abcb20bfdfa21bc8e0da01777bcc412a25ac74"
+    },
+    {
+      "layout": "verticalRight",
+      "scenePrompt": "Make ONE small wooden riverboat beside a gently curved willow on the LEFT, a single integrated focal motif, no people. The willow uses a few flowing broad ink gestures and a sparse canopy; the boat is substantial enough to read at thumbnail size. One soft distant shore line and a wide pale water wash connect the scene across the page and to the bottom/right edges. Upper-right quiet mist at x73–90%, y13–53% accommodates two vertical bars. Delete the woman, plum blossoms, villages, bridge, additional boats, foreground clutter and layered peaks. Use calm gray-green and muted ink. The quiet right side should belong to the continuous river scene, not look like a separate blank paper panel.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-cfcf98a9-3aed-4c13-b9ab-283c10565130.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalRight.imageset/illustration.png",
+      "assetSHA256": "4ef0f1d4d78086ff59db57bc1f8d06ee628774f5599c80e1d84f67255ea4cc81",
+      "originalSHA256": "49b2b573c3dc405bbd3ca329e2bc4d57c577580c24cf56477dbc5ee153496139",
+      "pixels": [
+        216,
+        288
+      ],
+      "bytes": 97910,
+      "inputAssetSHA256": "39a3492de0f28a896212de90f15062e1e304d33b4c5ab6323adbd6b3635ddd57"
+    },
+    {
+      "layout": "horizontalTop",
+      "scenePrompt": "Make a clean mountain-and-river scene using ONLY two large soft ink mountain planes and one broad winding river shape. The principal ridge begins around 36% image height and spans the width; its mass fills the middle and lower page with a few large, simple brush planes rather than tiny trees or buildings. Include only one slender loosely brushed pine bough at the TOP RIGHT edge (topmost 8% height) to connect the scene to the top edge. Keep x12–88%, y14–31% as quiet pale mist for three horizontal bars. Lower river reaches the bottom edge. Remove ALL houses, stone bridge, villagers, animals, blossoms, foreground rocks, double tree framing and miniature texture. Palette: pale charcoal gray, muted gray-green, warm ivory. Spacious and gentle, without a large blank half-page.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-1ae4c685-07df-4ebc-9b55-4a0971303043.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalTop.imageset/illustration.png",
+      "assetSHA256": "684da3ad50116273501f9d07cceff76a7d2a6045523fc5054bdfcfb4dbdc9d1c",
+      "originalSHA256": "fb361af4977c81025163cdecad53c682e035734a8bc5cb7901491c0efe077ea8",
+      "pixels": [
+        216,
+        288
+      ],
+      "bytes": 84314,
+      "inputAssetSHA256": "8f616f7ac0bc0c814f36715ba71d7cc5d102cea3b8515511ef5c1f76e05d897b"
+    },
+    {
+      "layout": "horizontalBottom",
+      "scenePrompt": "Use ONE graceful red-crowned crane beside a single loose bamboo stem in the upper LEFT/center as one simple focal group. Bamboo has only a few broad leaves, not dense foliage or a frame. One faint low shore shape behind it, and a broad continuous pale river wash fills the lower half to the bottom edge. Reserve calm water at x12–88%, y70–85% for three horizontal bars. Remove the second crane, pavilion, flowering branches, layered mountains, rapids, numerous rocks, detailed grasses and foreground decorations. A few soft brushstrokes suggest the water and bank, no busy miniature scenery. Gray-green and pale ink with just the crane's tiny red crown.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-d17b8ae0-f111-4ba5-b06b-6d8bd6ad6fac.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalBottom.imageset/illustration.png",
+      "assetSHA256": "901ed167a98e10efeb6445586123d004bd4a6455ea4982044b1c992f760c61fc",
+      "originalSHA256": "beaf6d8907bf36339b8505ecf8738476d9e4f7eed7403feef1b854a35810a48f",
+      "pixels": [
+        216,
+        288
+      ],
+      "bytes": 85275,
+      "inputAssetSHA256": "6654e3cc826147badabf0c7495e5425e2f16de2b5641acf9a66307ab433d4c5e"
+    }
+  ],
+  "retainedLayout": "artworkOnly",
+  "export": "sips -Z 288, preserve aspect ratio. Existing SwiftUI gray bars remain unchanged."
+}

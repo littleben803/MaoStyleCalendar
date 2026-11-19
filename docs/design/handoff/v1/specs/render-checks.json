@@ -1,0 +1,5 @@
+{
+  "fontFallback" : "pass",
+  "renderer" : "AppKit\/CoreText",
+  "textPlacementChecks" : 547
+}

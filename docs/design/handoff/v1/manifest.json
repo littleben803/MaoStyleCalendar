@@ -1,0 +1,898 @@
+{
+  "files" : [
+    {
+      "bytes" : 5718,
+      "path" : "README.md",
+      "sha256" : "0953297faf4ec1065adc0c2a1c60a0aabcdacd6d5551e7090850afdd897751af",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 390,
+      "path" : "assets/Decor.xcassets/CalendarCopperRing.imageset/Contents.json",
+      "sha256" : "6a5d94662a6dddcf66f41d0eba1dce650f0624a9484387714c2a30fe8bbbed1c",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 3234,
+      "hasAlpha" : true,
+      "height" : 58,
+      "path" : "assets/Decor.xcassets/CalendarCopperRing.imageset/copper-ring.png",
+      "sha256" : "9bfb3f2f39e16b7f7ddc35caea067f2162a4d3475da391b54476277e3b000e27",
+      "usage" : "handoff_resource",
+      "width" : 24
+    },
+    {
+      "bytes" : 10130,
+      "hasAlpha" : true,
+      "height" : 116,
+      "path" : "assets/Decor.xcassets/CalendarCopperRing.imageset/copper-ring@2x.png",
+      "sha256" : "5dc33af529247e7e54cd6968a71c92b2f33e40713562c6dc32c6bba525eb2fa2",
+      "usage" : "handoff_resource",
+      "width" : 48
+    },
+    {
+      "bytes" : 20584,
+      "hasAlpha" : true,
+      "height" : 174,
+      "path" : "assets/Decor.xcassets/CalendarCopperRing.imageset/copper-ring@3x.png",
+      "sha256" : "d63ded11b3d0751590ceb879575552a84bdfa15fb6d336f7c27b3d885564a560",
+      "usage" : "handoff_resource",
+      "width" : 72
+    },
+    {
+      "bytes" : 390,
+      "path" : "assets/Decor.xcassets/CalendarPaper.imageset/Contents.json",
+      "sha256" : "c51f46de18e12c85390808229454242864c7288e63fe7565c83a77efbaa12691",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 97984,
+      "hasAlpha" : true,
+      "height" : 256,
+      "path" : "assets/Decor.xcassets/CalendarPaper.imageset/paper-ivory.png",
+      "sha256" : "c5e03d123fec75009815c3b844b8b5dfe4d385a3d7feb465d62451551e6e99e6",
+      "usage" : "handoff_resource",
+      "width" : 256
+    },
+    {
+      "bytes" : 438975,
+      "hasAlpha" : true,
+      "height" : 512,
+      "path" : "assets/Decor.xcassets/CalendarPaper.imageset/paper-ivory@2x.png",
+      "sha256" : "936ef8767c7afa30791f46856b7303505e46bda5e87f631b82e9e659fb27f189",
+      "usage" : "handoff_resource",
+      "width" : 512
+    },
+    {
+      "bytes" : 1047902,
+      "hasAlpha" : true,
+      "height" : 768,
+      "path" : "assets/Decor.xcassets/CalendarPaper.imageset/paper-ivory@3x.png",
+      "sha256" : "19fd14d396958c54ccb4f66964fc5dd42cbde39ed80b7f6d36ccc97fcdedb4b7",
+      "usage" : "handoff_resource",
+      "width" : 768
+    },
+    {
+      "bytes" : 62,
+      "path" : "assets/Decor.xcassets/Contents.json",
+      "sha256" : "3068ae11b833a8ea03990d2ea2a2b5fe7b3c47fbda56de956a4b84888f6c6af8",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 734,
+      "path" : "assets/Theme.xcassets/Calendar-accent.colorset/Contents.json",
+      "sha256" : "f0d6879e9bdc362ad7bd81d1a7e9c876faa0e0946a54abb6629761e073dcf247",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 734,
+      "path" : "assets/Theme.xcassets/Calendar-background.colorset/Contents.json",
+      "sha256" : "e2230e50394c6dde738c14c3905fe5816aab695cad5f054181776450386df690",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 734,
+      "path" : "assets/Theme.xcassets/Calendar-paper.colorset/Contents.json",
+      "sha256" : "e6018c4c112e52dac5e0374c3b199f60cd52d13186ab1bcac2545119c9aae984",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 734,
+      "path" : "assets/Theme.xcassets/Calendar-secondary.colorset/Contents.json",
+      "sha256" : "593495fcb5bb5c727a4ff4d01569b91131efcea989220e887778dea85fa10660",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 734,
+      "path" : "assets/Theme.xcassets/Calendar-text.colorset/Contents.json",
+      "sha256" : "62e4f1a2babee42d7dfef1c9c1961120e572bbbdf9856346eccc7c2dfc15d402",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 62,
+      "path" : "assets/Theme.xcassets/Contents.json",
+      "sha256" : "3068ae11b833a8ea03990d2ea2a2b5fe7b3c47fbda56de956a4b84888f6c6af8",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 3234,
+      "hasAlpha" : true,
+      "height" : 58,
+      "path" : "assets/decor/copper-ring.png",
+      "sha256" : "9bfb3f2f39e16b7f7ddc35caea067f2162a4d3475da391b54476277e3b000e27",
+      "usage" : "handoff_resource",
+      "width" : 24
+    },
+    {
+      "bytes" : 10130,
+      "hasAlpha" : true,
+      "height" : 116,
+      "path" : "assets/decor/copper-ring@2x.png",
+      "sha256" : "5dc33af529247e7e54cd6968a71c92b2f33e40713562c6dc32c6bba525eb2fa2",
+      "usage" : "handoff_resource",
+      "width" : 48
+    },
+    {
+      "bytes" : 20584,
+      "hasAlpha" : true,
+      "height" : 174,
+      "path" : "assets/decor/copper-ring@3x.png",
+      "sha256" : "d63ded11b3d0751590ceb879575552a84bdfa15fb6d336f7c27b3d885564a560",
+      "usage" : "handoff_resource",
+      "width" : 72
+    },
+    {
+      "bytes" : 97984,
+      "hasAlpha" : true,
+      "height" : 256,
+      "path" : "assets/decor/paper-ivory.png",
+      "sha256" : "c5e03d123fec75009815c3b844b8b5dfe4d385a3d7feb465d62451551e6e99e6",
+      "usage" : "handoff_resource",
+      "width" : 256
+    },
+    {
+      "bytes" : 438975,
+      "hasAlpha" : true,
+      "height" : 512,
+      "path" : "assets/decor/paper-ivory@2x.png",
+      "sha256" : "936ef8767c7afa30791f46856b7303505e46bda5e87f631b82e9e659fb27f189",
+      "usage" : "handoff_resource",
+      "width" : 512
+    },
+    {
+      "bytes" : 1047902,
+      "hasAlpha" : true,
+      "height" : 768,
+      "path" : "assets/decor/paper-ivory@3x.png",
+      "sha256" : "19fd14d396958c54ccb4f66964fc5dd42cbde39ed80b7f6d36ccc97fcdedb4b7",
+      "usage" : "handoff_resource",
+      "width" : 768
+    },
+    {
+      "bytes" : 2538059,
+      "hasAlpha" : true,
+      "height" : 1024,
+      "path" : "assets/mock-only/reader-landscape.png",
+      "sha256" : "2de56159215a4cac803c6c689ad40ec919ddb8d2d7a52a1e9f6d1c6306ad9ed8",
+      "usage" : "mock_only_do_not_ship",
+      "width" : 1536
+    },
+    {
+      "bytes" : 3491164,
+      "hasAlpha" : true,
+      "height" : 1500,
+      "path" : "boards/long-text-policy.png",
+      "sha256" : "3b1eda30b8d38552e428e25d8f41ac7b7141cd7fb524d6b7a32563d2d28d3bf8",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 11286155,
+      "hasAlpha" : true,
+      "height" : 3376,
+      "path" : "boards/wallpaper-templates.png",
+      "sha256" : "1693ba27b448dc5f263adc0a863c74a480fe8e64a7c602f83744abfb7834c0d9",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2340
+    },
+    {
+      "bytes" : 1716394,
+      "hasAlpha" : true,
+      "height" : 1440,
+      "path" : "boards/widget-family-dark.png",
+      "sha256" : "11c54b616b1b9328455d8de56459a4e3a80d6b8c9e1e73885f30927397cd92ba",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 4086375,
+      "hasAlpha" : true,
+      "height" : 1440,
+      "path" : "boards/widget-family-light.png",
+      "sha256" : "6bc60a5c5dd8c06882ee036ef0e250b209aa66c85e4ddbf7fd6606460231e638",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 1684712,
+      "hasAlpha" : true,
+      "height" : 1440,
+      "path" : "boards/widget-family-tinted.png",
+      "sha256" : "99ae410729a24077f0c34e8e38a42109d55b1ec20f9241ed256ba600aec5727e",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 4158069,
+      "hasAlpha" : true,
+      "height" : 1500,
+      "path" : "boards/widgets-en.png",
+      "sha256" : "06181d50972a2f63ff3d27c9d797e7374db96c835dd2ce81fb251acbe7d8609e",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 4168006,
+      "hasAlpha" : true,
+      "height" : 1500,
+      "path" : "boards/widgets-zh.png",
+      "sha256" : "87b9a668d575811302b5a7d3a5994a37c5a6793c943475f328588b51876e008a",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2160
+    },
+    {
+      "bytes" : 955132,
+      "path" : "fonts/Literata.ttf",
+      "sha256" : "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 24543332,
+      "path" : "fonts/SourceHanSerifSC-Regular.otf",
+      "sha256" : "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 24700532,
+      "path" : "fonts/SourceHanSerifSC-SemiBold.otf",
+      "sha256" : "faf16caeaf207e1926e01af8d9f1a8e71b0e9d8f51bf3b5d9a78f9f30e7e3e31",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 4389,
+      "path" : "licenses/Literata-OFL.txt",
+      "sha256" : "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 4463,
+      "path" : "licenses/SourceHanSerif-OFL.txt",
+      "sha256" : "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 337517,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/annual-dark.png",
+      "sha256" : "6194cc077d8b5f9672a26a318f2e37eed1921d4f71ad71c622ff990f9eb5743c",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1227963,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/annual.png",
+      "sha256" : "2d129c2aaa12ff1adf5c7d7def7ced2819a0a3659ed837384c2e5088c30640c2",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 166353,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/detail-dark.png",
+      "sha256" : "dc61d91b7185c137638f5d15c3620ea83e370d30c8803a7fc92cb13291b055fb",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1516763,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/detail-long.png",
+      "sha256" : "d56e4c9aad886a3a11496d0304f1ed3a13317d6bd86b52cd764d830e7148af1a",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1494590,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/detail.png",
+      "sha256" : "3601beacaa41993273363ed61b4e28bc814c41d704933d872cd10911d654037c",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 3886480,
+      "hasAlpha" : true,
+      "height" : 1536,
+      "path" : "screens/ipad-today.png",
+      "sha256" : "7ab09c9447c2ba463fab0bfd1a85ef1ebfed1027b5302b27692eba955959cd37",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2048
+    },
+    {
+      "bytes" : 5012133,
+      "hasAlpha" : true,
+      "height" : 1600,
+      "path" : "screens/mac-today.png",
+      "sha256" : "704e3e4d5261dcff033600da471f08f5dd6757c07be58810186cf86720a7424f",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 2560
+    },
+    {
+      "bytes" : 169282,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/paywall-dark.png",
+      "sha256" : "9e92129c14cd5f3197ac67626890519f455c8b52910024ea315b8c701bc5604d",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1210995,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/paywall.png",
+      "sha256" : "e2a91da0b61d64efef351097e664aeae51bbc101837844daa2353d59b76b4f79",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 667121,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/today-dark.png",
+      "sha256" : "b3412517f626dfb116b4c223f16773f0749bf6ab15939b5d96b62bfdf5fad4be",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1777164,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/today.png",
+      "sha256" : "886c8c73a511ad9129a5ca4343e6049c12a271beb1b75f6f819afb84a2dbfe89",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 578383,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-dark.png",
+      "sha256" : "f06a18d7629f74a1c19381e190e3162f972918158de662d4326f7825a415ecfc",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2064999,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-1-en.png",
+      "sha256" : "c166573b4156ad0eea1d56f83389a8f69f21d3afc677501d723cd94f5b777199",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2067951,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-1-zh.png",
+      "sha256" : "d85f9d7806c3bf3e2fa466d430f9da192d266e4d0d4bc20c2085d3ac39bb4984",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2063072,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-2-en.png",
+      "sha256" : "3a81202ee0fd262d2c1550d9887409b101e8f0e6d1f331a4f1fb2bb91fccdaa9",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2066121,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-2-zh.png",
+      "sha256" : "ad7c961bed44b363a9341f588c20d7ba1602ff6bfc8a9f8068bb88c8570775c8",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2142366,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-3-en.png",
+      "sha256" : "2e99fff960200fa8381c2125174e1b1d9a88f963e1c61654d10c30a54c73f760",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2145673,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-3-zh.png",
+      "sha256" : "aedf6a3e30f384f59d270b67da44c98cb550aef8e97a3d90f6ce673796a78e3b",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2112035,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-4-en.png",
+      "sha256" : "e3e238ceea246f585cd8e03471cbd25d331e1cc2b6efa539da84df47c135d946",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2114615,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-4-zh.png",
+      "sha256" : "36d222ea2dbfc77dde0c88d4034b05443f371d3b16a085596a8d9368e2b98e77",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2001260,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-5-en.png",
+      "sha256" : "39bea0b48da1e29778b74ab168e9fc0b4f25dcab0866f4201c5c106008a9d360",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2000522,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-5-zh.png",
+      "sha256" : "701d0a2191c098b15de05d38ef33b5ddeb8199ef19413660f1c930d8f8234d88",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2318397,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-6-en.png",
+      "sha256" : "94a321f313ee6833a31f97f008e0535301e1487e540848ea6b3341d3d4b0519a",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2318397,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper-template-6-zh.png",
+      "sha256" : "94a321f313ee6833a31f97f008e0535301e1487e540848ea6b3341d3d4b0519a",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 1607283,
+      "hasAlpha" : true,
+      "height" : 1688,
+      "path" : "screens/wallpaper.png",
+      "sha256" : "d35495130bd4407acad6ecc38df83c6c9ae32685a7adfc5eef49fe7c75ced51c",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 780
+    },
+    {
+      "bytes" : 2388,
+      "path" : "scripts/export-assets.swift",
+      "sha256" : "7f2c9ed43dc538dd292fb1526a9a7989e446c8dd8b4f1f8b837fafa0f4a7ff02",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 5297,
+      "path" : "scripts/package.swift",
+      "sha256" : "20a19585742300d8d06ece5593df4f040aebc3958c7292876774adbd2d25fa2e",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 22830,
+      "path" : "scripts/render-hifi.swift",
+      "sha256" : "eaade4029b1fdf24c659646f642297089f11fcc8b9ceb00e024be2bb41ecdd87",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 1965,
+      "path" : "scripts/verify.swift",
+      "sha256" : "80de46e27fac460d6eb921a807e065a8c3d0d29e52aa74c66707f3440ce2f164",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 618433,
+      "hasAlpha" : true,
+      "height" : 1470,
+      "path" : "sources/copper-ring-master.png",
+      "sha256" : "453a1aeea26372bcde582377c46ba0a266bf6c0e6c8e5f17e940e7d1fecab0d5",
+      "usage" : "handoff_resource",
+      "width" : 1070
+    },
+    {
+      "bytes" : 2828775,
+      "hasAlpha" : true,
+      "height" : 1024,
+      "path" : "sources/mock-reader-master.png",
+      "sha256" : "b48d3adea217ab5c70bd4e0cce35f5fc2639c986b5925be0d64d46f1563a6b8a",
+      "usage" : "mock_only_do_not_ship",
+      "width" : 1536
+    },
+    {
+      "bytes" : 2753302,
+      "hasAlpha" : false,
+      "height" : 1254,
+      "path" : "sources/paper-master.png",
+      "sha256" : "dc6552bacae0716b2854d056d153773c5398ed471f4c2d84c9f9cff5ae6c2163",
+      "usage" : "handoff_resource",
+      "width" : 1254
+    },
+    {
+      "bytes" : 2743407,
+      "hasAlpha" : false,
+      "height" : 1844,
+      "path" : "sources/reference-annual.png",
+      "sha256" : "4b6979b1d810d6d17e01d2dac49ccae6d235d522212eeec67e1a4d30e8e73020",
+      "usage" : "handoff_resource",
+      "width" : 853
+    },
+    {
+      "bytes" : 1967852,
+      "hasAlpha" : false,
+      "height" : 1844,
+      "path" : "sources/reference-detail.png",
+      "sha256" : "6430ecd1830bff9e2d14188a6b07c107c707b9ea1c7647c6894c442af5d4728e",
+      "usage" : "handoff_resource",
+      "width" : 853
+    },
+    {
+      "bytes" : 1992078,
+      "hasAlpha" : false,
+      "height" : 1844,
+      "path" : "sources/reference-paywall.png",
+      "sha256" : "427993c2ee5e1dc5d988f78823dbbd4a6596819b7a5cc0c57cd13ca7537727c7",
+      "usage" : "handoff_resource",
+      "width" : 853
+    },
+    {
+      "bytes" : 2211980,
+      "hasAlpha" : false,
+      "height" : 1844,
+      "path" : "sources/reference-today.png",
+      "sha256" : "db27abe4ccff7d908c6657202b6c054670ab2d604abcfba452b738cec7c92148",
+      "usage" : "handoff_resource",
+      "width" : 853
+    },
+    {
+      "bytes" : 2295305,
+      "hasAlpha" : false,
+      "height" : 1844,
+      "path" : "sources/reference-wallpaper.png",
+      "sha256" : "0f7ebc61bdc1f7fae59ccec46abb278fdd0c93513a0b60d12fdc951bbf6f0d31",
+      "usage" : "handoff_resource",
+      "width" : 853
+    },
+    {
+      "bytes" : 2510178,
+      "hasAlpha" : false,
+      "height" : 1254,
+      "path" : "sources/reference-widget-family.png",
+      "sha256" : "cc6915c0318b055c563168c39c5c80ef4d2c72929c3031733a9f101aafe88670",
+      "usage" : "handoff_resource",
+      "width" : 1254
+    },
+    {
+      "bytes" : 2444,
+      "path" : "specs/asset-register.md",
+      "sha256" : "4ae70b4e4e3920646e4c3aa9e6bca07a87c5e117ddc2d33eccea0b3ec8695348",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 3482,
+      "path" : "specs/design-tokens.json",
+      "sha256" : "545770ae359fc0edf3c0c6a327b2b33a4745bdf85dff5486b124c78f34f1f0b6",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 1707,
+      "path" : "specs/generation-prompts.md",
+      "sha256" : "aba0e5e6d4757f5633f2f66a1fc0b583253f4cfcb3186a29ac83bcbcfdbcf5cb",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 95,
+      "path" : "specs/render-checks.json",
+      "sha256" : "9ea59c6ad0200cfa314f691a58c26137df5933be59428fcfe06e3552c1b8baf3",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 6079,
+      "path" : "specs/swiftui-implementation.md",
+      "sha256" : "d7ecf867db0e117dc219fa9d96f869004893384205d2bdb5665392a5c33738d7",
+      "usage" : "handoff_resource"
+    },
+    {
+      "bytes" : 5289,
+      "hasAlpha" : true,
+      "height" : 152,
+      "path" : "widgets/accessory-circular.png",
+      "sha256" : "00df036ff63db1b5fda8ebd884384ebe9573a32b8c13494137296fb02636b5ca",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 152
+    },
+    {
+      "bytes" : 10170,
+      "hasAlpha" : true,
+      "height" : 60,
+      "path" : "widgets/accessory-inline.png",
+      "sha256" : "4e5d6138cf4e09fd70a4cbbca3fbf18a84a0702aafb61318ac8290873a747660",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 660
+    },
+    {
+      "bytes" : 12841,
+      "hasAlpha" : true,
+      "height" : 152,
+      "path" : "widgets/accessory-rectangular.png",
+      "sha256" : "c11866627a4819f564383271bfd20830b1830479f531f9add6efcd77d4ca32e3",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 344
+    },
+    {
+      "bytes" : 30749,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/clear-concept.png",
+      "sha256" : "d07283a5d9bdd5694d3c0c1683cf19d8a439d00eed490a5235072100efe41ad9",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 719086,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-en-dark.png",
+      "sha256" : "659ad51a9c96b1f667d43375cd8a5ff75483d97315dd4d4bf8f559a964dd7536",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 1333273,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-en-light.png",
+      "sha256" : "efefc079c78ab074686c1264437155aa8ea5d54cbef78feb977a6a376c1bcc37",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 709120,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-en-tinted.png",
+      "sha256" : "629f3cb2052b592da09b409c949285b6c00b9a27082d4524b0b29552b77589ef",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 725959,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-zh-dark.png",
+      "sha256" : "abbc12a8ee0afa6afd51e7441c5ba8f13b4d2451d8ffe7edc0ef756f4d3cb51e",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 1337417,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-zh-light.png",
+      "sha256" : "168e998837a3e3481da4258c7cccf2bc933064918df1ecead3fdda5d212ab641",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 715591,
+      "hasAlpha" : true,
+      "height" : 600,
+      "path" : "widgets/extra-large-zh-tinted.png",
+      "sha256" : "bb20f81618e1b561d41b8e8a7190ef84fe73d11064e478c5db6db899bc5d9b1b",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 1280
+    },
+    {
+      "bytes" : 562293,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-en-dark.png",
+      "sha256" : "48e8338017abdb1e695416f9d50a1d52724d98a50ac359851e4d8b99d8cf6052",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 1016113,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-en-light.png",
+      "sha256" : "475cf51cd1dd4f60e56b237fe24c1b87a61340633db919c896cfa5383edf27d7",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 539588,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-en-tinted.png",
+      "sha256" : "2d469218c78ef7d52a8025961739490ecc43e62bca5b6140925e185934bad29b",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 563261,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-zh-dark.png",
+      "sha256" : "7dc0edd19b1a326bc483286d178c84cd7b650f740cf43e8fc0b35b26ae762b84",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 1018449,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-zh-light.png",
+      "sha256" : "5fe105421409fe8572811788df540bf75e207931720ca073c268a1c3cdc785b5",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 540071,
+      "hasAlpha" : true,
+      "height" : 764,
+      "path" : "widgets/large-zh-tinted.png",
+      "sha256" : "56fb5f84312827794459350615c4be49926067b6433c8afb0d8860240d3740af",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 233549,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-en-dark.png",
+      "sha256" : "c4c50d4db530e8bd02c1bb51ef5e1f5c44e6b6233c02f50bde07148fc4d14253",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 447681,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-en-light.png",
+      "sha256" : "74308fe281a0b5f1613a1a8a0296d2df8aa4a373391574e096f7f3eba995126c",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 225634,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-en-tinted.png",
+      "sha256" : "e98cfa7754638d9302c58b452225a7eb66093f420ff4b21995f779c8da1f78da",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 235708,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-zh-dark.png",
+      "sha256" : "51d3cbfd699f9cb654f8c24c1e38fd4d2e5fc57a28809fcd5b47b8d858c6b59c",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 448672,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-zh-light.png",
+      "sha256" : "87402e27ac24855f9fede48cbddcdd00f6d348ea69c6363114d78ce1f42f5b4b",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 227847,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/medium-zh-tinted.png",
+      "sha256" : "ea002c79c63a52cfe59c53784a05c52ca1b7e5fe1419bde3bf1344270a81e4d3",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 728
+    },
+    {
+      "bytes" : 77364,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-en-dark.png",
+      "sha256" : "617dafdb641bbfa2d9d58d27e7645abd3776b78f41cc5d485259a76a7440dd5b",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 186636,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-en-light.png",
+      "sha256" : "ed5c55bddd39b595dfebcf444913ece7a98a02900b69d9ad167d9749905e2415",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 76367,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-en-tinted.png",
+      "sha256" : "f8c6d4ca704ffa64e345c817a80bb5c3a6cb0ec1ff4a763b7e73454d92e55c20",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 78158,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-zh-dark.png",
+      "sha256" : "cdfa9c467069d6d12eecabf91f24c393a128a70f755bf7c2b9600d8892fe3375",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 187528,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-zh-light.png",
+      "sha256" : "46c8934fc6b2b442befb114945cea82fa1e906ae58685326b4679041c7978459",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 77173,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/small-zh-tinted.png",
+      "sha256" : "d574a7eaea1cedf506f069626acad10a66bcaf9d7588ee424abb80406c52bd13",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    },
+    {
+      "bytes" : 18016,
+      "hasAlpha" : true,
+      "height" : 340,
+      "path" : "widgets/standby-night.png",
+      "sha256" : "e3a3516181fa9089be5758b7c34110cf3fa77c8c1f39293084423d68011f2fb3",
+      "usage" : "design_reference_not_runtime_image",
+      "width" : 340
+    }
+  ],
+  "totalBytesExcludingManifestAndQA" : 163979327,
+  "version" : "1.0.0",
+  "visualStatus" : "rejected_by_user_not_an_implementation_baseline"
+}

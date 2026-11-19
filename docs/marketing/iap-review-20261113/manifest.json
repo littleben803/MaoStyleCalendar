@@ -1,0 +1,28 @@
+[
+  {
+    "file": "paywall-en.png",
+    "size": [
+      1206,
+      2622
+    ],
+    "mode": "RGB",
+    "sha256": "9108b2f894ffd254ed8060948dea1c609c4bd9ae73b656efa4313bff5571267d",
+    "source": "simctl screenshot; current Debug build; onboarding screen 4; review arguments select screen and app language only; removed fully opaque alpha with RGB pixels unchanged",
+    "device": "iPhone 17 Pro / iOS 26.5 (Mao Release Parity QA)",
+    "price": "$4.99 from StoreKit product.displayPrice; production storefront price not independently verified",
+    "status": "prepared_for_user_review_not_uploaded"
+  },
+  {
+    "file": "paywall-zh-Hans.png",
+    "size": [
+      1206,
+      2622
+    ],
+    "mode": "RGB",
+    "sha256": "97a6f57ef2f5440a7311dea7db6e547c4397146fd551d0745aca37cba531dbb9",
+    "source": "simctl screenshot; current Debug build; onboarding screen 4; review arguments select screen and app language only; removed fully opaque alpha with RGB pixels unchanged",
+    "device": "iPhone 17 Pro / iOS 26.5 (Mao Release Parity QA)",
+    "price": "$4.99 from StoreKit product.displayPrice; production storefront price not independently verified",
+    "status": "prepared_for_user_review_not_uploaded"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "status": "user_visual_approved_archived",
+  "date": "2026-11-13",
+  "files": [
+    {
+      "file": "assets/today.png",
+      "sha256": "0813defe53ad0ba8a8f4ace0c384c8b1b865188601a3c1b2099b94083d91d480"
+    },
+    {
+      "file": "assets/wallpapers.png",
+      "sha256": "1bfbe1255f4ef0035dc3623bd550eb5d83a026df30a7c1baee2f05431e0dd98f"
+    },
+    {
+      "file": "assets/widgets.png",
+      "sha256": "ada636d0191ff7ecef82c626790bbd8abdce52f90b256e2d15e40a15cf60c5a7"
+    },
+    {
+      "file": "assets/yearbook.png",
+      "sha256": "1bd8336b66d3d11870808b0ace2b62d3df42dd287517ff24cbbf38f215dff3cb"
+    },
+    {
+      "file": "background-source.png",
+      "sha256": "7d63accfbb88453c23637861e39603dd6e5a311ae49804ae996a4fc52be9ed46"
+    },
+    {
+      "file": "config.json",
+      "sha256": "9e84e27c0f5c96d7cdef49bf5f800b029cfa12d7274a6cf1fb026a940c63818f"
+    },
+    {
+      "file": "copy.json",
+      "sha256": "e2ee7c58e683fcf7d2534cd3ba1809d3332162dfa2c034b17d499c3ca4dd69c2"
+    },
+    {
+      "file": "fonts/SourceSerif4.ttf",
+      "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+    },
+    {
+      "file": "four-page-preview.png",
+      "sha256": "96fce36697ff774be28f0bd1c55b66dc2b487c33bf79439744ec7fe92b1a534d"
+    },
+    {
+      "file": "layout.html",
+      "sha256": "e15ba586da8048bb7d5d8dc79ff353e41c19d6c2e57851637033f70e11a5e812"
+    },
+    {
+      "file": "panorama-en-master.png",
+      "sha256": "727b72d591afc57a9a1867387a455c8fb6d05f6600de5e3e118ec05031986d14"
+    },
+    {
+      "file": "prompts-and-sources.json",
+      "sha256": "acf54fc7b3482c078fe56f2d2122f50da4bdcb8690a21517a58b3e80e25c5d5f"
+    },
+    {
+      "file": "render-checks.json",
+      "sha256": "b85f03999594be9e4b77b23cb617c8f37e045c5015932c20a676e3934fa2768e"
+    }
+  ]
+}

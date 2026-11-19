@@ -1,0 +1,23 @@
+{
+  "status": "user_confirmed_and_integrated_2026-11-19",
+  "supersedes": "B: Source Han Serif + Literata",
+  "fonts": {
+    "cnBold": {"file":"SourceHanSerifSC-Bold.otf","postScriptName":"SourceHanSerifSC-Bold","version":"2.003","sha256":"706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"},
+    "enQuote": {"file":"SourceSerif4.ttf","postScriptName":"SourceSerif4Roman-ExtraLight","version":"4.004","variation":{"wght":600},"opticalSize":"set explicitly within font axis bounds during layout matching","sha256":"97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"},
+    "dateDisplay": {"file":"LibreBodoni.ttf","postScriptName":"LibreBodoni-Regular","version":"2.005","variation":{"wght":700},"sha256":"0d543665bd869819ffd7d46608804e245497ba835960832d44be89e561b0c717"}
+  },
+  "roles": {
+    "chineseTitle":"cnBold",
+    "chineseVerticalQuote":"cnBold",
+    "chineseBody":"Apple system Regular",
+    "englishQuote":"enQuote",
+    "largeDateNumerals":"dateDisplay"
+  },
+  "constraints": [
+    "Do not infer variable-font weight from PostScript name",
+    "Do not synthesize bold for available real weights",
+    "Do not substitute Literata for English quotes or large date numerals",
+    "Font choice does not authorize composition changes to approved originals",
+    "Point sizes and line spacing still require matching against v2 originals"
+  ]
+}

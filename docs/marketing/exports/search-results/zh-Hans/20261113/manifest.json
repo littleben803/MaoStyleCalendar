@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "approval": "User: 可以，归档吧",
+  "placement": "search_results",
+  "locale": "zh-Hans",
+  "file": "AppStore-search-zh-Hans-3840x2560.png",
+  "size": [
+    3840,
+    2560
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "sha256": "7cbf3a54a0cc3fa4dd5dac13007fe26b6e236774c61457f994560e4ef8d3c06f",
+  "source_directory": "../../source/20261113-zh-Hans-v1",
+  "source_revision": "search-widget-zh-v1",
+  "uploaded": false,
+  "backend_cross_device_preview_verified": false,
+  "safe_area": [
+    836,
+    765,
+    2168,
+    1030
+  ],
+  "safe_area_note": "Text bounds machine checked; key date/quotes/faces visually checked in offline crop. Device edges and auxiliary lower artwork may crop.",
+  "date_basis": "13/11月/星期五 matches November2026",
+  "design": "Headline and tagline left; desktop widgets on frontal iPhone right. Creative promotional visualization, not runtime screenshot."
+}

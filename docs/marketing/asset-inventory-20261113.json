@@ -1,0 +1,300 @@
+{
+  "checked_on": "2026-11-13",
+  "scope": "Read-only inventory; no generation or upload",
+  "content_packs": {
+    "count": 365,
+    "unique_filenames": 133,
+    "review_status": {
+      "candidate": 365
+    },
+    "rights_status": {
+      "pending_designers_commercial_license": 365
+    }
+  },
+  "icons": [
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconEnglish.appiconset/Dark.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "acbd338a59d0951d8b53266930b529048293a41264161eb2c18321f3ab0b277b"
+    },
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconEnglish.appiconset/Any.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "728ab96767c25acdebaaca5479578372c7731d3843821c193962dfae6b4900d2"
+    },
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconEnglish.appiconset/Tinted.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "402d3ba3e7c4d6b0d4dc64649720cdfd53192a0b7fa5769a6a6fec2b7f5503d5"
+    },
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconChinese.appiconset/Dark.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "35c29bca3b47de6330e9060757413ce6a0de9182a854ce9a6fdaf40cb2faf5e4"
+    },
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconChinese.appiconset/Any.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "95515c30082e386563454d5d16d297e19751d1f985bf2be23f9277d15478248d"
+    },
+    {
+      "path": "/Users/ideabox/repo/MaoStyleCalendar/ios-client/Native/Resources/Brand.xcassets/AppIconChinese.appiconset/Tinted.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "7eb7e61becc0ba968b5fedec5ffbe02ac536e316becb534be537288b60848444"
+    }
+  ],
+  "qa_media_groups": [
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-20261112/review",
+      "exists": true,
+      "media_count": 47,
+      "dimensions": {
+        "1179x1980 RGBA": 6,
+        "480x60 RGBA": 3,
+        "360x540 RGB": 1,
+        "1080x2288 RGB": 8,
+        "960x1980 RGBA": 6,
+        "728x340 RGBA": 3,
+        "152x152 RGBA": 3,
+        "1206x2622 RGB": 8,
+        "344x152 RGBA": 3,
+        "340x340 RGBA": 3,
+        "728x764 RGBA": 3
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-20261112/review/pack-0001-detail-393-en-top.png",
+          "width": 1179,
+          "height": 1980,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "5f653c41321cf57dde0d05e34d0dd0947c554254037d913f3d5cc2e3375dd062"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-20261112/review/pack-0001-detail-393-en-bottom.png",
+          "width": 1179,
+          "height": 1980,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "f68d98ae2805c41e4c1db9bc6b33068e7de752327a702fce7a92a6de4f9e28e9"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-20261112/review/pack-0138-detail-393-en-top.png",
+          "width": 1179,
+          "height": 1980,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "255258c1ba9f68ceeafcc2749a61d78fbcbe524e62a1088daeb1e029a64c0939"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    },
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-label-removal-20261112",
+      "exists": true,
+      "media_count": 1,
+      "dimensions": {
+        "1206x2622 RGBA": 1
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/localization-label-removal-20261112/today-en.png",
+          "width": 1206,
+          "height": 2622,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "1012d74bf86ac362d9f0d7d3b2b82f5ee0ef026c09fece68366230f5372be822"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    },
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/widget-preview-20261111/final-iOS27",
+      "exists": true,
+      "media_count": 28,
+      "dimensions": {
+        "720x350 RGBA": 3,
+        "364x170 RGBA": 3,
+        "220x220 RGBA": 3,
+        "172x76 RGBA": 3,
+        "1206x2622 RGBA": 1,
+        "260x26 RGBA": 3,
+        "364x382 RGBA": 3,
+        "170x170 RGBA": 3,
+        "364x622 RGBA": 3,
+        "76x76 RGBA": 3
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/widget-preview-20261111/final-iOS27/pack-0077-extra-large.png",
+          "width": 720,
+          "height": 350,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "f2b5bdb4065c2a44cbc02ae998dbf7c402c2b0fd96f7dd23345609a6d044f602"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/widget-preview-20261111/final-iOS27/pack-0077-medium.png",
+          "width": 364,
+          "height": 170,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "7bd5167968c65d4161d5fd1ab63a2f0421847e4d607f690d5a7f476687270979"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/widget-preview-20261111/final-iOS27/pack-0077-standby.png",
+          "width": 220,
+          "height": 220,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "73880d985c3f15208291a1d74fd8c42659c68cfd154d5a53c0b3462b05dec221"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    },
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-iphone-review-20261112",
+      "exists": true,
+      "media_count": 19,
+      "dimensions": {
+        "852x1846 RGB": 3,
+        "830x1896 RGB": 4,
+        "830x1894 RGB": 9,
+        "853x1844 RGB": 1,
+        "830x1895 RGB": 2
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-iphone-review-20261112/02-today.png",
+          "width": 852,
+          "height": 1846,
+          "mode": "RGB",
+          "format": "PNG",
+          "sha256": "444be1ded688dcae8535fd1d9e35941f8ceca4f3109d6f60b043ce16059a27f8"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-iphone-review-20261112/03-wallpaper.png",
+          "width": 830,
+          "height": 1896,
+          "mode": "RGB",
+          "format": "PNG",
+          "sha256": "0676ddc2a02624eeb6f3ecd5640c1b6eb20722721ad7248572a62ea13351ad31"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-iphone-review-20261112/01-widgets.png",
+          "width": 830,
+          "height": 1896,
+          "mode": "RGB",
+          "format": "PNG",
+          "sha256": "fabb47f6b45e85c5bad0ff212172cf2738dc2eab719158e0efdff8fb86f00a88"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    },
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-ipad-adaptation-20261112",
+      "exists": true,
+      "media_count": 24,
+      "dimensions": {
+        "2064x2752 RGBA": 8,
+        "637x850 RGBA": 3,
+        "487x650 RGBA": 1,
+        "600x800 RGBA": 3,
+        "1800x700 RGB": 1,
+        "1600x600 RGB": 1,
+        "2752x2064 RGBA": 6,
+        "850x638 RGBA": 1
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-ipad-adaptation-20261112/ipad-portrait-zh-3.png",
+          "width": 2064,
+          "height": 2752,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "4b0d056d2b7829a7c842bb4fe80f231bc98567233245f29d6e154ce4bc9723bd"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-ipad-adaptation-20261112/ipad-portrait-zh-1-small.png",
+          "width": 637,
+          "height": 850,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "90b19c8337ac0bffa46d80ee9e5ad18b1e5fbd2e820c742d0fb0f64133f1a84f"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-ipad-adaptation-20261112/ipad-portrait-zh-0.png",
+          "width": 2064,
+          "height": 2752,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "4cde80d106de212300ca25dc4ce8cc000e26bf1aa694ad25534ea5b74e6146b9"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    },
+    {
+      "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-duo-correct-layout-20261112",
+      "exists": true,
+      "media_count": 15,
+      "dimensions": {
+        "1000x703 RGBA": 1,
+        "1500x370 RGB": 2,
+        "800x563 RGBA": 3,
+        "2853x2007 RGBA": 8,
+        "1600x610 RGB": 1
+      },
+      "samples": [
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-duo-correct-layout-20261112/widget-small.png",
+          "width": 1000,
+          "height": 703,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "5413bdc54ec841c444fddea8f063830129e579ed659e0b893a6faee19f11f767"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-duo-correct-layout-20261112/english-sheet.jpg",
+          "width": 1500,
+          "height": 370,
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "fb440fb4570c7d8d84a569433a633cf8312565c93043e70517ce9758d893f6ec"
+        },
+        {
+          "path": "/Users/ideabox/.cache/MaoStyleCalendar/onboarding-duo-correct-layout-20261112/page-2-small.png",
+          "width": 800,
+          "height": 563,
+          "mode": "RGBA",
+          "format": "PNG",
+          "sha256": "b15f0f3139c6da33c47237982d26eb83796b86330ba24c0fb6479a154b615266"
+        }
+      ],
+      "status": "qa_candidates_not_store_approved"
+    }
+  ],
+  "release_excludes": [
+    "DailyArtwork",
+    "OnboardingPreview"
+  ],
+  "store_ready_final_exports_found": false,
+  "inventory_limit": "Targeted known resource and QA directories; not an exhaustive disk scan."
+}

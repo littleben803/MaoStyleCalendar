@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-30",
+  "baseline": "../approved/",
+  "v1AssetsAllowed": false,
+  "appCodeChanged": true,
+  "projectIntegrated": true,
+  "allProductionAssetsReady": false,
+  "items": [
+    {
+      "id": "SourceHanSerifSC-Bold.otf",
+      "type": "font",
+      "status": "confirmed_and_bundled",
+      "files": [
+        "../fonts/SourceHanSerifSC-Bold.otf"
+      ],
+      "spec": "../specs/font-roles.json"
+    },
+    {
+      "id": "SourceSerif4.ttf",
+      "type": "font",
+      "status": "confirmed_and_bundled",
+      "files": [
+        "../fonts/SourceSerif4.ttf"
+      ],
+      "spec": "../specs/font-roles.json"
+    },
+    {
+      "id": "LibreBodoni.ttf",
+      "type": "font",
+      "status": "confirmed_and_bundled",
+      "files": [
+        "../fonts/LibreBodoni.ttf"
+      ],
+      "spec": "../specs/font-roles.json"
+    },
+    {
+      "id": "CalendarCopperRingCandidate",
+      "type": "bitmap_decoration",
+      "status": "prepared_candidate_not_visually_approved",
+      "files": [
+        "DecorCandidates.xcassets/CalendarCopperRingCandidate.imageset/Contents.json"
+      ],
+      "scales": [
+        1,
+        2,
+        3
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "CalendarCopperRingCandidateV2",
+      "type": "bitmap_decoration",
+      "status": "prepared_candidate_runtime_verified_not_visually_approved",
+      "files": [
+        "DecorCandidates.xcassets/CalendarCopperRingCandidateV2.imageset/Contents.json"
+      ],
+      "scales": [
+        1,
+        2,
+        3
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "CalendarCopperRingCandidateV3",
+      "type": "bitmap_decoration",
+      "status": "prepared_candidate_runtime_verified_not_visually_approved",
+      "files": [
+        "DecorCandidates.xcassets/CalendarCopperRingCandidateV3.imageset/Contents.json"
+      ],
+      "scales": [
+        1,
+        2,
+        3
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "CalendarPaperIvoryCandidate",
+      "type": "bitmap_decoration",
+      "status": "prepared_candidate_not_visually_approved",
+      "files": [
+        "DecorCandidates.xcassets/CalendarPaperIvoryCandidate.imageset/Contents.json"
+      ],
+      "scales": [
+        1,
+        2,
+        3
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "CalendarPrintVermilionCandidate",
+      "type": "bitmap_decoration",
+      "status": "prepared_candidate_not_visually_approved",
+      "files": [
+        "DecorCandidates.xcassets/CalendarPrintVermilionCandidate.imageset/Contents.json"
+      ],
+      "scales": [
+        1,
+        2,
+        3
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "calendar",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/calendar.svg",
+        "IconCandidates.xcassets/CalendarIcon-calendar-Candidate.imageset/calendar.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "annual-books",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/annual-books.svg",
+        "IconCandidates.xcassets/CalendarIcon-annual-books-Candidate.imageset/annual-books.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "wallpaper",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/wallpaper.svg",
+        "IconCandidates.xcassets/CalendarIcon-wallpaper-Candidate.imageset/wallpaper.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "share",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/share.svg",
+        "IconCandidates.xcassets/CalendarIcon-share-Candidate.imageset/share.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "chevron-right",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/chevron-right.svg",
+        "IconCandidates.xcassets/CalendarIcon-chevron-right-Candidate.imageset/chevron-right.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "chevron-left",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/chevron-left.svg",
+        "IconCandidates.xcassets/CalendarIcon-chevron-left-Candidate.imageset/chevron-left.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "chevron-down",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/chevron-down.svg",
+        "IconCandidates.xcassets/CalendarIcon-chevron-down-Candidate.imageset/chevron-down.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "arrow-right",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/arrow-right.svg",
+        "IconCandidates.xcassets/CalendarIcon-arrow-right-Candidate.imageset/arrow-right.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "close",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/close.svg",
+        "IconCandidates.xcassets/CalendarIcon-close-Candidate.imageset/close.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "close-circle",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/close-circle.svg",
+        "IconCandidates.xcassets/CalendarIcon-close-circle-Candidate.imageset/close-circle.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "open-book",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/open-book.svg",
+        "IconCandidates.xcassets/CalendarIcon-open-book-Candidate.imageset/open-book.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "grid",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/grid.svg",
+        "IconCandidates.xcassets/CalendarIcon-grid-Candidate.imageset/grid.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "document",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/document.svg",
+        "IconCandidates.xcassets/CalendarIcon-document-Candidate.imageset/document.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "trash",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/trash.svg",
+        "IconCandidates.xcassets/CalendarIcon-trash-Candidate.imageset/trash.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "check",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/check.svg",
+        "IconCandidates.xcassets/CalendarIcon-check-Candidate.imageset/check.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "settings",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/settings.svg",
+        "IconCandidates.xcassets/CalendarIcon-settings-Candidate.imageset/settings.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "calendar-grid",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/calendar-grid.svg",
+        "IconCandidates.xcassets/CalendarIcon-calendar-grid-Candidate.imageset/calendar-grid.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "ellipsis-vertical",
+      "type": "vector_icon",
+      "status": "prepared_candidate_not_pixel_trace",
+      "files": [
+        "vectors/ellipsis-vertical.svg",
+        "IconCandidates.xcassets/CalendarIcon-ellipsis-vertical-Candidate.imageset/ellipsis-vertical.pdf"
+      ],
+      "releaseReady": false
+    },
+    {
+      "id": "paper-stack-and-single-page",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "paper-hole-and-contact-shadow",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "flip-and-page-curl-shadows",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "detail-blur-and-dimming",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "XL-book-gutter",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "date-and-quote-text",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "date-selection",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "six-wallpaper-templates",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "lock-screen-and-system-tint",
+      "type": "native_rendering_spec",
+      "status": "no_bitmap_required_implementation_not_started",
+      "spec": "README.md"
+    },
+    {
+      "id": "daily-illustration-masters",
+      "type": "pending_delivery_or_design",
+      "status": "missing",
+      "releaseReady": false
+    },
+    {
+      "id": "artwork-focus-and-safe-zones",
+      "type": "pending_delivery_or_design",
+      "status": "missing",
+      "releaseReady": false
+    },
+    {
+      "id": "dark-and-tinted-art-direction",
+      "type": "pending_delivery_or_design",
+      "status": "missing",
+      "releaseReady": false
+    },
+    {
+      "id": "English-source-title-auxiliary-font",
+      "type": "pending_delivery_or_design",
+      "status": "missing",
+      "releaseReady": false
+    }
+  ]
+}

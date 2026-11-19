@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mao-style-calendar/quote-register.schema.json",
+  "title": "MaoStyleCalendar Quote Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "content_pack_id",
+    "design_text_zh",
+    "zh_quote",
+    "en_quote",
+    "work",
+    "zh_source",
+    "en_source",
+    "quote_type",
+    "source_fragments",
+    "en_text_type",
+    "excerpt_integrity",
+    "verification_status",
+    "blockers"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^SWM-[0-9]{3}-[0-9]{3}$" },
+    "content_pack_id": { "type": "string", "pattern": "^MCP-[0-9]{3}$" },
+    "legacy_reference_date": { "type": ["string", "null"], "format": "date" },
+    "design_text_zh": { "type": ["string", "null"] },
+    "zh_quote": { "type": "string" },
+    "en_quote": { "type": "string" },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zh_title", "en_title", "volume", "work_date"],
+      "properties": {
+        "zh_title": { "type": "string" },
+        "en_title": { "type": "string" },
+        "volume": { "type": "integer", "minimum": 1, "maximum": 4 },
+        "work_date": { "type": "string" }
+      }
+    },
+    "zh_source": { "$ref": "#/$defs/source" },
+    "en_source": { "$ref": "#/$defs/source" },
+    "context_summary_zh": { "type": "string" },
+    "editorial_note": { "type": "string" },
+    "quote_type": {
+      "enum": ["verbatim", "contiguous_excerpt", "editorial_excerpt"]
+    },
+    "source_fragments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sequence", "zh_fragment", "en_authoritative_fragment", "location_note"],
+        "properties": {
+          "sequence": { "type": "integer", "minimum": 1 },
+          "zh_fragment": { "type": "string" },
+          "en_authoritative_fragment": { "type": ["string", "null"] },
+          "location_note": { "type": "string" }
+        }
+      }
+    },
+    "en_text_type": {
+      "enum": ["authoritative_verbatim", "authoritative_contiguous_excerpt", "project_editorial_translation"]
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "historical_context": { "type": "string" },
+        "plain_language_reading": { "type": "string" },
+        "translation_note": { "type": "string" },
+        "status": { "enum": ["not_started", "draft", "reviewed", "approved"] }
+      }
+    },
+    "excerpt_integrity": {
+      "enum": ["not_checked", "exact_full_sentence", "exact_contiguous_excerpt", "edited_or_noncontiguous_checked"]
+    },
+    "verification_status": {
+      "enum": [
+        "candidate",
+        "cn_verified",
+        "bilingual_verified",
+        "editorial_reviewed",
+        "approved",
+        "blocked_version_mismatch"
+      ]
+    },
+    "blockers": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "verified_by": { "type": ["string", "null"] },
+    "verified_at": { "type": ["string", "null"], "format": "date" }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "publisher", "edition", "printed_page", "url", "verification"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "publisher": { "type": "string" },
+        "edition": { "type": "string" },
+        "printed_page": { "type": ["integer", "string", "null"] },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "verification": { "enum": ["not_started", "official_online_only", "page_image_checked", "page_and_edition_checked"] }
+      }
+    }
+  }
+}

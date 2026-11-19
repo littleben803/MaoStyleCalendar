@@ -1,0 +1,18 @@
+{
+  "file": "full-access-promo-duo-home-zh-1024-v3.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "dpi": 72,
+  "language": "zh-Hans",
+  "sha256": "237b11768497d45da1ad89d639f4adeea8173b7cb49f4bf088ac405d92e99cca",
+  "source": "/Users/ideabox/.codex/generated_images/01a1d35e-f179-7741-97e5-4a961bc54597/exec-e673518f-3cab-4a5b-a9b2-228f25e3e28b.png",
+  "method": "Built-in ImageGen, sips resize only",
+  "design": "Unfolded Duo home-screen-style rendering; three representative quote widgets, common app icons, status bar and dock",
+  "status": "candidate_pending_user_confirmation_not_uploaded",
+  "limits": "AI device rendering based on existing Duo onboarding asset and user reference, not a hardware photograph or actual screenshot. Does not prove implemented independent Widget selection or change artwork-license status.",
+  "previous": "v1 and v2 rejected; preserved for history"
+}

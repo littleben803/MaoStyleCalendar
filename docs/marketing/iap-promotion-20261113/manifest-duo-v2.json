@@ -1,0 +1,18 @@
+{
+  "file": "full-access-promo-duo-zh-1024-v2.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "dpi": 72,
+  "language": "zh-Hans; global promotional-image slot is shared, not locale-specific",
+  "generation": "Built-in ImageGen; sips resize only",
+  "source": "/Users/ideabox/.codex/generated_images/01a1d35e-f179-7741-97e5-4a961bc54597/exec-deacf81a-60e5-43ea-b203-159face027c9.png",
+  "sha256": "272f0ac220d8e91380987059b22425f7847ebdcb5e988341ca59f2cc6309194a",
+  "status": "candidate_pending_user_review_not_uploaded",
+  "design": "Unfolded Duo with six differently composed illustrated quote widgets",
+  "limits": "Generated promotional concept, not actual home screen capture or proof of independent widget content selection; do not infer implemented features or artwork license approval. Bottom-left overlay may obscure part of frame/rural image; preview before upload.",
+  "supersedes": "v1 rejected by user; preserved as historical candidate"
+}

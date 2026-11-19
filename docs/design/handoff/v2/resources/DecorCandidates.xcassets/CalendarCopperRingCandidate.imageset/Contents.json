@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "CalendarCopperRingCandidate@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "CalendarCopperRingCandidate@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "CalendarCopperRingCandidate@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "MaoStyleCalendar design handoff",
+    "version" : 1
+  }
+}

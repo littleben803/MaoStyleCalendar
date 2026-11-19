@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "layout": "artworkOnly",
+  "artworkRevision": 2,
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Completely redraw this wallpaper layout thumbnail as a calm, simple, beautiful Chinese ink-and-watercolor illustration. The user has approved a set of restrained warm-ivory watercolor thumbnails with one clear focal motif, soft broad washes and natural breathing room. Make this final illustration-only option match that simplicity. Preserve portrait 3:4 aspect ratio, warm ivory rice paper, full-bleed continuous scene, gentle handmade watercolor. Retain ONLY one graceful autumn maple at the LEFT edge as the main motif, with a FEW broad clusters of muted rust-red leaves rather than dense detailed foliage. Let its restrained canopy extend into the upper part and its trunk lead into one simple sloping bank. A wide pale river and ONE soft distant mountain ridge connect the scene over the middle and lower canvas, extending to the edges. Two or three large tonal masses, very few dark accents, balanced flowing composition with space to breathe. The river and atmospheric washes make this a complete image, not an isolated corner ornament. Remove ALL village buildings, stone bridge, foreground rocks, many mountain layers, leaf litter, flowering plants and tiny scenic details. No extra subjects. No figures or boats. Do not reserve a rectangular text slot: this option is simply a harmonious complete illustration. NO text, gray placeholder bars, calligraphy, seal, label, watermark, frame or rounded corners. It must remain clear and attractive at only 65 pixels wide.",
+  "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-b30f1152-99b3-4535-8c6e-889a9f2b658b.png",
+  "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-artworkOnly.imageset/illustration.png",
+  "retainedLayouts": "First four v3 layouts accepted by the user and unchanged",
+  "export": "sips -Z 288; preserve aspect ratio; no text or gray placeholder bars.",
+  "assetSHA256": "b6d622d6a726596f925259045e0b2e4a21feae5842fc73bd171c46d23b69c827",
+  "originalSHA256": "2998eba06e39132fa6ae3fa137c4e617caf5bc7aec9869e3c19a4b2a7bacb292",
+  "pixels": [
+    216,
+    288
+  ],
+  "bytes": 94956,
+  "inputAssetSHA256": "4237f1477e9c5c8515abd8983731bd191540460562bd32b7b8403df9a3ab0e83"
+}

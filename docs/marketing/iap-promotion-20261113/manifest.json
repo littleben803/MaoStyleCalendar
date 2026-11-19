@@ -1,0 +1,22 @@
+{
+  "file": "full-access-promo-1024-v1.png",
+  "purpose": "App Store Connect In-App Purchase promotional image",
+  "productID": "com.ideaboxapps.maostylecalendar.fullaccess",
+  "languages": "language-neutral; shared by Simplified Chinese and English",
+  "size": [
+    1024,
+    1024
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "dpi": 72,
+  "sha256": "8622f7e57dacad2b096988ea1881b405e6a81c9b3eb939ba0b91fc97da0c79a5",
+  "generation": "built-in ImageGen; resized only with sips from 1254 square to 1024 square",
+  "generatedSource": "/Users/ideabox/.codex/generated_images/01a1d35e-f179-7741-97e5-4a961bc54597/exec-c55194de-f2be-4e42-abf4-da2b41860f64.png",
+  "references": [
+    "ios-client/Native/Resources/DailyArtwork/backgrounds/pack-0077.jpg",
+    "docs/design/handoff/v2/approved/today.png"
+  ],
+  "status": "candidate_pending_user_visual_confirmation; not uploaded or submitted",
+  "rights": "Generation does not upgrade the existing referenced artwork commercial-license audit status."
+}

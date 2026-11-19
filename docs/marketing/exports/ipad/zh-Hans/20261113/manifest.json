@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-13",
+  "platform": "iPad 13 inch",
+  "locale": "zh-Hans",
+  "status": "user_visual_approved_archived",
+  "size": [
+    2064,
+    2752
+  ],
+  "master_size": [
+    8256,
+    2752
+  ],
+  "spec_source": "User supplied App Store Connect screenshot; supported 2064x2752 portrait selected",
+  "artwork": "Creative promotional illustration, not runtime screenshots",
+  "uploaded": false,
+  "packaged": true,
+  "archived_final": true,
+  "files": [
+    {
+      "file": "01-widgets-ipad-zh.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "247ce39131575ad4c213ffcf4e1d7a773487a7b49b01e0269dc9cd135fcdffbf",
+      "exact_master_slice": true
+    },
+    {
+      "file": "02-today-ipad-zh.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "8ad9d1354d508fed10a430d9f5f1bc963036f1d1f49c9c058fb9f98e573d368b",
+      "exact_master_slice": true
+    },
+    {
+      "file": "03-yearbook-ipad-zh.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "af59b31961b2c337a66a1ab5bcb4a77a0a1b210cd1498e0041bf9cc61ceca040",
+      "exact_master_slice": true
+    },
+    {
+      "file": "04-wallpaper-ipad-zh.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "ffea207a4c639a353972175f38010462c2020f806551d3f805e3d0af40ec5b41",
+      "exact_master_slice": true
+    }
+  ],
+  "approval_date": "2026-11-13",
+  "approval": "User: 可以，归档吧，然后我上传",
+  "source_revision": "ipad-preview-v1",
+  "source_directory": "../../source/20261113",
+  "archive_file": "AppStore-iPad-zh-Hans-4screenshots.zip",
+  "archive_sha256": "f5445426258b82501f6c88147ff53534e8a19d538aeb7d666cf945cadbb2210b"
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "status": "archived_per_user_request",
+  "authorization": "User requested English header/search creation and immediate archiving",
+  "visual_review": "assistant checked spelling, layout and offline safe-area crop; separate user visual review not recorded",
+  "placement": "header",
+  "locale": "en",
+  "file": "AppStore-header-en-3840x1646.png",
+  "size": [
+    3840,
+    1646
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "sha256": "902f9367933e106d4c1c5704b8e297401d00ad943058f6da7286f5d7d2e1fe34",
+  "source_directory": "../../source/20261113-en-v1",
+  "safe_area": [
+    1097,
+    493,
+    1646,
+    661
+  ],
+  "backend_cross_device_preview_verified": false,
+  "uploaded": false,
+  "quote_provenance": "Project editorial English and short excerpts, no claim of verbatim FLP verification",
+  "date_basis": "November2026;13 Nov Fri and18 Nov Wed",
+  "source_chinese_design": "Previously user-confirmed and archived Chinese placement; geometry/art preserved in English localization"
+}

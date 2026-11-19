@@ -1,0 +1,25 @@
+{
+  "locale": "en",
+  "marketing_headlines_and_subtitles": [
+    [
+      "Good words,<br>at a glance.",
+      "Daily quotes meet hand-drawn art."
+    ],
+    [
+      "Small acts.<br>Steady resolve.<br>Lasting strength.",
+      "Turn the page. Discover the story behind each quote."
+    ],
+    [
+      "A year of words.<br>Time to reflect.",
+      "Browse the year. Revisit ideas that stay with you."
+    ],
+    [
+      "Carry the spark.<br>Make it yours.",
+      "Turn hand-drawn art into a wallpaper you love."
+    ]
+  ],
+  "quote_provenance": "Project editorial English from english-editorial.json, with short editorial excerpts; not claimed verbatim FLP edition",
+  "today_explanation": "Project marketing paraphrase; Learning comes from books and from putting ideas into practice.",
+  "short_prints": "Seek truth from facts. and shortened reading excerpts are editorial captions, not claimed FLP verbatim",
+  "status": "preview_only_pending_user_visual_confirmation"
+}

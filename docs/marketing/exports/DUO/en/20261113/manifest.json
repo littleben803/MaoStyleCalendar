@@ -1,0 +1,59 @@
+{
+  "device": "DUO",
+  "locale": "en",
+  "status": "user_visual_approved_archived",
+  "master_size": [
+    8028,
+    2853
+  ],
+  "files": [
+    {
+      "file": "01-widgets-DUO-en.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "4fdd87784ed67d57b43e0a18add1aaec50fcaa8db693eaece0070344d5868dac",
+      "exact_master_slice": true
+    },
+    {
+      "file": "02-today-DUO-en.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "5f942503ed3fb137d4e34bf201f50023f2a8bc30268c56ede8eeda579d3afbe9",
+      "exact_master_slice": true
+    },
+    {
+      "file": "03-yearbook-DUO-en.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "7d315382b6bc3ea17afcf97b8cfb74cc37c46bff7c9c81470bcef6ae8881d9f4",
+      "exact_master_slice": true
+    },
+    {
+      "file": "04-wallpaper-DUO-en.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "c8d7ca74e968d7cc07ff0fccb0777312366fc417b0a92180701de20d506c476b",
+      "exact_master_slice": true
+    }
+  ],
+  "packaged": true,
+  "archived_final": true,
+  "uploaded": false,
+  "approval_date": "2026-11-13",
+  "approval": "User: \u53ef\u4ee5\uff0c\u5f52\u6863\u5427",
+  "source_directory": "../../source/20261113-en",
+  "archive_file": "AppStore-DUO-en-4screenshots.zip",
+  "archive_sha256": "3d387a624542007f1dd2150c682814f486dd9fe7c6379395364df6040fb751fc"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "files": [
+    {
+      "file": "assets/today.png",
+      "sha256": "9d91f6115c62b03f2428cfe02ddca9a3109f58f8afd7ee6bb351c0def4c2b39a"
+    },
+    {
+      "file": "assets/wallpapers.png",
+      "sha256": "1bfbe1255f4ef0035dc3623bd550eb5d83a026df30a7c1baee2f05431e0dd98f"
+    },
+    {
+      "file": "assets/widgets.png",
+      "sha256": "1aa13a43d9fe2fb0fcdfee1071d33ea1ac9a740b12f101e8e4320717d8e69f14"
+    },
+    {
+      "file": "assets/yearbook.png",
+      "sha256": "127fad8856362e01d81cc59caba78951b7e04c47d96fd2821eb75f7e61532c3a"
+    },
+    {
+      "file": "background-8028x2853.png",
+      "sha256": "69f9afd2c3fee0087d0e918a7ec9a524bac90b24cc6c5d9d4360efaa39ad42df"
+    },
+    {
+      "file": "background-source.png",
+      "sha256": "7d63accfbb88453c23637861e39603dd6e5a311ae49804ae996a4fc52be9ed46"
+    },
+    {
+      "file": "export-slices.py",
+      "sha256": "2fb3bd113b3b8d875e7fef94616773f21c8c213edda29485c29ac372f34ff393"
+    },
+    {
+      "file": "fonts/SourceHanSerifSC-Bold.otf",
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    },
+    {
+      "file": "fonts/SourceHanSerifSC-Regular.otf",
+      "sha256": "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117"
+    },
+    {
+      "file": "four-page-preview.png",
+      "sha256": "cb7ac6c31d7e50a1b9bf0174d2a29b1793c58cb70fe49828d03c376914c5dad2"
+    },
+    {
+      "file": "layout.html",
+      "sha256": "7ffbd950921fc1aea8d25c008b07587ae4c5ec9d477ea58ccc51e5d95abd7f79"
+    },
+    {
+      "file": "panorama-DUO-zh-master.png",
+      "sha256": "7ba5b2dcbb6d3d7ff383dbf20bf7b0f4aa9d22c844c8059d46e1f946c845564a"
+    },
+    {
+      "file": "prompt-today-v4.txt",
+      "sha256": "48470b957f1d43c40ae88daf6b47b96eeb10378455dc5a7a89e257e193de698c"
+    },
+    {
+      "file": "prompts.json",
+      "sha256": "1742712a4bbc329bbd9328f0f6d5f181fd58f0f440b5d8ae17932e492ac03b69"
+    },
+    {
+      "file": "render.cjs",
+      "sha256": "6dc120304384fa60666a59b810fb98df670c3ed2751a474aaa6d2f0222e19e74"
+    }
+  ]
+}

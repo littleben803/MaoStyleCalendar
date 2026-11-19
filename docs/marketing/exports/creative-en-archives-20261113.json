@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-13",
+  "status": "archived_per_user_request",
+  "files": [
+    {
+      "file": "header/en/20261113/AppStore-header-en-3840x1646.png",
+      "sha256": "902f9367933e106d4c1c5704b8e297401d00ad943058f6da7286f5d7d2e1fe34"
+    },
+    {
+      "file": "search-results/en/20261113/AppStore-search-en-3840x2560.png",
+      "sha256": "548fb4e907c8132dcfd59f5e66a914b6df3d3a8b5fb87b59ef82ff6c966f50b5"
+    }
+  ],
+  "previous_26_final_pngs_unchanged": true,
+  "uploaded": false
+}

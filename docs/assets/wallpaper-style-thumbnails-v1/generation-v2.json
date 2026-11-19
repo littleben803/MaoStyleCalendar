@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "date": "2026-11-02",
+  "generationTool": "built-in image_gen",
+  "purpose": "Replacement of four wallpaper layout selector backgrounds; full-page illustrations with localized quiet areas",
+  "reference": {
+    "path": "/var/folders/2h/l5_b11rs6b965l0bsswv0dcw0000gn/T/codex-clipboard-9403e80c-df3d-4e7a-9e2c-38671a4de011.png",
+    "role": "composition and medium reference; not cropped into a shipping asset",
+    "SHA256": "cb62b32130aa095f3c3d418fef6022a53ae5c5c8b2880908bbf3d94f72e131fd"
+  },
+  "commonPrompt": "Use case: precise-object-edit. Redraw Image 1 completely to correct its failed composition. Image 1 is the previous overly empty wallpaper-selector illustration to REPLACE; Image 2 is the user's desired reference for complete full-page illustration, ink density, relative scale of foreground subjects, naturally integrated negative space, and warm ivory rice-paper medium. Do not preserve the oversized blank regions from Image 1. Create a standalone portrait 3:4 illustration, full bleed. Use the painterly Chinese ink-and-watercolor detail and strong substantial composition seen in Image 2, with restrained cinnabar accents. Important: the scene must feel like a FULL WALLPAPER IMAGE covering the whole card, not a decorative corner with empty paper. NO frame, NO rounded corners, NO card shadow, NO labels, NO calligraphy, NO Chinese/English text, NO placeholder bars, NO watermark, NO seal; the app overlays clean gray bars later. The localized quiet pocket should occupy at most 15–20% of the total image area and belong naturally to the scene, as mist, sky or water; do not isolate it as a blank rectangular panel. All four edges should have pictorial continuity. Scene:",
+  "assets": [
+    {
+      "layout": "verticalLeft",
+      "scenePrompt": "An immersive full-page landscape with an ordinary dark-haired reader in a gray jacket seated large on rocks in the lower RIGHT, a full pine tree rising along the right edge with canopy reaching the top-right, distant mountain ridges spanning the middle of the entire width, a river and village occupying the lower LEFT, foreground rocks and small vermilion blossoms reaching both lower edges. Like reference Image 2, make the reader and scenery substantial, not miniature corner decorations. Reserve ONLY a modest integrated quiet mist/sky pocket behind future vertical bars in x=10–28%, y=13–53%. Left edge below that pocket MUST contain mountains, village and river; top edge outside the pocket has faint distant ridges/branches. Painting occupies approximately 75–80% of the page.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-2238733c-f946-4414-8ece-c9a98a38bb67.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalLeft.imageset/illustration.png",
+      "assetSHA256": "9ad42c8f85f8945cf101a854b9abcb20bfdfa21bc8e0da01777bcc412a25ac74",
+      "bytes": 144017,
+      "originalSHA256": "240b9b6dec3cd26e4452e6cb4c64ed55f1dbe8c04e7df581144560742b544b9e"
+    },
+    {
+      "layout": "verticalRight",
+      "scenePrompt": "A complete full-page waterside scene, different from the reference: a young woman in a pale gray traditional jacket seated large on the lower LEFT bank holding a book, a mature blossoming plum tree filling the LEFT edge and arching across the upper LEFT and top-center, a river ferry and detailed misty mountain village spread across the center and lower RIGHT, reeds and stones reaching both bottom corners. The composition extends over the whole page. Reserve ONLY a small naturally quiet mist pocket for two vertical bars in x=73–90%, y=13–53%. The right side below this pocket has substantial riverbank, boats and houses, and is not a blank side panel. Landscape and subjects occupy roughly 75–80% of the page.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-6753f85c-0a73-4ed0-aaaf-ed5184ec7a9c.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalRight.imageset/illustration.png",
+      "assetSHA256": "39a3492de0f28a896212de90f15062e1e304d33b4c5ab6323adbd6b3635ddd57",
+      "bytes": 146343,
+      "originalSHA256": "471a0b5c2195ad2b437edfd86dda766b1a3135645713367803425afc6cfed5b4"
+    },
+    {
+      "layout": "horizontalTop",
+      "scenePrompt": "A rich full-page mountain-village landscape with a substantial arched stone bridge through the CENTER, a stream flowing diagonally to the lower edge, village houses and villagers on both banks, tall pine trunks framing BOTH side edges, foreground blossoms and rocks in both lower corners, layered mountain ridges reaching the upper third. Branches and hill silhouettes extend to the TOP corners. Reserve ONLY a shallow quiet band of hazy sky between the trees at x=12–88%, y=14–31% for three horizontal bars. NOT an empty top half: above, beside and immediately below the narrow band there is scenery. Draw landscape across approximately 80% of the page, rather than a small bottom vignette.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-8782aa8c-5e9e-4efe-b4cb-ad320fc3b6a9.png",
+      "intermediateOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-4ba731cf-f984-41a6-9ff3-87d76f9a35ce.png",
+      "refinementPrompt": "Targeted correction to this full-page painting. Preserve the bridge, village, people, mountains, river, foreground rocks, blossoms, warm paper texture, style, color palette, and entire LOWER TWO THIRDS exactly. Modify only the UPPER THIRD: lift the heavy pine canopies up into the topmost 0–9% of the frame; keep pine trunks and remaining branch masses only within the outermost LEFT and RIGHT 0–9% margins. Create one naturally quiet pale mist/sky band spanning x=10–90%, y=12–32% so three future horizontal gray placeholder bars can sit there without crossing branches or dark scenery. No rectangle or panel: the quiet band must blend organically into faint mountain mist at its lower edge. Retain full painted side edges and top edge. The rest of this rich illustration must still cover the whole page, not shrink into the bottom. Do not add any text, bars, frame, labels or watermark. Portrait 3:4.",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalTop.imageset/illustration.png",
+      "assetSHA256": "8f616f7ac0bc0c814f36715ba71d7cc5d102cea3b8515511ef5c1f76e05d897b",
+      "bytes": 140645,
+      "originalSHA256": "ccedf4ebadca8e838fecac684e4b061a74edee5d590e0893dbf98e7ccda3cbb5"
+    },
+    {
+      "layout": "horizontalBottom",
+      "scenePrompt": "A fully illustrated portrait mountain-river scene: large expressive bamboo trunks fill the left border, graceful leafy canopy reaches both TOP corners, two substantial red-crowned cranes on a textured rocky riverbank in the upper-middle LEFT, a layered mountain valley with a pavilion on the middle RIGHT and distant peaks above, an S-shaped river flows through the lower half to the bottom edge, foreground grasses/rocks extend into BOTH bottom corners. Preserve scenery through the lower half. Reserve ONLY a shallow stretch of pale calm river surface at x=12–88%, y=70–85% for three horizontal bars; river washes should remain visible there. This is not a top-only vignette with blank paper underneath. Approximately 80% of the page is painted scenery.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-f82aa1c6-884d-411a-a3bc-c036e544619e.png",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalBottom.imageset/illustration.png",
+      "assetSHA256": "6654e3cc826147badabf0c7495e5425e2f16de2b5641acf9a66307ab433d4c5e",
+      "bytes": 147744,
+      "originalSHA256": "8379fa8f353dea61e463ab9d69f3bd9cc607fe31235a9263f94d3274b37811f2"
+    }
+  ],
+  "retainedLayout": "artworkOnly",
+  "export": "sips -Z 288; aspect ratio preserved. Existing SwiftUI gray bars, selector size and all interactions unchanged."
+}

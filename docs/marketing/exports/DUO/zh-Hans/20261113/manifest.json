@@ -1,0 +1,64 @@
+{
+  "status": "user_visual_approved_archived",
+  "date": "2026-11-13",
+  "platform": "DUO portrait simulator hardware reference",
+  "locale": "zh-Hans",
+  "spec_source": "User supplied App Store Connect screenshot, portrait 2007x2853",
+  "master_size": [
+    8028,
+    2853
+  ],
+  "artwork": "Creative promotion: asymmetric simulator chassis, upper-right camera; widgets and today/detail cards float beyond screen; not runtime screenshots",
+  "uploaded": false,
+  "files": [
+    {
+      "file": "01-widgets-DUO-zh.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "c2a686a7bde626eff6d543dccf1cfec7a2dac8407198074699955156e1e1db7b",
+      "exact_master_slice": true
+    },
+    {
+      "file": "02-today-DUO-zh.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "bf73d719a3258b01092570dd516905e1476ffb3611327da98a20f88803a07c5a",
+      "exact_master_slice": true
+    },
+    {
+      "file": "03-yearbook-DUO-zh.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "3d29ddec5b15f0eeb944023cffccdc9af91195497f873bbd65b3d5d583969c12",
+      "exact_master_slice": true
+    },
+    {
+      "file": "04-wallpaper-DUO-zh.png",
+      "size": [
+        2007,
+        2853
+      ],
+      "mode": "RGB",
+      "sha256": "96cd33b0bb10b38334236c3b45de99757142940976a1e7de7b7d0cb46fc817ec",
+      "exact_master_slice": true
+    }
+  ],
+  "packaged": true,
+  "archived_final": true,
+  "revision": "v4: today only; large central phone aligned with widgets, portrait cards without perspective deformation",
+  "approval_date": "2026-11-13",
+  "approval": "User: 归档吧，然后我上传",
+  "source_revision": "DUO-simulator-preview-v4",
+  "source_directory": "../../source/20261113",
+  "archive_file": "AppStore-DUO-zh-Hans-4screenshots.zip",
+  "archive_sha256": "178cce7d98399fe8cd5296af10ca0ed37ae4786129f3dd625b4ebf2105dedb2d"
+}

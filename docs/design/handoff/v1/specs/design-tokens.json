@@ -1,0 +1,59 @@
+{
+  "status": "rejected_visual_baseline_do_not_implement; use ../v2 approved originals",
+  "version": "1.0.0",
+  "units": "pt",
+  "renderScale": 2,
+  "colors": {
+    "light": {"background":"#FEFBF5","paper":"#F7F1E6","accent":"#A61F1A","text":"#26211C","secondary":"#6E6154"},
+    "dark": {"background":"#141312","paper":"#26211C","accent":"#F0614A","text":"#F7F0E0","secondary":"#C2B39C"},
+    "tinted": {"background":"#1A293B","paper":"#304A63","accent":"#DBEDFF","text":"#DBEDFF","secondary":"#B8D1EB"}
+  },
+  "fonts": {
+    "chineseBody":{"file":"SourceHanSerifSC-Regular.otf","postScriptName":"SourceHanSerifSC-Regular","version":"2.003"},
+    "chineseHeading":{"file":"SourceHanSerifSC-SemiBold.otf","postScriptName":"SourceHanSerifSC-SemiBold","version":"2.003"},
+    "latin":{"file":"Literata.ttf","postScriptName":"Literata-Regular_ExtraLight","version":"3.103","weightAxis":400,"opticalSizeAxis":"clamp(pointSize,7,72)"}
+  },
+  "typography": {
+    "pageTitle":{"font":"chineseHeading","size":28,"relativeTo":"largeTitle"},
+    "detailTitle":{"font":"chineseHeading","size":26,"relativeTo":"title2"},
+    "sectionTitle":{"font":"chineseHeading","size":18,"relativeTo":"headline"},
+    "body":{"font":"chineseBody","size":17,"extraLineSpacing":7,"relativeTo":"body"},
+    "metadata":{"font":"chineseBody","size":14,"relativeTo":"caption"},
+    "quoteVertical":{"font":"chineseBody","size":27,"relativeTo":"title2"},
+    "todayDate":{"font":"latin","size":94,"relativeTo":"largeTitle"},
+    "thumbnailDate":{"font":"latin","size":48,"relativeTo":"title"},
+    "button":{"font":"chineseHeading","size":22,"relativeTo":"headline"},
+    "tabLabel":{"font":"chineseBody","size":15,"relativeTo":"caption"},
+    "templateLabel":{"font":"chineseBody","size":12,"relativeTo":"caption2"}
+  },
+  "layout": {
+    "phoneReference":{"width":390,"height":844},
+    "spacingScale":[4,8,12,16,20,24,32,40,48],
+    "pageHorizontalInset":24,
+    "calendarCard":{"x":20,"y":91,"width":350,"height":637,"radius":12,"paperStackOffsets":[[4,7],[8,14]],"ringFrame":[182,70,26,63]},
+    "detail":{"headerFrame":[40,114,310,95],"bodyFrame":[40,231,310,473],"minimumHitSize":44},
+    "button":{"height":56,"radius":12,"horizontalInset":24},
+    "tabBar":{"height":80,"referenceY":764},
+    "annualGrid":{"columns":2,"cardWidth":164,"cardHeight":238,"horizontalGap":16,"verticalGap":20},
+    "wallpaper":{"previewFrame":[42,91,306,468],"templateRowHeight":113,"templateCount":6},
+    "shadow":{"opacity":0.10,"blur":8,"x":0,"y":3},
+    "paperTextureOpacity":{"card":0.32,"page":0.14}
+  },
+  "widgets": {
+    "small":{"referenceWidth":170,"referenceHeight":170,"dateSize":43,"quoteZhSize":15,"quoteEnSize":13},
+    "medium":{"referenceWidth":364,"referenceHeight":170,"dateSize":43,"quoteZhSize":15,"quoteEnSize":13},
+    "large":{"referenceWidth":364,"referenceHeight":382,"dateSize":62,"quoteZhSize":23,"quoteEnSize":21},
+    "extraLarge":{"referenceWidth":640,"referenceHeight":300,"dateSize":62,"quoteZhSize":23,"quoteEnSize":21},
+    "accessoryCircular":{"referenceWidth":76,"referenceHeight":76},
+    "accessoryRectangular":{"referenceWidth":172,"referenceHeight":76},
+    "accessoryInline":{"referenceWidth":330,"referenceHeight":30},
+    "referenceOnly":true,
+    "tintedPaletteIsIllustrative":true
+  },
+  "motion": {
+    "cardFlipSeconds":0.55,
+    "dateSwipeDirection":{"left":"nextDay","right":"previousDay"},
+    "reduceMotion":"crossFade",
+    "disableDateSwipeWhileShowingBack":true
+  }
+}

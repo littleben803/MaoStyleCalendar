@@ -1,0 +1,25 @@
+{
+  "images": [],
+  "fonts": "loaded",
+  "headings": [
+    {
+      "text": "Good words,\nat a glance.",
+      "height": 315.5
+    },
+    {
+      "text": "Small acts.\nSteady resolve.\nLasting strength.",
+      "height": 473.25
+    },
+    {
+      "text": "A year of words.\nTime to reflect.",
+      "height": 315.5
+    },
+    {
+      "text": "Carry the spark.\nMake it yours.",
+      "height": 315.5
+    }
+  ],
+  "textOverflow": [],
+  "headerBottom": 695.640625,
+  "firstArtworkTop": 770
+}

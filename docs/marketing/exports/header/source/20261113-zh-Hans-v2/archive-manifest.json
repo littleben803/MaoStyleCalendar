@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "files": [
+    {
+      "file": "art-safe-area-crop.png",
+      "sha256": "6fc96eaedddcd310fa87fec6c14020d187cfa2990a2a1238a66c1063555fae79"
+    },
+    {
+      "file": "date-correction-prompt.txt",
+      "sha256": "a73508a8f31cef5bcfdc33b4b8b5db92282258d669d17246fcf59961ab749f10"
+    },
+    {
+      "file": "generated-master.png",
+      "sha256": "11e4814157370fb68e324ae24769a7526bfa77d00f5b60107e674bd48672cb32"
+    },
+    {
+      "file": "header-preview.png",
+      "sha256": "93f7cce0d0b632bb06e9b05fee88f2dbc3c99c8da80d1ff19de48a1cf4e5fc54"
+    },
+    {
+      "file": "prompt.txt",
+      "sha256": "5028b1a5d1a6e907fd8bffeb5f15ef915e858c657f9efe693d0f1da4a0613796"
+    },
+    {
+      "file": "safe-area-correction-prompt.txt",
+      "sha256": "543dd32058abece44ef0cac9c2205571355217f7c437fc214363dcb785464a60"
+    },
+    {
+      "file": "spec.json",
+      "sha256": "a618e9677e68c4dcd6aa5b594b24c952cd1b9b247e9f24d2f3c17db148da5bd9"
+    }
+  ]
+}

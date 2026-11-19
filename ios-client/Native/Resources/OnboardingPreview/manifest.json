@@ -1,0 +1,160 @@
+{
+  "status": "release_bundled_by_user_authorization_content_verification_unchanged",
+  "created": "2026-11-12",
+  "device": "iPhone portrait onboarding; other devices use the same generic layout",
+  "artwork": "AI-derived cutouts of user-approved preview images; not pixel-identical extraction",
+  "englishStatus": "Candidate excerpts and project editorial copy, not bilingual_verified",
+  "editorialEnglish": {
+    "wallpaper-lock-en": "Test ideas against facts and reason.",
+    "today-detail-en": "Historical Context and A Closer Look are project editorial text."
+  },
+  "sourceReferences": [
+    "docs/research/daily-quote-detail-drafts.json",
+    "docs/design/handoff/v2/brand/README.md",
+    "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm",
+    "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_09.htm",
+    "https://www.marxists.org/reference/archive/mao/selected-works/volume-4/mswv4_24.htm"
+  ],
+  "files": [
+    {
+      "file": "widget-phone-zh.heic",
+      "size": [
+        822,
+        1913
+      ],
+      "sha256": "1cc8fe7e941ddc638a54ad15bbb4040801aa974ce44935ffc5c7081ffb6f6635",
+      "sourcePngSha256": "a059483f3db26baaff45f7bd8dc2ce6517d537fb55b37a3afce44c1004b78dd9",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "widget-cards-zh.heic",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "0e18ba6f9f8d8518dad79ebf5b4ad385a8682a93e9db3436985d82eb7ced8eac",
+      "sourcePngSha256": "dd3601166454317d5377aea470efe799eb2baa6dbc99b1ba8152abcaf5e0dd4c",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "today-front-zh.heic",
+      "size": [
+        1105,
+        1423
+      ],
+      "sha256": "05803687e4290faafab20f50a7e027c80d243ac5ae6fd66172486033c37d6dd7",
+      "sourcePngSha256": "93c1442518a91b30ade2e7b3bfe47681b506aa81173376f7b67f90f6f1cd6124",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "today-detail-zh.heic",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "801ffc7c018838621febb8aef958e2a2abd20ff98061ae8547e361c86d9ac4e6",
+      "sourcePngSha256": "734c2382dd50e5dd8f90ba250c730f0c44abea54cb80f402ab0058b493596394",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "wallpaper-lock-zh.heic",
+      "size": [
+        852,
+        1846
+      ],
+      "sha256": "50945508386a5c047f2ffa344cbd16db1d91e3b6b2f9e51222d62603201ec818",
+      "sourcePngSha256": "78a16a8684663e73dfc8f20c3fcee89db164677e8d1086cc5678a79cb6c34f56",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "wallpaper-home-zh.heic",
+      "size": [
+        958,
+        1642
+      ],
+      "sha256": "1315ad590e60f2a4a38d88fdadbee465273832c1f40c12b975023cfbab41c6a6",
+      "sourcePngSha256": "0e1e9e16820d2e76f9f783ace78697844055eb4c3000c85257f23eed18998668",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "widget-phone-en.heic",
+      "size": [
+        822,
+        1913
+      ],
+      "sha256": "0f80979b812f6dd743786af084207d8ef8c6b260692da916bb585f064a58d86b",
+      "sourcePngSha256": "a1e84498b31c15941c7173de2ed6b9ff5084cdc9c71510ff9ea6c022aaa82158",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "widget-cards-en.heic",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "4d0854bad3f067e845bfcf032e6b1ef0983241ae4b1ec00bc110c8dad30a3935",
+      "sourcePngSha256": "ab696ba80a93f0cd95d2b9d3995fedc1636284fcdf2bce3ce617f0f549ca4910",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "today-front-en.heic",
+      "size": [
+        1105,
+        1423
+      ],
+      "sha256": "baf3300e3f78d7eb1a48a722f98772fee3f97b036cdae5ca50389807f0f9aa58",
+      "sourcePngSha256": "cd4599f27bdaa898d1f88be5ceb4d6903b8e7d1825ae14fbfa6a64eb9e35131e",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "today-detail-en.heic",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "700d36c27f465e201d166f5c17ba66971edada20ccb38a076410400329acdb34",
+      "sourcePngSha256": "6000a788f73231640d7f190dbd310e1322f00740e861989f4309a573ad1f97e3",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "wallpaper-lock-en.heic",
+      "size": [
+        852,
+        1846
+      ],
+      "sha256": "c0c482cd9a8696d257fd46c85d30a11c123b0ede4bf1440090f6b1dde7a12564",
+      "sourcePngSha256": "c58909f8f22fc364c3cf85a4d2dea65904c39048a78c78da670215a8914bacc3",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    },
+    {
+      "file": "wallpaper-home-en.heic",
+      "size": [
+        958,
+        1642
+      ],
+      "sha256": "0287521e4312cd3497eba9afb5892f7ea99164c75a764ed27f5717b6a42d1e6d",
+      "sourcePngSha256": "5d12f17b7cecb82a74fa0c13921211494a4c0b1cefc819bcb396a65be9a0ca3d",
+      "format": "HEIC, sips formatOptions best",
+      "status": "candidate_content_release_bundled_by_user_authorization"
+    }
+  ],
+  "detailRevision": "2026-11-12 normal full-width detail page; enlarged behind calendar with more bottom exposure; native layered shadows and tap-to-front transitions",
+  "compression": {
+    "tool": "macOS sips",
+    "format": "HEIC",
+    "formatOptions": "best",
+    "date": "2026-11-19",
+    "originalPngBackup": "outside repository; not a bundled resource"
+  }
+}

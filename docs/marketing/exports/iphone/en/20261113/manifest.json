@@ -1,0 +1,59 @@
+{
+  "device": "iphone",
+  "locale": "en",
+  "status": "user_visual_approved_archived",
+  "master_size": [
+    4824,
+    2622
+  ],
+  "files": [
+    {
+      "file": "01-widgets-iphone-en.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "2e6ecca1e0858b9aa997339f2e7c34a008a42f287ce3b3a8e334d3d00c3ad821",
+      "exact_master_slice": true
+    },
+    {
+      "file": "02-today-iphone-en.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "f9df64f275ea9db820c1c0b0cb28aea6b743a47721aeafb419d42a5b1b60a7e2",
+      "exact_master_slice": true
+    },
+    {
+      "file": "03-yearbook-iphone-en.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "c787fdc06d2ce08bfec716c33e961b2420ff9861df3f0062207693faec212095",
+      "exact_master_slice": true
+    },
+    {
+      "file": "04-wallpaper-iphone-en.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "3f52c69c1771513deb11fd1789be9279dc88d624f1e04c9f4bee3d241a760342",
+      "exact_master_slice": true
+    }
+  ],
+  "packaged": true,
+  "archived_final": true,
+  "uploaded": false,
+  "approval_date": "2026-11-13",
+  "approval": "User: \u53ef\u4ee5\uff0c\u5f52\u6863\u5427",
+  "source_directory": "../../source/20261113-en",
+  "archive_file": "AppStore-iPhone-en-4screenshots.zip",
+  "archive_sha256": "9bde84d41f1704ee2233c9732cea475016f7dd88e17562f020d95d65a4183b37"
+}

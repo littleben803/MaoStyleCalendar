@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "files": [
+    {
+      "file": "assets/today.png",
+      "sha256": "05fd6273d2f4db17b25504a42e17338e84cf80a242ca4026572164baf757ef7d"
+    },
+    {
+      "file": "assets/wallpapers.png",
+      "sha256": "edc7e642f87f53cd81f8fc2da895b0868ec1259c33a04c8b5560da7dbe015f9b"
+    },
+    {
+      "file": "assets/widgets.png",
+      "sha256": "ff0364179926dedea5e3991f6fec89ce9acc2b4e0d7c6a9ea972d7c8cea1420d"
+    },
+    {
+      "file": "assets/yearbook.png",
+      "sha256": "1d9ab5a9442b077507cc24b23a45c24ba3d89ef88adcb6f3e6bf3a7b5d63c7bb"
+    },
+    {
+      "file": "background-source.png",
+      "sha256": "7d63accfbb88453c23637861e39603dd6e5a311ae49804ae996a4fc52be9ed46"
+    },
+    {
+      "file": "export-slices.py",
+      "sha256": "b0f5f9867720472f3ffff8375b743416157cb944711092d9187f87b182093056"
+    },
+    {
+      "file": "fonts/SourceHanSerifSC-Bold.otf",
+      "sha256": "706b8c0de2deff6cbc0c87e2cdedfd33a78b7ffd76cebb4549012f197ba611fe"
+    },
+    {
+      "file": "fonts/SourceHanSerifSC-Regular.otf",
+      "sha256": "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117"
+    },
+    {
+      "file": "four-page-preview.png",
+      "sha256": "a81a46ee36d4c42efd39f8c3dc74c321ca6b9b55543f5e89261c46c5a3a2d6a7"
+    },
+    {
+      "file": "generation-sources.json",
+      "sha256": "278efdb317d3ae691a2fde8e622378eb3be7eb7006abcd42972b4cc90e4ab607"
+    },
+    {
+      "file": "layout.html",
+      "sha256": "ad387972ff53dcfd6a19947a03e6902ef31f4a54b75e774c7d9335a18f965bf2"
+    },
+    {
+      "file": "panorama-ipad-zh-master.png",
+      "sha256": "3437838eead9d1a11e72345bfb6b944cfd4fe3df0759878118080d59e92d0e44"
+    },
+    {
+      "file": "prompts.json",
+      "sha256": "0be17a2b6646759e86b520aab82b7caee88b6b06490304885e3a9621b239ca2f"
+    },
+    {
+      "file": "render.cjs",
+      "sha256": "28c471c027084faaa14b13c78de137ba16dfd3f2874c2d45097dd3e08d36e864"
+    }
+  ]
+}

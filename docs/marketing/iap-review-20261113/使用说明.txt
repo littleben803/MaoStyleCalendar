@@ -1,0 +1,10 @@
+用途：本目录用于 App Store Connect > App 内购买项目 > 审核信息。
+
+截图：paywall-en.png / paywall-zh-Hans.png 为当前 App 首次引导第四屏实际截图，任选一张上传；优先英文。审核截图不是本地化分槽，不要求中英文各上传一次。此图仅供审核，不是页面顶部的 1024×1024 内购推广图。
+审核备注：将 review-notes-bilingual.txt 全文粘贴到审核备注；437 字符，低于 4000 字符上限。另提供中英文单独版本。
+localized-descriptions.txt 是可选的本地化商品描述备选稿，与审核备注分开，两种语言均不超过 45 字符。
+
+截图来自 iPhone 17 Pro / iOS 26.5 的当前无签名 Debug 模拟器构建；使用现有审阅参数选择第四屏和语言，没有伪造价格或拼接界面。截图中的 $4.99 直接来自 StoreKit product.displayPrice，不表示已核验生产环境各地区定价或完成购买测试。完全不透明 Alpha 已移除，RGB 像素不变；1206×2622 PNG。原始截图存放在仓库外 ~/.cache/MaoStyleCalendar/iap-review-20261113/。
+
+Apple 官方依据：https://developer.apple.com/help/app-store-connect/reference/in-app-purchases-and-subscriptions/in-app-purchase-information
+目前状态：已准备、待用户确认；未上传、未送审。未修改 App、购买逻辑或工程配置。

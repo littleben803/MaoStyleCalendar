@@ -1,0 +1,146 @@
+{
+  "pixelPerfectApproved" : false,
+  "projectIntegrated" : true,
+  "rasterExports" : [
+    {
+      "clearPixels" : 730,
+      "file" : "CalendarCopperRingCandidate@1x.png",
+      "size" : [
+        24,
+        64
+      ],
+      "visiblePixels" : 788
+    },
+    {
+      "clearPixels" : 3015,
+      "file" : "CalendarCopperRingCandidate@2x.png",
+      "size" : [
+        48,
+        128
+      ],
+      "visiblePixels" : 3096
+    },
+    {
+      "clearPixels" : 6843,
+      "file" : "CalendarCopperRingCandidate@3x.png",
+      "size" : [
+        72,
+        192
+      ],
+      "visiblePixels" : 6906
+    },
+    {
+      "clearPixels" : 722,
+      "file" : "CalendarCopperRingCandidateV2@1x.png",
+      "size" : [
+        24,
+        64
+      ],
+      "visiblePixels" : 795
+    },
+    {
+      "clearPixels" : 3022,
+      "file" : "CalendarCopperRingCandidateV2@2x.png",
+      "size" : [
+        48,
+        128
+      ],
+      "visiblePixels" : 3098
+    },
+    {
+      "clearPixels" : 6797,
+      "file" : "CalendarCopperRingCandidateV2@3x.png",
+      "size" : [
+        72,
+        192
+      ],
+      "visiblePixels" : 6929
+    },
+    {
+      "clearPixels" : 755,
+      "file" : "CalendarCopperRingCandidateV3@1x.png",
+      "size" : [
+        24,
+        64
+      ],
+      "visiblePixels" : 761
+    },
+    {
+      "clearPixels" : 3131,
+      "file" : "CalendarCopperRingCandidateV3@2x.png",
+      "size" : [
+        48,
+        128
+      ],
+      "visiblePixels" : 2971
+    },
+    {
+      "clearPixels" : 7149,
+      "file" : "CalendarCopperRingCandidateV3@3x.png",
+      "size" : [
+        72,
+        192
+      ],
+      "visiblePixels" : 6619
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPaperIvoryCandidate@1x.png",
+      "size" : [
+        256,
+        256
+      ],
+      "visiblePixels" : 65536
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPaperIvoryCandidate@2x.png",
+      "size" : [
+        512,
+        512
+      ],
+      "visiblePixels" : 262144
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPaperIvoryCandidate@3x.png",
+      "size" : [
+        768,
+        768
+      ],
+      "visiblePixels" : 589824
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPrintVermilionCandidate@1x.png",
+      "size" : [
+        256,
+        256
+      ],
+      "visiblePixels" : 65536
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPrintVermilionCandidate@2x.png",
+      "size" : [
+        512,
+        512
+      ],
+      "visiblePixels" : 262144
+    },
+    {
+      "clearPixels" : 0,
+      "file" : "CalendarPrintVermilionCandidate@3x.png",
+      "size" : [
+        768,
+        768
+      ],
+      "visiblePixels" : 589824
+    }
+  ],
+  "releaseReady" : false,
+  "seamlessTilingApproved" : false,
+  "status" : "technical_checks_passed_visual_confirmation_pending",
+  "unchangedOriginalAndBoardCount" : 10,
+  "vectorPDFCount" : 18
+}

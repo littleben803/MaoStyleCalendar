@@ -1,0 +1,54 @@
+{
+  "generationTool": "built-in image_gen",
+  "date": "2026-11-02",
+  "purpose": "Wallpaper layout selector UI illustration backgrounds only; not DailyContentPack artwork",
+  "commonPrompt": "Use case: illustration-story. Asset type: a portrait illustration background for a tiny wallpaper-layout selector in a Chinese literary calendar iPhone app. Generate ONE standalone portrait image, aspect ratio 3:4, full bleed without border, card, label, UI, or typography. Style: delicate traditional Chinese ink-and-watercolor painting on warm ivory rice paper, soft subtle paper grain, restrained black ink, pale gray mountain washes and tiny muted cinnabar details. Elegant detailed handpainted scenery, clearly recognizable when reduced to 60 pixels wide, simple silhouettes. Composition: {scene} No text, no glyphs, no calligraphy, no seal, no watermark, no gray placeholder bars (bars will be overlaid in the app). Do not imitate a specific artist. This is an illustration only, NOT a UI screenshot.",
+  "assets": [
+    {
+      "layout": "verticalLeft",
+      "scenePrompt": "A single gnarled pine and a tiny red-roof pavilion occupy the lower RIGHT quadrant, misty mountains faint at the very bottom. Keep the entire upper LEFT 55% nearly empty warm paper, especially a tall empty vertical strip on the left. Asymmetric composition.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-8a090fc8-2af7-411a-abae-99526df62024.png",
+      "originalSHA256": "9aca17829c0ecf232859245984b2ae3bb7a131aedf95ced2589321f1fc471f17",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalLeft.imageset/illustration.png",
+      "assetSHA256": "a45dae6de19259ede1567bc9c808155bea441f1ac273d46e73eb0d25da868fc8",
+      "bytes": 98389
+    },
+    {
+      "layout": "verticalRight",
+      "scenePrompt": "A flowering plum tree grows from lower LEFT, a tiny wooden boat below it on a misty river. All branches stay on the LEFT. Keep the upper RIGHT 55% empty warm paper, with a tall clear vertical strip on the right.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-09974ca8-6c79-4626-a9b8-a4dfcc235638.png",
+      "originalSHA256": "6fa914aa90c68da7ee2ac7ff3fc4c386e61039c42c2e94121da712d3f2b25f98",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-verticalRight.imageset/illustration.png",
+      "assetSHA256": "b764f29e12342bc5e6893d6c33852b8a7d0cd2f476389a8f03aa75395a8cd1e3",
+      "bytes": 97660
+    },
+    {
+      "layout": "horizontalTop",
+      "scenePrompt": "Broad low mountains and a winding river with a small bridge and a few village roofs lie ONLY across the lower 45%. Keep the entire upper 50% blank warm paper for horizontal text. No trees or peaks intruding into the top half.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-09983959-1f35-434c-954c-076617b53ace.png",
+      "originalSHA256": "0a2c5aa0a76606c3d3b370574b006c710f9d9d1efdb39d0baff3ada13afaf617",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalTop.imageset/illustration.png",
+      "assetSHA256": "20b6268f46f142ee94599b55455e624cc10145bc636a2bec3f7316a99f183049",
+      "bytes": 95585
+    },
+    {
+      "layout": "horizontalBottom",
+      "scenePrompt": "Graceful bamboo leaves arch across the TOP and upper LEFT; two small cranes stand among rocks in the upper half. Keep the entire bottom 45% empty warm paper for horizontal text. The bottom must have no plants or water texture.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-1f12b08d-cad3-4cc6-ac12-225cd7ce7424.png",
+      "originalSHA256": "19450c8214a9e8f39f17981003e1c4e27f9728530e4421d364b9a0286a901b2d",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-horizontalBottom.imageset/illustration.png",
+      "assetSHA256": "7a4137f8e4c0a6c84aa6e67d8fb7aae8d5a0d3746af7724be969f2a8dc65bf58",
+      "bytes": 98939
+    },
+    {
+      "layout": "artworkOnly",
+      "scenePrompt": "A complete rich landscape composition: mountain village beside a winding river, small arched bridge, distant hazy peaks, one large autumn tree with muted vermilion leaves. Scene distributed throughout the portrait, balanced and satisfying as a wallpaper without text. Distinct from pine, plum, bamboo, and low-river compositions.",
+      "generatedOriginal": "/Users/ideabox/.codex/generated_images/01a19b6b-40d9-7de1-a77d-80d4c0325d3e/exec-3f378f6a-8d90-4a1d-b73e-7a9efcf0650d.png",
+      "originalSHA256": "a722edec02611396d11e0bcb819ef02e5fe30b41919294dbb145c0365f06c554",
+      "asset": "docs/design/handoff/v2/resources/DecorCandidates.xcassets/WallpaperStyle-artworkOnly.imageset/illustration.png",
+      "assetSHA256": "4237f1477e9c5c8515abd8983731bd191540460562bd32b7b8403df9a3ab0e83",
+      "bytes": 136388
+    }
+  ],
+  "export": "sips -Z 288, preserve aspect ratio; no semantic image edits. Gray bars are vector SwiftUI overlays."
+}

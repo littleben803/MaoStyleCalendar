@@ -1,0 +1,99 @@
+{
+  "assets" : [
+    {
+      "alphaBounds" : [
+        351,
+        623,
+        181,
+        521
+      ],
+      "logicalSize" : [
+        24,
+        64
+      ],
+      "master" : "masters/copper-ring-candidate.png",
+      "masterSize" : [
+        887,
+        1774
+      ],
+      "name" : "CalendarCopperRingCandidate",
+      "releaseReady" : false,
+      "status" : "candidate_requires_visual_confirmation"
+    },
+    {
+      "alphaBounds" : [
+        318,
+        546,
+        257,
+        705
+      ],
+      "logicalSize" : [
+        24,
+        64
+      ],
+      "master" : "masters/copper-ring-candidate-v2.png",
+      "masterSize" : [
+        887,
+        1774
+      ],
+      "name" : "CalendarCopperRingCandidateV2",
+      "releaseReady" : false,
+      "status" : "candidate_requires_visual_confirmation"
+    },
+    {
+      "alphaBounds" : [
+        319,
+        546,
+        259,
+        706
+      ],
+      "logicalSize" : [
+        24,
+        64
+      ],
+      "master" : "masters/copper-ring-candidate-v3.png",
+      "masterSize" : [
+        887,
+        1774
+      ],
+      "name" : "CalendarCopperRingCandidateV3",
+      "releaseReady" : false,
+      "status" : "candidate_requires_visual_confirmation"
+    },
+    {
+      "alphaBounds" : [
+
+      ],
+      "logicalSize" : [
+        256,
+        256
+      ],
+      "master" : "masters/paper-ivory-candidate.png",
+      "masterSize" : [
+        1254,
+        1254
+      ],
+      "name" : "CalendarPaperIvoryCandidate",
+      "releaseReady" : false,
+      "status" : "candidate_requires_visual_confirmation"
+    },
+    {
+      "alphaBounds" : [
+
+      ],
+      "logicalSize" : [
+        256,
+        256
+      ],
+      "master" : "masters/print-vermilion-candidate.png",
+      "masterSize" : [
+        1254,
+        1254
+      ],
+      "name" : "CalendarPrintVermilionCandidate",
+      "releaseReady" : false,
+      "status" : "candidate_requires_visual_confirmation"
+    }
+  ],
+  "status" : "candidate_integrated_app_only"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "uploaded": false,
+  "devices": [
+    {
+      "device": "iphone",
+      "zip": "iphone/en/20261113/AppStore-iPhone-en-4screenshots.zip",
+      "sha256": "9bde84d41f1704ee2233c9732cea475016f7dd88e17562f020d95d65a4183b37",
+      "bytes": 13900670
+    },
+    {
+      "device": "DUO",
+      "zip": "DUO/en/20261113/AppStore-DUO-en-4screenshots.zip",
+      "sha256": "3d387a624542007f1dd2150c682814f486dd9fe7c6379395364df6040fb751fc",
+      "bytes": 19896218
+    },
+    {
+      "device": "ipad",
+      "zip": "ipad/en/20261113/AppStore-iPad-en-4screenshots.zip",
+      "sha256": "6f280eb78f3ffb53b0dfe77db990cd688914f4941549ea2d6c76d5a9bb09f56d",
+      "bytes": 20296345
+    }
+  ]
+}

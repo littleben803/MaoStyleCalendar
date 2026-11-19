@@ -1,0 +1,44 @@
+{
+  "status": "user_visual_approved_exported",
+  "approved_on": "2026-11-13",
+  "locale": "zh-Hans",
+  "uploaded": false,
+  "files": [
+    {
+      "file": "01-widgets-zh.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "ff46d8ccef497deee856d5bd96d2af0e81ab582986fc497755842597bbd828bb"
+    },
+    {
+      "file": "02-today-zh.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "8cb9efa9eeae0ca2708c6f918252490d99eb903b02f6cd0afd3650d6915f93d7"
+    },
+    {
+      "file": "03-yearbook-zh.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "cea60ce348729a310b79dc4a50595f93a52616c22c74eb4161c6abb3fd67930a"
+    },
+    {
+      "file": "04-wallpaper-zh.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "mode": "RGB",
+      "sha256": "5c9adbf361c173d28e14a03e29da5990c613c645b209b76ffbd68a74a97835b5"
+    }
+  ]
+}

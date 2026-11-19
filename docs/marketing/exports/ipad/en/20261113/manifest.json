@@ -1,0 +1,59 @@
+{
+  "device": "ipad",
+  "locale": "en",
+  "status": "user_visual_approved_archived",
+  "master_size": [
+    8256,
+    2752
+  ],
+  "files": [
+    {
+      "file": "01-widgets-ipad-en.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "a44e72ca59d1287707a172d55373c167db2c16ade4630f97b823b8e6df36edf9",
+      "exact_master_slice": true
+    },
+    {
+      "file": "02-today-ipad-en.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "ab95cbe953fa17a3c3f6488733f5c874cbeee872e4dc446c757dc5a703cd29ed",
+      "exact_master_slice": true
+    },
+    {
+      "file": "03-yearbook-ipad-en.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "9ed3e4f24376477bfef6836827aa8b51a1731dd324617bc34c46b1bb0655c5b2",
+      "exact_master_slice": true
+    },
+    {
+      "file": "04-wallpaper-ipad-en.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "mode": "RGB",
+      "sha256": "194364dd9f45f33da661a2034497bf4ecd8399bc13282aa732286127141da8a2",
+      "exact_master_slice": true
+    }
+  ],
+  "packaged": true,
+  "archived_final": true,
+  "uploaded": false,
+  "approval_date": "2026-11-13",
+  "approval": "User: \u53ef\u4ee5\uff0c\u5f52\u6863\u5427",
+  "source_directory": "../../source/20261113-en",
+  "archive_file": "AppStore-iPad-en-4screenshots.zip",
+  "archive_sha256": "6f280eb78f3ffb53b0dfe77db990cd688914f4941549ea2d6c76d5a9bb09f56d"
+}

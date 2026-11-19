@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-13",
+  "status": "user_visual_approved_archived",
+  "approval": "User: 归档吧，然后我上传",
+  "placement": "product_page_header",
+  "locale": "zh-Hans",
+  "file": "AppStore-header-zh-Hans-3840x1646.png",
+  "size": [
+    3840,
+    1646
+  ],
+  "mode": "RGB",
+  "alpha": false,
+  "sha256": "1d4d1708bc829f4658979b3699e3f4bcd00cb3a4c0b182da4760b1a933b968e9",
+  "source_directory": "../../source/20261113-zh-Hans-v2",
+  "source_revision": "header-widget-zh-v2",
+  "uploaded": false,
+  "backend_cross_device_preview_verified": false,
+  "safe_area_note": "Central13 date, quote and reader face visually checked in offline safe-area crop; peripheral widgets auxiliary and may be cropped.",
+  "date_basis": "13/11月/星期五 and18/11月/星期三 match November2026",
+  "design": "8 layered small/medium/large widgets, no external brand/slogan; widget content dates/quotes retained"
+}
