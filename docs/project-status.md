@@ -1,5 +1,9 @@
 # 项目状态
 
+2026-11-20 App/Widget 版本对齐：用户要求修复 iOS 构建的扩展版本不一致警告。核对四个 target 后，以原 iOS 主 App `1.0.1 (1)` 为准，把 iOS Widget、macOS App 和 macOS Widget 的 Debug/Release `MARKETING_VERSION` 从 `1.0.0` 调为 `1.0.1`；`CURRENT_PROJECT_VERSION` 均保留 `1`。iOS 设备 Release/模拟器 Debug 与 macOS Debug 无签名构建通过，iOS Release/macOS Debug 产物内四个主 App/Widget 的 Info.plist 均读回 `1.0.1 (1)`，先前扩展版本不一致警告消失。仅修改 Xcode 工程版本号与本文；未修改 Bundle ID、Team、签名、Info.plist 内容或功能代码。
+
+2026-11-20 App 加密出口合规选项核对：按当前代码、Swift Package 依赖与 iOS 设备 Release 产物检查，主 App 使用 StoreKit、WebKit 与系统 Security/CommonCrypto 能力；链接的 Firebase Analytics Core 未见随包附带的 OpenSSL/BoringSSL 或 gRPC 加密框架。对照 Apple 现行出口合规说明，当前 App Store Connect 弹窗中选择“不属于上述的任意一种算法”与仅使用 Apple 系统加密的实现相符。用户明确要求免除后续重复问卷，已在 iOS/macOS 共用的 `Native/Configuration/App-Info.plist` 加入布尔值 `ITSAppUsesNonExemptEncryption = NO`，不表示 App 完全不用加密。`plutil -lint`、iOS 无签名设备 Release/模拟器 Debug 构建、macOS Debug 构建及 iOS Release/macOS Debug 产物的 Info.plist 读回均通过；未修改 Widget plist、工程、签名或 App Store Connect 后台。iOS 构建仍有既有警告：Widget 扩展版本 1.0.0 与主 App 1.0.1 不一致，本阶段未改版本配置。
+
 2026-11-20 桌面 Widget「每日换插画」购买后自动开启：该开关默认关闭，未解锁时尝试开启会进入付费墙。用户要求无论从哪个付费墙入口完成购买，只要永久解锁权益由未确认/未拥有切为已确认拥有，就自动把此开关写为开启并刷新 Widget 时间线。实现集中于 `AppSettingsLibrary.refreshFullAccess()` 的统一 StoreKit 权益刷新处，涵盖直接购买、恢复购买、交易更新与外部兑换后的权益同步；Debug 模拟购买从关闭切为开启也同样处理。读取 App Group 中已保存的权益状态，已购用户后续手动关闭开关时，重启 App 不会再次强制开启。iOS 模拟器与 macOS 无签名 Debug 构建均通过。仅修改设置/权益联动代码；未改付费墙界面、商品标识、Widget 排版、签名或工程配置。真机 Sandbox 交易仍待联调。
 
 2026-11-20 年度册英文缩略卡字号统一：用户以 11 月 13 日红字卡为基准，要求所有英文缩略卡语录同样大。缩略卡改为固定 360pt 设计画布上的 23pt Source Serif 4 字号；长句按可用留白区生成带省略号的短摘录，详情及其他完整卡面保留全文。缩略卡不再套用今日页铜环顶部的避让区，但仍避开日期与人物保护区。iPhone 17 Pro 模拟器 Debug 构建通过，运行检查覆盖 365 张卡，均以 23pt 排入安全区域且无文本越界；其中 243 张需要短摘录。11、13、14 日卡片渲染图已目检，均为相同字号。仅修改英文缩略卡排版及专用 Debug 检查入口，未改 Widget、中文排版、资源、工程及签名；渲染图位于模拟器缓存 `YearbookThumbnailQA/`，不进入仓库。
