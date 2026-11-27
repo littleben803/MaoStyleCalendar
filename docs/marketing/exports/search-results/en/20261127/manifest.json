@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "dimensions": [
+    3840,
+    2560
+  ],
+  "source": "source/20261127-en-v2/layout.html",
+  "output": "AppStore-search-en-3840x2560-v2.png",
+  "sha256": "f7ef91d04a87f45d04e917afba333cd24348eb95b9433d1ffa1a12b788000670",
+  "status": "candidate_pending_visual_approval",
+  "uploadedToAppStoreConnect": false,
+  "checks": {
+    "fonts": "loaded",
+    "missingImages": [],
+    "textOverflow": [],
+    "copyInsideSafe": true,
+    "copy": {
+      "x": 850,
+      "y": 875,
+      "width": 1200,
+      "height": 800
+    },
+    "art": {
+      "x": 1740,
+      "y": 235,
+      "width": 1600,
+      "height": 2190
+    }
+  }
+}

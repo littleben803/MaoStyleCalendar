@@ -101,6 +101,12 @@ struct RootTabView: View {
                 default: break
                 }
             }
+            if let argument = ProcessInfo.processInfo.arguments.first(where: { $0.hasPrefix("--review-wallpaper-position=") }),
+               let requested = Int(argument.dropFirst("--review-wallpaper-position=".count)),
+               (-3...3).contains(requested) {
+                wallpaperPosition = requested
+                selection = .wallpaper
+            }
         }
         #endif
     }
@@ -833,7 +839,7 @@ private struct WallpaperWorkshopView: View {
     private enum Action {
         case layout(WallpaperLayout)
         case export(DailyContentPack, WallpaperLayout)
-        case preview(position: Int, returnPosition: Int?)
+        case preview(position: Int)
     }
 
     // Position zero is the session anchor. Only lookup indices wrap.
@@ -855,6 +861,8 @@ private struct WallpaperWorkshopView: View {
     }
     @State private var scrollTarget: Int? = 0
     @State private var isScrolling = false
+    @State private var userScrollPending = false
+    @State private var userScrollRevision = 0
     @GestureState private var isDragging = false
     @State private var centeredTarget: Int?
     @State private var isChangingLayout = false
@@ -864,6 +872,9 @@ private struct WallpaperWorkshopView: View {
     @State private var showsMockExportNotice = false
     @State private var isExporting = false
     @State private var exportError: String?
+    #if DEBUG && os(iOS)
+    @State private var didRunGateReview = false
+    #endif
     #if os(iOS)
     @State private var shareRequest: ShareRequest?
     #endif
@@ -905,10 +916,29 @@ private struct WallpaperWorkshopView: View {
             }
         }
         .onChange(of: settings.hasFullAccess, initial: true) { _, hasFullAccess in
-            if !hasFullAccess, !(-2...2).contains(position), pendingAction == nil {
+            if !hasFullAccess, !(-3...3).contains(position), pendingAction == nil {
                 position = 0
             }
         }
+        #if DEBUG && os(iOS)
+        .task(id: isActive) {
+            guard isActive, !didRunGateReview, !settings.hasFullAccess else { return }
+            let arguments = ProcessInfo.processInfo.arguments
+            let direction = arguments.contains("--review-wallpaper-gate=right") ? 1
+                : (arguments.contains("--review-wallpaper-gate=left") ? -1 : 0)
+            guard direction != 0 else { return }
+            didRunGateReview = true
+            var transaction = Transaction()
+            transaction.disablesAnimations = true
+            withTransaction(transaction) {
+                position = direction * 2
+                scrollTarget = direction * 2
+            }
+            try? await Task.sleep(for: .milliseconds(200))
+            guard !Task.isCancelled else { return }
+            moveCarousel(to: direction * 3)
+        }
+        #endif
         #if os(iOS)
         .fullScreenCover(isPresented: $showsPaywall, onDismiss: finishPaywall) {
             NavigationStack { paywall }
@@ -1057,6 +1087,15 @@ private struct WallpaperWorkshopView: View {
                 .onChange(of: position, initial: true) { _, target in
                     if scrollTarget != target { scrollTarget = target }
                 }
+                .task(id: scrollTarget) {
+                    // View-aligned scrolling can publish its final target after the idle phase.
+                    // Reconcile that late value as well, so an unpaid fling never stays past the gate.
+                    guard !settings.hasFullAccess else { return }
+                    try? await Task.sleep(for: .milliseconds(80))
+                    guard !Task.isCancelled, !isScrolling, scrollTarget != position else { return }
+                    finishScrolling()
+                    clearUserScrollLater()
+                }
                 .accessibilityElement(children: duoLayout != nil || !settings.hasFullAccess ? .contain : .ignore)
                 .accessibilityLabel(locale.calendarText("壁纸预览，\(layout.title(locale: locale))，内容 \(items[selectedIndex].id)", "Wallpaper preview, \(layout.title(locale: locale)), content \(items[selectedIndex].id)"))
                 .accessibilityValue(locale.calendarText("第 \(selectedIndex + 1) 张，共 \(items.count) 张", "\(selectedIndex + 1) of \(items.count)"))
@@ -1079,18 +1118,23 @@ private struct WallpaperWorkshopView: View {
     }
 
     private var scrollPositions: Range<Int> {
-        // Keep the data fixed throughout a gesture. Extra cycles preserve backwards browsing.
-        // One locked neighbour beyond each paywall boundary keeps both edges populated.
-        // The free range and paywall threshold remain -2...2 in finishScrolling().
-        settings.hasFullAccess ? (-items.count)..<(items.count * 2) : -4..<5
+        // Both access states use the same continuous track. The lock only affects cards and settling.
+        (-items.count)..<(items.count * 2)
     }
 
     @ViewBuilder
     private func trackScrollActivity<Content: View>(_ content: Content) -> some View {
         if #available(iOS 18, macOS 15, *) {
             content.onScrollPhaseChange { _, phase in
+                if phase == .tracking || phase == .interacting {
+                    userScrollPending = true
+                    userScrollRevision += 1
+                }
                 isScrolling = phase != .idle
-                if phase == .idle { finishScrolling() }
+                if phase == .idle {
+                    finishScrolling()
+                    clearUserScrollLater()
+                }
             }
         } else {
             // iOS 17 exposes no scroll phases. Observe alignment and touch state only;
@@ -1099,14 +1143,27 @@ private struct WallpaperWorkshopView: View {
                 .simultaneousGesture(DragGesture(minimumDistance: 0)
                     .updating($isDragging) { _, dragging, _ in dragging = true }
                     .onChanged { _ in
-                        if !isScrolling { isScrolling = true }
+                        if !isScrolling {
+                            isScrolling = true
+                            userScrollPending = true
+                            userScrollRevision += 1
+                        }
                     })
                 .task(id: isDragging ? nil : centeredTarget) {
                     guard let target = centeredTarget, !isDragging else { return }
                     do { try await Task.sleep(for: .milliseconds(150)) } catch { return }
                     guard !isDragging, centeredTarget == target else { return }
                     finishScrolling()
+                    clearUserScrollLater()
                 }
+        }
+    }
+
+    private func clearUserScrollLater() {
+        let revision = userScrollRevision
+        Task { @MainActor in
+            try? await Task.sleep(for: .milliseconds(300))
+            if !isScrolling, userScrollRevision == revision { userScrollPending = false }
         }
     }
 
@@ -1140,20 +1197,26 @@ private struct WallpaperWorkshopView: View {
                 card
             }
         } else {
-            Button {
-                requestPaywall(.preview(position: target, returnPosition: nil))
-            } label: {
-                Color.clear
-                    .contentShape(Rectangle())
-                    .background {
-                        card.modifier(LockedCardPreview(cornerRadius: 18))
-                            .accessibilityHidden(true)
-                    }
-            }
-            .buttonStyle(.plain)
-            .accessibilityLabel(lockedPreviewLabel(relativeIndex))
-            .accessibilityHint(settings.text("打开解锁选项", "Opens unlock options"))
+            card.modifier(LockedCardPreview(cornerRadius: 18))
+                .contentShape(RoundedRectangle(cornerRadius: 18))
+                .onTapGesture { openLockedPreview(at: target) }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(lockedPreviewLabel(relativeIndex))
+                .accessibilityHint(settings.text("打开解锁选项", "Opens unlock options"))
+                .accessibilityAddTraits(.isButton)
+                .accessibilityAction { openLockedPreview(at: target) }
         }
+    }
+
+    private func openLockedPreview(at target: Int) {
+        let selected = min(3, max(-3, target))
+        var transaction = Transaction()
+        transaction.disablesAnimations = true
+        withTransaction(transaction) {
+            position = selected
+            scrollTarget = selected
+        }
+        requestPaywall(.preview(position: target))
     }
 
     private func lockedPreviewLabel(_ relativeIndex: Int) -> String {
@@ -1176,21 +1239,42 @@ private struct WallpaperWorkshopView: View {
             return
         }
         isScrolling = true
+        userScrollPending = true
+        userScrollRevision += 1
         withAnimation(reduceMotion ? nil : .smooth(duration: 0.25)) {
             scrollTarget = target
         }
-        if reduceMotion { finishScrolling() }
+        if reduceMotion {
+            finishScrolling()
+            clearUserScrollLater()
+        }
     }
 
     private func finishScrolling() {
         guard let target = scrollTarget else { return }
         let origin = position
         isScrolling = false
+        if !settings.hasFullAccess {
+            let settled = min(3, max(-3, target))
+            if settled != target {
+                var transaction = Transaction()
+                transaction.disablesAnimations = true
+                withTransaction(transaction) {
+                    position = settled
+                    scrollTarget = settled
+                }
+            } else {
+                position = settled
+            }
+            let enteredLockedBoundary = (-2...2).contains(origin) && !(-2...2).contains(settled)
+            let pushedPastLockedBoundary = userScrollPending && !(-2...2).contains(origin) && target != settled
+            if (enteredLockedBoundary || pushedPastLockedBoundary), pendingAction == nil {
+                requestPaywall(.preview(position: settled))
+            }
+            return
+        }
         position = target
-        if !settings.hasFullAccess, !(-2...2).contains(target), pendingAction == nil {
-            requestPaywall(.preview(position: target, returnPosition: origin))
-        } else if settings.hasFullAccess,
-                  target <= -items.count + 2 || target >= items.count * 2 - 3 {
+        if target <= -items.count + 2 || target >= items.count * 2 - 3 {
             // Recenter equivalent content only at the distant cycle boundary, after scrolling stops.
             let equivalent = wrappedIndex(target)
             var transaction = Transaction()
@@ -1223,10 +1307,8 @@ private struct WallpaperWorkshopView: View {
             switch action {
             case .layout(let candidate): selectLayout(candidate)
             case .export(let content, let layout): performExport(content, layout: layout)
-            case .preview(let target, _): moveCarousel(to: target)
+            case .preview(let target): moveCarousel(to: target)
             }
-        } else if case .preview(_, let previous?) = action {
-            moveCarousel(to: previous)
         }
     }
 

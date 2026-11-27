@@ -311,7 +311,6 @@ struct ArtworkWidgetView: View {
     @Environment(\.locale) private var locale
     private static let wideQuoteFraction: CGFloat = 2.0 / 3.0
     private static let mediumReferenceDayScale: CGFloat = 0.52
-    private static let artworkOpacityBehindQuote = 0.78
     private static let lightQuoteHalo = widgetArtworkColor("#FFF4DC")
     private static let darkQuoteHalo = widgetArtworkColor("#26150F")
 
@@ -339,7 +338,6 @@ struct ArtworkWidgetView: View {
             ZStack(alignment: .topLeading) {
                 WidgetArtworkBackground(page: page, size: geometry.size, maxPixels: small ? 640 : 1200,
                                         fittingIllustration: fitsHorizontalArtwork)
-                    .opacity(visibleQuote == nil ? 1 : Self.artworkOpacityBehindQuote)
                 foreground(size: geometry.size)
             }
         }
@@ -367,8 +365,10 @@ struct ArtworkWidgetView: View {
         let inset: CGFloat = small ? min(10, size.width * 0.06) : (medium ? 12 : 16)
         let leadingInset = inset + leadingInsetIncrease
         let availableWidth = max(1, size.width - leadingInset - inset)
+        let widthFractions: [CGFloat] = fitsHorizontalArtwork ? [1, 0.8, 0.64, 0.48, 0.36, 0.28]
+            : (family == .systemLarge && size.width >= 330 ? [0.8, 0.7, 0.6] : [1, 0.8, 0.64, 0.48, 0.36])
         let quoteWidths: [CGFloat] = visibleQuote == nil ? []
-            : (fitsHorizontalArtwork ? [CGFloat(1), 0.8, 0.64, 0.48, 0.36, 0.28] : [CGFloat(1), 0.8, 0.64, 0.48, 0.36])
+            : widthFractions
                 .map { availableWidth * $0 }.filter { $0 >= 88 || $0 == availableWidth }
         let mediumDaySize = min(63, size.height * 0.37)
         let daySize = small ? mediumDaySize * Self.mediumReferenceDayScale
@@ -568,7 +568,9 @@ struct ArtworkWidgetView: View {
 
 enum WidgetArtworkDate {
     static func lunar(_ date: CalendarDate) -> String? {
-        ArtworkLunarDate.text(year: date.year, month: date.month, day: date.day)
+        guard let lunar = ArtworkLunarDate.text(year: date.year, month: date.month, day: date.day) else { return nil }
+        guard let term = ArtworkSolarTerm.name(year: date.year, month: date.month, day: date.day) else { return lunar }
+        return "\(lunar) · \(term)"
     }
 }
 

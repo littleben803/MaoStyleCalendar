@@ -59,6 +59,7 @@ enum WidgetArtworkQA {
         }
         if ProcessInfo.processInfo.arguments.contains("--widget-bottom-alignment-qa")
             || ProcessInfo.processInfo.arguments.contains("--widget-quiet-layout-qa")
+            || ProcessInfo.processInfo.arguments.contains("--widget-large-quote-qa")
             || ProcessInfo.processInfo.arguments.contains("--widget-medium-artwork-qa")
             || ProcessInfo.processInfo.arguments.contains("--widget-extra-large-artwork-qa") {
             try await bottomAlignmentSamples()
@@ -109,15 +110,16 @@ enum WidgetArtworkQA {
     }
 
     private static func bottomAlignmentSamples() async throws {
+        let largeQuoteOnly = ProcessInfo.processInfo.arguments.contains("--widget-large-quote-qa")
         let mediumOnly = ProcessInfo.processInfo.arguments.contains("--widget-medium-artwork-qa")
         let extraLargeOnly = ProcessInfo.processInfo.arguments.contains("--widget-extra-large-artwork-qa")
-        let quiet = ProcessInfo.processInfo.arguments.contains("--widget-quiet-layout-qa") || mediumOnly || extraLargeOnly
+        let quiet = ProcessInfo.processInfo.arguments.contains("--widget-quiet-layout-qa") || largeQuoteOnly || mediumOnly || extraLargeOnly
         let folder = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent(extraLargeOnly ? "WidgetExtraLargeArtworkQA" : mediumOnly ? "WidgetMediumArtworkQA" : quiet ? "WidgetQuietLayoutQA" : "WidgetBottomAlignmentQA", isDirectory: true)
+            .appendingPathComponent(largeQuoteOnly ? "WidgetLargeQuoteQA" : extraLargeOnly ? "WidgetExtraLargeArtworkQA" : mediumOnly ? "WidgetMediumArtworkQA" : quiet ? "WidgetQuietLayoutQA" : "WidgetBottomAlignmentQA", isDirectory: true)
         try FileManager.default.createDirectory(at: folder, withIntermediateDirectories: true)
         let data = try Data(contentsOf: DailyArtworkCatalog.directory!.appendingPathComponent("content-packs.json"))
         let metadata = try JSONSerialization.jsonObject(with: data) as! [[String: Any]]
-        let date = try CalendarDate(year: 2026, month: 11, day: 11)
+        let date = try CalendarDate(year: 2026, month: 11, day: largeQuoteOnly ? 26 : 11)
         var specs: [(String, WidgetFamily, CGSize)] = [
             ("small", .systemSmall, CGSize(width: 170, height: 170)),
             ("small-compact", .systemSmall, CGSize(width: 141, height: 141)),
@@ -135,9 +137,16 @@ enum WidgetArtworkQA {
             ("lunar-only", false, true, true), ("quote-only", false, false, true),
             ("no-quote", true, true, false)
         ]
+        if largeQuoteOnly {
+            specs = specs.filter { $0.1 == .systemLarge }
+            states = [("date", true, false, true), ("lunar", true, true, true),
+                      ("solar-term", true, true, true)]
+        }
         var records: [[String: Any]] = []
         let ids: [String]
-        if mediumOnly || extraLargeOnly {
+        if largeQuoteOnly {
+            ids = [DailyArtworkCatalog.defaultWidgetArtworkID, DailyArtworkCatalog.page(for: date)!.id]
+        } else if mediumOnly || extraLargeOnly {
             var seen = Set<String>()
             ids = DailyArtworkCatalog.pages.filter { seen.insert($0.filename).inserted }.map(\.id)
             specs = specs.filter { $0.1 == (extraLargeOnly ? .systemExtraLarge : .systemMedium) }
@@ -148,7 +157,8 @@ enum WidgetArtworkQA {
         }
         for id in ids {
             let page = DailyArtworkCatalog.page(contentID: id)!
-            let quote = quiet && id == "pack-0259" ? DailyArtworkCatalog.page(contentID: "pack-0047")!.quote : page.quote
+            let quote = largeQuoteOnly ? DailyArtworkCatalog.page(for: date)!.quote
+                : (quiet && id == "pack-0259" ? DailyArtworkCatalog.page(contentID: "pack-0047")!.quote : page.quote)
             if quiet { precondition(page.widgetComposition != nil) }
             var marked = metadata.first { $0["id"] as? String == id }!
             marked["quoteColor"] = "#FF00FF"
@@ -160,7 +170,8 @@ enum WidgetArtworkQA {
                     for (style, sample) in [("normal", page), ("probe", probe)] {
                         await Task.yield()
                         try autoreleasepool {
-                            let view = ArtworkWidgetView(page: sample, quote: quote, date: date, family: family,
+                            let sampleDate = state == "solar-term" ? try CalendarDate(year: 2026, month: 11, day: 22) : date
+                            let view = ArtworkWidgetView(page: sample, quote: quote, date: sampleDate, family: family,
                                 display: .init(showsDate: showsDate, showsLunarDate: showsLunar,
                                                showsQuote: showsQuote, followsDailyArtwork: true))
                                 .frame(width: size.width, height: size.height)
@@ -176,6 +187,7 @@ enum WidgetArtworkQA {
                             let crop = WidgetArtworkCrop(page: page, size: size, imageSize: imageSize, fittingIllustration: family == .systemMedium || family == .systemExtraLarge)
                             let faces = (page.widgetComposition?.protectedRegions ?? []).map { crop.project($0, into: size) }
                             records.append(["id": id, "family": name, "state": state, "style": style,
+                                            "date": "\(sampleDate.year)-\(sampleDate.month)-\(sampleDate.day)",
                                             "file": filename, "width": size.width, "height": size.height,
                                             "scale": 2,
                                             "selectedQuoteSize": WidgetQuoteLayoutDiagnostics.last?.fontSize ?? 0,

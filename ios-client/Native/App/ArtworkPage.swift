@@ -19,6 +19,7 @@ struct ArtworkPageSurface: View {
     var showsQuote = true
     var fillsHeight = false
     var isThumbnail = false
+    var showsSolarTerm = false
     var imageOverride: (() -> UIImage?)? = nil
     var artworkEdgeFade: LinearGradient? = nil
 
@@ -50,7 +51,22 @@ struct ArtworkPageSurface: View {
         .background(artworkEdgeFade == nil ? artworkColor(sample.paperColor) : Color.clear)
         .clipped()
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(date.map { $0.displayDate(locale: locale) + ", " } ?? "")\(showsQuote ? sample.localizedAccessibleQuote(locale: locale) : locale.calendarText("仅插画", "Artwork Only"))")
+        .accessibilityLabel(accessibilitySummary)
+    }
+
+    private var accessibilitySummary: String {
+        var parts: [String] = []
+        if let date {
+            parts.append(date.displayDate(locale: locale))
+            if showsSolarTerm, locale.calendarIsChinese,
+               let lunar = ArtworkLunarDate.text(year: date.year, month: date.month, day: date.day) {
+                let term = ArtworkSolarTerm.name(year: date.year, month: date.month, day: date.day)
+                parts.append(term.map { "\(lunar) · \($0)" } ?? lunar)
+            }
+        }
+        parts.append(showsQuote ? sample.localizedAccessibleQuote(locale: locale)
+                                : locale.calendarText("仅插画", "Artwork Only"))
+        return parts.joined(separator: "，")
     }
 
     @ViewBuilder private func quote(width: CGFloat, height: CGFloat) -> some View {
@@ -121,7 +137,8 @@ struct ArtworkPageSurface: View {
                 .fixedSize()
                 .frame(height: daySize * 0.82, alignment: .top)
                 .offset(y: -dayOpticalOffset)
-            CardDateMetadata(date: date, monthSize: monthSize, lunarSize: lunarSize, alignment: textAlignment)
+            CardDateMetadata(date: date, monthSize: monthSize, lunarSize: lunarSize,
+                             alignment: textAlignment, showsSolarTerm: showsSolarTerm)
         }
         .foregroundStyle(color)
         .frame(width: width * 0.30, alignment: isTopRight ? .trailing : .leading)
@@ -248,7 +265,7 @@ struct ArtworkPageTodayFace: View {
     let fillsArtwork: Bool
 
     var body: some View {
-        ArtworkPageSurface(sample: sample, date: date, fillsHeight: fillsArtwork)
+        ArtworkPageSurface(sample: sample, date: date, fillsHeight: fillsArtwork, showsSolarTerm: true)
             .overlay(alignment: .top) {
                 CalendarPunchedHole().offset(y: 30)
             }

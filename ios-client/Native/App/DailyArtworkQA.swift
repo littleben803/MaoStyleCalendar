@@ -171,6 +171,10 @@ enum DailyArtworkQA {
     static func run() async throws {
         guard !didRun else { return }
         didRun = true
+        if ProcessInfo.processInfo.arguments.contains("--today-solar-term-qa") {
+            try renderTodaySolarTermSamples()
+            return
+        }
         let pages = DailyArtworkCatalog.pages
         precondition(pages.count == 365)
         let date = try CalendarDate.localDate(at: Date(), timeZone: .autoupdatingCurrent)
@@ -264,6 +268,27 @@ enum DailyArtworkQA {
                                                     "safeGeometries": geometries],
                                    options: [.prettyPrinted, .sortedKeys])
             .write(to: folder.appendingPathComponent("report.json"), options: .atomic)
+    }
+
+    private static func renderTodaySolarTermSamples() throws {
+        let folder = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
+            .appendingPathComponent("TodaySolarTermQA", isDirectory: true)
+        try FileManager.default.createDirectory(at: folder, withIntermediateDirectories: true)
+        var seen = Set<String>()
+        let samples = DailyArtworkCatalog.pages.filter { seen.insert($0.datePosition).inserted }
+        for page in samples {
+            for (label, day) in [("solar-term", 22), ("ordinary", 26)] {
+                let date = try CalendarDate(year: 2026, month: 11, day: day)
+                let view = TodayFrontCard(date: date, content: page.content, openDetail: {})
+                    .frame(width: 360, height: 540)
+                    .environment(\.locale, Locale(identifier: "zh_CN"))
+                let renderer = ImageRenderer(content: view)
+                renderer.proposedSize = ProposedViewSize(width: 360, height: 540)
+                renderer.scale = 2
+                renderer.isOpaque = true
+                try renderer.uiImage!.pngData()!.write(to: folder.appendingPathComponent("\(page.id)-\(page.datePosition)-\(label).png"))
+            }
+        }
     }
 }
 private struct LocalizationDetailPreview: View {

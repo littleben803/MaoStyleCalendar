@@ -553,7 +553,8 @@ struct TodayFrontCard: View {
                             .minimumScaleFactor(0.58)
                             .lineLimit(1)
                         CardDateMetadata(date: date, monthSize: min(bodySize + 1, 19),
-                                          lunarSize: min(bodySize - 1, 16), alignment: .center)
+                                          lunarSize: min(bodySize - 1, 16), alignment: .center,
+                                          showsSolarTerm: true)
                         Rectangle()
                             .fill(CalendarPalette.vermilion)
                             .frame(width: 34, height: 1)
@@ -581,6 +582,7 @@ struct CardDateMetadata: View {
     let monthSize: CGFloat
     let lunarSize: CGFloat
     var alignment: HorizontalAlignment = .leading
+    var showsSolarTerm = false
 
     var body: some View {
         VStack(alignment: alignment, spacing: 2) {
@@ -591,7 +593,8 @@ struct CardDateMetadata: View {
                 .frame(height: monthSize * 1.25, alignment: .top)
             if locale.language.languageCode?.identifier == "zh",
                let lunar = ArtworkLunarDate.text(year: date.year, month: date.month, day: date.day) {
-                Text(lunar)
+                let term = showsSolarTerm ? ArtworkSolarTerm.name(year: date.year, month: date.month, day: date.day) : nil
+                Text(term.map { "\(lunar) · \($0)" } ?? lunar)
                     .font(CalendarTypography.font(.chineseBody, size: lunarSize))
                     .frame(height: lunarSize * 1.25, alignment: .top)
             }

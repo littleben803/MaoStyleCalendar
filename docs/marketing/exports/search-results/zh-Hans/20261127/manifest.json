@@ -1,0 +1,30 @@
+{
+  "locale": "zh-Hans",
+  "dimensions": [
+    3840,
+    2560
+  ],
+  "source": "source/20261127-zh-Hans-v2/layout.html",
+  "output": "AppStore-search-zh-Hans-3840x2560-v2.png",
+  "sha256": "cd04ba8b18d460a9ddd64790fb860565c19612a8ab503a6273f63d8d4cfcc626",
+  "status": "candidate_pending_visual_approval",
+  "uploadedToAppStoreConnect": false,
+  "checks": {
+    "fonts": "loaded",
+    "missingImages": [],
+    "textOverflow": [],
+    "copyInsideSafe": true,
+    "copy": {
+      "x": 850,
+      "y": 875,
+      "width": 1200,
+      "height": 800
+    },
+    "art": {
+      "x": 1740,
+      "y": 235,
+      "width": 1600,
+      "height": 2190
+    }
+  }
+}
